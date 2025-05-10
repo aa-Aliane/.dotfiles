@@ -26,6 +26,7 @@ vim.api.nvim_set_hl(0, "CursorLineNr", { fg = "#FFFFFF" }) -- Current line numbe
 vim.api.nvim_set_hl(0, "LineNrAbove", { fg = "#666666" }) -- Relative line numbers above
 vim.api.nvim_set_hl(0, "LineNrBelow", { fg = "#666666" }) -- Relative line numbers below
 
+
 -- Setup lazy.nvim
 require("lazy").setup({
     spec = {
