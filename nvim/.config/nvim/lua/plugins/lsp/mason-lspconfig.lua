@@ -19,7 +19,7 @@ return {
                 "pyright",
                 "gopls",
                 "marksman",
-                "tsserver",
+                "ts_ls",
             },
         })
         mason_tool_installer.setup({

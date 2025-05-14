@@ -48,7 +48,7 @@ return {
         })
 
         -- tsserver for typescript and javascript
-        lspconfig.tsserver.setup({
+        lspconfig.ts_ls.setup({
             capabilities = capabilities,
             filetypes = { "typescript", "typescriptreact", "javascript", "javascriptreact" },
             on_attach = function(client, bufnr)
