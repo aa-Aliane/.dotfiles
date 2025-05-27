@@ -1,7 +1,7 @@
 
 export ZSH="$HOME/.oh-my-zsh"
 
-ZSH_THEME="robbyrussell"
+ZSH_THEME="agnoster"
 
 
 
@@ -26,7 +26,11 @@ alias t="tmux"
 alias dc="docker compose"
 alias dcp="docker compose -f docker-compose.prod.yml"
 
-alias web="firefox --private-window & disown & exit"
+alias web="firefox --private-window &! exit"
+alias chrome="google-chrome &! exit"
+
+export STARSHIP_CONFIG=$HOME/.config/starship/starship.toml
+eval "$(starship init zsh)"
 
 #
 # Example aliases
