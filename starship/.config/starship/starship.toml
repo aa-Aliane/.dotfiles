@@ -3,6 +3,7 @@ $directory\
 $git_branch\
 $git_status\
 $fill\
+$hostname\
 $python\
 $conda\
 $lua\
@@ -42,6 +43,11 @@ format = '([$all_status$ahead_behind]($style) )'
 
 [fill]
 symbol = ' '
+
+[hostname]
+ssh_only = true
+format = "[$hostname](bold red) "
+disabled = false
 
 [python]
 style = 'teal'
