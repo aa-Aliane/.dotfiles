@@ -32,7 +32,7 @@ return {
 				"pylint",
 				"eslint_d",
 				"goimports",
-				"nginx_config_formatter",
+				"nginx_language_server",
 			},
 		})
 	end,
