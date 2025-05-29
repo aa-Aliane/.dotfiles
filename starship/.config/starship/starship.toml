@@ -13,7 +13,7 @@ $docker_context\
 $jobs\
 $cmd_duration\
 $line_break\
-$hostname\
+$localip\
 $character"""
 
 add_newline = true
@@ -44,7 +44,7 @@ format = '([$all_status$ahead_behind]($style) )'
 [fill]
 symbol = ' '
 
-[hostname]
+[localip]
 ssh_only = true
 format = "[$hostname](bold green) "
 disabled = false
