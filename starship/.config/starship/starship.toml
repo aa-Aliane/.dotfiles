@@ -79,16 +79,11 @@ symbol = "🐳 "
 detect_files = ["docker-compose.yml", "Dockerfile", ".dockerignore"]
 disabled = false
 
-[jobs]
-symbol = ' '
-style = 'red'
-number_threshold = 1
-format = '[$symbol]($style)'
 
 [cmd_duration]
 min_time = 500
-style = 'fg:gray'
-format = '[$duration]($style)'
+style = 'fg:maroon'
+format = '[$duration]($style) | '
 
 [palettes.catppuccin_mocha]
 rosewater = "#f5e0dc"
