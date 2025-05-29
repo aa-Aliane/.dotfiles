@@ -46,7 +46,7 @@ symbol = ' '
 
 [localip]
 ssh_only = true
-format = "[$hostname](bold green) "
+format = "[$localipv4](bold green) "
 disabled = false
 
 [python]
