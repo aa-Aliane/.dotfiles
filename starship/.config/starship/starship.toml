@@ -3,7 +3,6 @@ $directory\
 $git_branch\
 $git_status\
 $fill\
-$hostname\
 $python\
 $conda\
 $lua\
@@ -14,6 +13,7 @@ $docker_context\
 $jobs\
 $cmd_duration\
 $line_break\
+$hostname\
 $character"""
 
 add_newline = true
