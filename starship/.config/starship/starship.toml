@@ -46,7 +46,7 @@ symbol = ' '
 
 [hostname]
 ssh_only = true
-format = "[$hostname](bold maroon) "
+format = "[$hostname](bold sky) "
 disabled = false
 
 [python]
