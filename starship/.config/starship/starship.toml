@@ -12,8 +12,8 @@ $package\
 $docker_context\
 $jobs\
 $cmd_duration\
-$line_break\
 $localip\
+$line_break\
 $character"""
 
 add_newline = true
