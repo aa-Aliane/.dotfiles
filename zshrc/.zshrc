@@ -24,6 +24,7 @@ alias dcp="docker compose -f docker-compose.prod.yml"
 
 alias web="firefox --private-window &! exit"
 alias chrome="google-chrome &! exit"
+alias fx="firefox &! exit"
 
 export STARSHIP_CONFIG=$HOME/.config/starship/starship.toml
 eval "$(starship init zsh)"
