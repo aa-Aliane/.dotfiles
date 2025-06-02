@@ -48,3 +48,4 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 export PATH=$HOME/programs/anaconda3/bin:$PATH
+export DOCKER_HOST=unix:///run/docker.sock
