@@ -98,11 +98,12 @@ bindsym $mod+space focus mode_toggle
 # focus the parent container
 bindsym $mod+q focus parent
 
-
+# custom bindings
 bindsym $mod+Shift+b exec --no-startup-id google-chrome &! exit
 bindsym $mod+Shift+f exec --no-startup-id firefox &! exit
 bindsym $mod+Shift+p exec --no-startup-id firefox --private-window &! exit
 bindsym $mod+Shift+d exec --no-startup-id drawio --private-window &! exit
+bindsym $mod+Shift+v exec --no-startup-id vlc &! exit
 
 # focus the child container
 #bindsym $mod+d focus child
