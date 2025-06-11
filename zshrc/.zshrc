@@ -21,6 +21,7 @@ alias y="yazi"
 
 alias dc="docker compose"
 alias dcp="docker compose -f docker-compose.prod.yml"
+alias dco="docker compose -f docker-compose.override.yml"
 
 alias web="firefox --private-window &! exit"
 alias chrome="google-chrome &! exit"
