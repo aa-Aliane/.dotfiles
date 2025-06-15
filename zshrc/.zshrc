@@ -51,5 +51,3 @@ unset __conda_setup
 export PATH=$HOME/programs/anaconda3/bin:$PATH
 export DOCKER_HOST=unix:///run/docker.sock
 
-# fzf
-source <(fzf --zsh)
