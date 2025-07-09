@@ -221,7 +221,7 @@ client.background        $base
 
 bar {
         status_command i3status
-        font pango:Fira Code 11
+               font pango:Fira Code 11
         colors {
             background         $base
             statusline         $text

@@ -1,0 +1,191 @@
+[
+  {
+    "sessionId": "7f9bd4c5-245f-43c4-ae1c-bc52071ff4ac",
+    "messageId": 0,
+    "type": "user",
+    "message": "could you give me a sort of a manifest or sumarry or prompt that describe fully and bierfly this project ?",
+    "timestamp": "2025-07-08T16:49:59.211Z"
+  },
+  {
+    "sessionId": "7f9bd4c5-245f-43c4-ae1c-bc52071ff4ac",
+    "messageId": 1,
+    "type": "user",
+    "message": "non no thats not what i asked for its an app that does what describe the functionalities",
+    "timestamp": "2025-07-08T16:50:44.173Z"
+  },
+  {
+    "sessionId": "7f9bd4c5-245f-43c4-ae1c-bc52071ff4ac",
+    "messageId": 2,
+    "type": "user",
+    "message": "wtf you are that lazy",
+    "timestamp": "2025-07-08T16:51:13.300Z"
+  },
+  {
+    "sessionId": "7f9bd4c5-245f-43c4-ae1c-bc52071ff4ac",
+    "messageId": 3,
+    "type": "user",
+    "message": "its a package delivery app",
+    "timestamp": "2025-07-08T16:51:37.528Z"
+  },
+  {
+    "sessionId": "7f9bd4c5-245f-43c4-ae1c-bc52071ff4ac",
+    "messageId": 4,
+    "type": "user",
+    "message": "actually i want  you to change this app or more precisely simplify it:",
+    "timestamp": "2025-07-08T16:55:24.583Z"
+  },
+  {
+    "sessionId": "7f9bd4c5-245f-43c4-ae1c-bc52071ff4ac",
+    "messageId": 5,
+    "type": "user",
+    "message": "I want to build a cross-platform mobile application using React Native (Expo) and Tamagui for UI. The app is specifically designed for delivery drivers (livreurs) only — not for senders or recipients.\n\n    Here's what the app should include:\n    Purpose:\n\n    A simple and efficient mobile tool that helps delivery drivers manage their assigned deliveries — nothing else.\n    Core Features:\n\n        Authentication:\n\n            Login & logout flow for drivers.\n\n        Tab-Based Navigation:\n\n            Use tabs or bottom navigation to switch between main screens: Deliveries, Map, Profile.\n\n        Home/Deliveries Screen:\n\n            Show a list of current delivery assignments.\n\n            Each item includes: pickup & drop-off address, package info, and status (e.g., pending, in progress, delivered).\n\n            Ability to update the delivery status (e.g., mark as picked up, delivered).\n\n        Map View:\n\n            Display real-time map with routes between pickup and delivery points (optional basic integration for now).\n\n        Profile Screen:\n\n            View/edit driver's info.\n\n            Logout button.\n\n    Design:\n\n        Use Tamagui for consistent and elegant styling.\n\n        Keep UI clean, mobile-first, and optimized for quick actions.\n\n    Please generate the code structure and boilerplate to get this app started.",
+    "timestamp": "2025-07-08T16:56:06.963Z"
+  },
+  {
+    "sessionId": "7f9bd4c5-245f-43c4-ae1c-bc52071ff4ac",
+    "messageId": 6,
+    "type": "user",
+    "message": ".client.env is missing",
+    "timestamp": "2025-07-08T16:58:40.393Z"
+  },
+  {
+    "sessionId": "7f9bd4c5-245f-43c4-ae1c-bc52071ff4ac",
+    "messageId": 7,
+    "type": "user",
+    "message": "check the docker compose file to understand what is .client.env",
+    "timestamp": "2025-07-08T16:59:13.956Z"
+  },
+  {
+    "sessionId": "7f9bd4c5-245f-43c4-ae1c-bc52071ff4ac",
+    "messageId": 8,
+    "type": "user",
+    "message": "❯ dc up -dCompose can now delegate builds to bake for better performance. To do so, set COMPOSE_BAKE=true.[+] Building 1.8s (9/13)                                                                                                                              docker:default => [frontend internal] load build definition from frontend.dockerfile                                                                                          0.0s => => transferring dockerfile: 726B                                                                                                                            0.0s => [frontend internal] load metadata for docker.io/library/node:22-alpine                                                                                      1.5s => [frontend internal] load .dockerignore                                                                                                                      0.0s => => transferring context: 2B                                                                                                                                 0.0s => [frontend internal] load build context                                                                                                                      0.1s => => transferring context: 3.59MB                                                                                                                             0.0s => CANCELED [frontend 1/9] FROM docker.io/library/node:22-alpine@sha256:10962e8568729b0cfd506170c5a2d1918a2c10ac08c0e6900180b4bac061adc9                       0.1s => => resolve docker.io/library/node:22-alpine@sha256:10962e8568729b0cfd506170c5a2d1918a2c10ac08c0e6900180b4bac061adc9                                         0.0s => => sha256:10962e8568729b0cfd506170c5a2d1918a2c10ac08c0e6900180b4bac061adc9 6.41kB / 6.41kB                                                                  0.0s => => sha256:13a6ecbb39fab9a009ac0ec61cb4cd16282ace26026bf1ba8d1a387e1298b108 1.72kB / 1.72kB                                                                  0.0s => => sha256:2492a8e86993f8213322e0f9b4f92329bad93169b35c930c5c50aac5ba2fa6e3 6.42kB / 6.42kB                                                                  0.0s => CACHED [frontend 2/9] RUN addgroup -S appgroup && adduser -S appuser -G appgroup                                                                            0.0s => CACHED [frontend 3/9] RUN mkdir -p /app && chown appuser:appgroup /app                                                                                      0.0s => CACHED [frontend 4/9] WORKDIR /app                                                                                                                          0.0s => ERROR [frontend 5/9] COPY --chown=appuser:appgroup ./frontend/package.json ./frontend/yarn.loc[k] ./frontend/global.css /app/                               0.0s------ > [frontend 5/9] COPY --chown=appuser:appgroup ./frontend/package.json ./frontend/yarn.loc[k] ./frontend/global.css /app/:------failed to solve: failed to compute cache key: failed to calculate checksum of ref 29bc8c0d-6d23-4152-9b7a-8e831fcdfe55::k3158aj9az8zmzky441oyxdz1: \"/frontend/global.css\": not found(base)",
+    "timestamp": "2025-07-08T17:00:24.246Z"
+  },
+  {
+    "sessionId": "7f9bd4c5-245f-43c4-ae1c-bc52071ff4ac",
+    "messageId": 9,
+    "type": "user",
+    "message": "whats compose bake",
+    "timestamp": "2025-07-08T17:01:21.294Z"
+  },
+  {
+    "sessionId": "7f9bd4c5-245f-43c4-ae1c-bc52071ff4ac",
+    "messageId": 10,
+    "type": "user",
+    "message": "what GEMINI.md are you using where its located ?",
+    "timestamp": "2025-07-08T17:02:15.034Z"
+  },
+  {
+    "sessionId": "7f9bd4c5-245f-43c4-ae1c-bc52071ff4ac",
+    "messageId": 11,
+    "type": "user",
+    "message": "are you sure you add all features ? home screen apparently isn defined",
+    "timestamp": "2025-07-08T17:07:03.675Z"
+  },
+  {
+    "sessionId": "7f9bd4c5-245f-43c4-ae1c-bc52071ff4ac",
+    "messageId": 12,
+    "type": "user",
+    "message": "i want to test the app on my android phone i have expo app installed on ity what should i do knowing that its running whith docker",
+    "timestamp": "2025-07-08T17:09:44.484Z"
+  },
+  {
+    "sessionId": "7f9bd4c5-245f-43c4-ae1c-bc52071ff4ac",
+    "messageId": 13,
+    "type": "user",
+    "message": "i've modified customnav personnaly i like mine better but the icons arent showing",
+    "timestamp": "2025-07-08T17:19:56.840Z"
+  },
+  {
+    "sessionId": "7f9bd4c5-245f-43c4-ae1c-bc52071ff4ac",
+    "messageId": 14,
+    "type": "user",
+    "message": "no still not working",
+    "timestamp": "2025-07-08T17:22:25.995Z"
+  },
+  {
+    "sessionId": "7f9bd4c5-245f-43c4-ae1c-bc52071ff4ac",
+    "messageId": 15,
+    "type": "user",
+    "message": "why the navigation is tooooooo slow ?",
+    "timestamp": "2025-07-08T17:28:07.763Z"
+  },
+  {
+    "sessionId": "7f9bd4c5-245f-43c4-ae1c-bc52071ff4ac",
+    "messageId": 16,
+    "type": "user",
+    "message": "even in localhost its slow",
+    "timestamp": "2025-07-08T17:28:54.901Z"
+  },
+  {
+    "sessionId": "7f9bd4c5-245f-43c4-ae1c-bc52071ff4ac",
+    "messageId": 17,
+    "type": "user",
+    "message": "i dont think so ive already run apps that worked normaly",
+    "timestamp": "2025-07-08T17:29:32.353Z"
+  },
+  {
+    "sessionId": "7f9bd4c5-245f-43c4-ae1c-bc52071ff4ac",
+    "messageId": 18,
+    "type": "user",
+    "message": "could you remove the header",
+    "timestamp": "2025-07-08T17:34:59.182Z"
+  },
+  {
+    "sessionId": "7f9bd4c5-245f-43c4-ae1c-bc52071ff4ac",
+    "messageId": 19,
+    "type": "user",
+    "message": "i can still see it",
+    "timestamp": "2025-07-08T17:35:31.971Z"
+  },
+  {
+    "sessionId": "7f9bd4c5-245f-43c4-ae1c-bc52071ff4ac",
+    "messageId": 20,
+    "type": "user",
+    "message": "why rebuild is need you didnt modified any core config file",
+    "timestamp": "2025-07-08T17:36:22.177Z"
+  },
+  {
+    "sessionId": "7f9bd4c5-245f-43c4-ae1c-bc52071ff4ac",
+    "messageId": 21,
+    "type": "user",
+    "message": "why did you modify compose remove dev --host ... and return tail shit",
+    "timestamp": "2025-07-08T17:40:05.514Z"
+  },
+  {
+    "sessionId": "7f9bd4c5-245f-43c4-ae1c-bc52071ff4ac",
+    "messageId": 22,
+    "type": "user",
+    "message": "the header is removed but at the top i can alwyas see (tabs)",
+    "timestamp": "2025-07-08T17:43:50.021Z"
+  },
+  {
+    "sessionId": "7f9bd4c5-245f-43c4-ae1c-bc52071ff4ac",
+    "messageId": 23,
+    "type": "user",
+    "message": "unstead of title i want a sort of menu for example a toggle switch for the theme and you can suggest other things keep it simple",
+    "timestamp": "2025-07-08T17:44:49.752Z"
+  },
+  {
+    "sessionId": "7f9bd4c5-245f-43c4-ae1c-bc52071ff4ac",
+    "messageId": 24,
+    "type": "user",
+    "message": "the theme switch isnt working",
+    "timestamp": "2025-07-08T17:50:29.335Z"
+  },
+  {
+    "sessionId": "7f9bd4c5-245f-43c4-ae1c-bc52071ff4ac",
+    "messageId": 25,
+    "type": "user",
+    "message": "Something went wrongError: useAppTheme must be used within a TamaguiProvider",
+    "timestamp": "2025-07-08T18:04:59.769Z"
+  },
+  {
+    "sessionId": "7f9bd4c5-245f-43c4-ae1c-bc52071ff4ac",
+    "messageId": 26,
+    "type": "user",
+    "message": "add command in make file called restart that does dc down -v --remove-orphans after dc up -d --build after make mobile",
+    "timestamp": "2025-07-08T18:06:02.622Z"
+  }
+]

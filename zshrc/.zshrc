@@ -36,18 +36,34 @@ export PATH=$NODE_HOME:$PATH
 
 
 # python path
-__conda_setup="$('/$HOME/programs/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+__conda_setup="$('$HOME/programs/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__conda_setup"
 else
-    if [ -f "/$HOME/programs/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/$HOME/programs/anaconda3/etc/profile.d/conda.sh"
+    if [ -f "$HOME/programs/anaconda3/etc/profile.d/conda.sh" ]; then
+# . "$HOME/programs/anaconda3/etc/profile.d/conda.sh"  # commented out by conda initialize
     else
-        export PATH="/$HOME/programs/anaconda3/bin:$PATH"
+# export PATH="$HOME/programs/anaconda3/bin:$PATH"  # commented out by conda initialize
+    fi
+fi
+# unset __conda_setup
+# <<< conda initialize <<<
+# export PATH=$HOME/programs/anaconda3/bin:$PATH
+export DOCKER_HOST=unix:///run/docker.sock
+
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/amine/programs/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/amine/programs/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/amine/programs/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/amine/programs/anaconda3/bin:$PATH"
     fi
 fi
 unset __conda_setup
 # <<< conda initialize <<<
-export PATH=$HOME/programs/anaconda3/bin:$PATH
-export DOCKER_HOST=unix:///run/docker.sock
 

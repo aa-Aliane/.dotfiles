@@ -1,0 +1,30 @@
+[
+  {
+    "sessionId": "03d4870b-805b-4a60-9cf7-f618b501de8a",
+    "messageId": 0,
+    "type": "user",
+    "message": "# Mobile Package Tracking App Development Request\n\n## Project Overview\nCreate a mobile application for package tracking from Europe to Ivory Coast using React Native with Expo and Tamagui UI components. The app should use dummy data for now (no backend integration needed).\n\n## Technical Requirements\n\n### Core Technologies\n- **Node.js**: Latest version\n- **Expo**: Latest version  \n- **React Native**: Via Expo\n- **UI Framework**: Tamagui for component library\n- **Containerization**: Docker + Docker Compose\n\n### App Features to Implement\n\n#### 1. User Authentication\n- Login/Register screens with email or phone\n- Simple form validation\n- Store user session (dummy authentication)\n\n#### 2. Main Dashboard\n- Two main options:\n  - \"I'm sending a package\" \n  - \"I'm receiving a package\"\n- Recent shipments list\n- Quick access to track package\n\n#### 3. Send Package Flow\n**Sender Information:**\n- First/Last Name\n- Contact number\n- Departure city (fixed as \"Europe\")\n- Collection location with map integration\n- Package type (Package/Document)\n- Description, weight, value\n- Destination station dropdown (Ivory Coast stations)\n\n**Recipient Information:**\n- First/Last Name  \n- Contact number\n- City and District\n- Price calculation display\n\n#### 4. Receive Package Flow  \n**Recipient Information:**\n- Shipping city\n- Delivery location with map\n- Package type and description\n- Price calculation (payment on delivery)\n\n**Collector Information:**\n- Collector name and contact\n- Validation code input\n- Confirmation screen\n\n#### 5. Package Tracking\nFour-stage tracking system:\n1. **Deposited in Europe** - Package registered and shipped\n2. **Arrived in Ivory Coast** - At port/airport\n3. **Transferred to Station** - At distribution center\n4. **Delivered** - Final delivery with signature\n\nEach stage should show:\n- Status indicator\n- Timestamp\n- Location\n- Next expected stage\n\n#### 6. Additional Screens\n- Package history\n- Search/filter packages\n- Notifications list\n- User profile/settings\n\n### Docker Requirements\n\n#### Dockerfile\n- Use official Node.js latest image\n- Create a dedicated user (appuser) \n- Create appgroup for the user\n- Set up working directory (`/app`)\n- Copy project files and set proper ownership with chown\n- Install dependencies\n- Expose necessary ports for Expo\n\n#### Docker Compose\n- Service for the mobile app\n- Volume mounting for development\n- Port mapping for Expo dev server\n- Environment variables setup\n\n#### Makefile\n- Command `mobile` that runs: `docker-compose exec [service-name] yarn start`\n- Additional helpful commands for development\n\n### UI/UX Requirements\n- Clean, modern interface using Tamagui components\n- Responsive design for different screen sizes\n- Smooth navigation between screens\n- Loading states and error handling\n- Map integration for location selection\n- Progress indicators for multi-step forms\n\n### Dummy Data Structure\nCreate realistic dummy data for:\n- User accounts\n- Package shipments in different stages\n- Ivory Coast stations/locations\n- Pricing information\n- Tracking history\n\n### File Structure\n```\n/mobile-app\n├── Dockerfile\n├── docker-compose.yml\n├── Makefile\n├── package.json\n├── app.json (Expo config)\n├── src/\n│   ├── components/\n│   ├── screens/\n│   ├── navigation/\n│   ├── data/ (dummy data)\n│   ├── utils/\n│   └── types/\n└── assets/\n```\n\n### Development Setup\n- Hot reload enabled\n- Development server accessible from host\n- Easy debugging setup\n- Proper error boundaries\n\nPlease create a complete mobile application with all the specified features, proper Docker setup, and a clean, professional UI using Tamagui components.",
+    "timestamp": "2025-07-07T15:07:05.055Z"
+  },
+  {
+    "sessionId": "03d4870b-805b-4a60-9cf7-f618b501de8a",
+    "messageId": 1,
+    "type": "user",
+    "message": "no am in coding i should be in coding/mobile",
+    "timestamp": "2025-07-07T20:39:12.312Z"
+  },
+  {
+    "sessionId": "03d4870b-805b-4a60-9cf7-f618b501de8a",
+    "messageId": 2,
+    "type": "user",
+    "message": "cd mobile",
+    "timestamp": "2025-07-07T20:39:36.392Z"
+  },
+  {
+    "sessionId": "03d4870b-805b-4a60-9cf7-f618b501de8a",
+    "messageId": 3,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-07-07T20:39:56.617Z"
+  }
+]

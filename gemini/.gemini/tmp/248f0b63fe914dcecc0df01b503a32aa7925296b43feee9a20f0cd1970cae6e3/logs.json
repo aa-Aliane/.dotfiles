@@ -1,0 +1,23 @@
+[
+  {
+    "sessionId": "0b27811f-31bb-40e8-811a-4411dfd285c7",
+    "messageId": 0,
+    "type": "user",
+    "message": "Log 1 of 1\nServer Error\nWhile trying to resolve module `@tamagui/use-debounce` from file `/home/amine/coding/mobile/native-starter/frontend/node_modules/tamagui/dist/esm/index.mjs`, the package `/home/amine/coding/mobile/native-starter/frontend/node_modules/@tamagui/use-debounce/package.json` was successfully found. However, this package itself specifies a `main` module field that could not be resolved (`/home/amine/coding/mobile/native-starter/frontend/node_modules/@tamagui/use-debounce/dist/cjs`. Indeed, none of these files exist:\n\n  * /home/amine/coding/mobile/native-starter/frontend/node_modules/@tamagui/use-debounce/dist/cjs(.web.ts|.ts|.web.tsx|.tsx|.web.js|.js|.web.jsx|.jsx|.web.json|.json|.web.cjs|.cjs|.web.mjs|.mjs|.web.scss|.scss|.web.sass|.sass|.web.css|.css)\n  * /home/amine/coding/mobile/native-starter/frontend/node_modules/@tamagui/use-debounce/dist/cjs/index(.web.ts|.ts|.web.tsx|.tsx|.web.js|.js|.web.jsx|.jsx|.web.json|.json|.web.cjs|.cjs|.web.mjs|.mjs|.web.scss|.scss|.web.sass|.sass|.web.css|.css)\nSource\n \n 1 |\nexport\n \n*\n \nfrom\n \n\"@tamagui/accordion\"\n;\n \n 2 |\nexport\n \n*\n \nfrom\n \n\"@tamagui/adapt\"\n;\n \n 3 |\nexport\n \n*\n \nfrom\n \n\"@tamagui/alert-dialog\"\n;\nCall Stack\n<unknown>\nnode_modules/tamagui/dist/esm/index.mjs:0\nCollapse 1 frame",
+    "timestamp": "2025-07-07T21:47:29.840Z"
+  },
+  {
+    "sessionId": "0b27811f-31bb-40e8-811a-4411dfd285c7",
+    "messageId": 1,
+    "type": "user",
+    "message": "am using yarn not npm",
+    "timestamp": "2025-07-07T21:48:03.108Z"
+  },
+  {
+    "sessionId": "0b27811f-31bb-40e8-811a-4411dfd285c7",
+    "messageId": 2,
+    "type": "user",
+    "message": "stop the app",
+    "timestamp": "2025-07-07T21:50:17.039Z"
+  }
+]
