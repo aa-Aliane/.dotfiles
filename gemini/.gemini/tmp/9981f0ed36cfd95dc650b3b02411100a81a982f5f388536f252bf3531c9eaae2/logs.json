@@ -1,9 +1,0 @@
-[
-  {
-    "sessionId": "fd4bdf6d-508a-443e-97a3-ee7e20e663c6",
-    "messageId": 0,
-    "type": "user",
-    "message": "1/1\nNext.js 15.5.2 (outdated)Turbopack\nBuild Error\n\nModule not found: Can't resolve 'contentlayer/generated'\n./coding/web/supabase/apps/design-system/app/(app)/docs/[[...slug]]/page.tsx (10:1)\n\nModule not found: Can't resolve 'contentlayer/generated'\n   8 | import '@/styles/code-block-variables.css'\n   9 | import '@/styles/mdx.css'\n> 10 | import { allDocs } from 'contentlayer/generated'\n     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  11 | import { ChevronRight } from 'lucide-react'\n  12 | import type { Metadata } from 'next'\n  13 | import { notFound } from 'next/navigation'\n\nImport map: aliased to relative './.contentlayer/generated' inside of [project]/coding/web/supabase/apps/design-system\n\nhttps://nextjs.org/docs/messages/module-not-found",
-    "timestamp": "2025-11-06T09:12:24.479Z"
-  }
-]
