@@ -1,0 +1,34 @@
+# Refactor Repair Details to Side Panel
+
+## Goal Description
+Refactor the main repair details view (triggered by the "Eye" icon in the repairs table) to open as a side panel (Sheet) on the right side instead of a modal dialog. This aligns with the user's preference for a side-panel workflow.
+
+## User Review Required
+> [!IMPORTANT]
+> This changes the [RepairDetailsDialog](file:///home/amine/coding/web/tek-mag/frontend/src/components/features/calendrier/repair-details-dialog.tsx#69-500) component to `RepairDetailsSheet`.
+
+## Proposed Changes
+
+### Features
+#### [NEW] [repair-details-sheet.tsx](file:///home/amine/coding/web/tek-mag/frontend/src/components/features/calendrier/repair-details-sheet.tsx)
+- Create `RepairDetailsSheet` by refactoring [RepairDetailsDialog](file:///home/amine/coding/web/tek-mag/frontend/src/components/features/calendrier/repair-details-dialog.tsx#69-500).
+- Use [Sheet](file:///home/amine/coding/web/tek-mag/frontend/src/components/ui/sheet.tsx#9-12), [SheetContent](file:///home/amine/coding/web/tek-mag/frontend/src/components/ui/sheet.tsx#47-83), [SheetHeader](file:///home/amine/coding/web/tek-mag/frontend/src/components/ui/sheet.tsx#84-93), [SheetTitle](file:///home/amine/coding/web/tek-mag/frontend/src/components/ui/sheet.tsx#104-116) from `@/components/ui/sheet`.
+- Ensure all functionality (status change, payment, schedule, print) is preserved.
+- Note: Since [PaymentSheet](file:///home/amine/coding/web/tek-mag/frontend/src/components/features/commands/payment-sheet.tsx#27-204) is also a sheet, we need to ensure nested sheets work or adjust the UX. For now, we will keep [PaymentSheet](file:///home/amine/coding/web/tek-mag/frontend/src/components/features/commands/payment-sheet.tsx#27-204) as is, but be aware of potential stacking context issues.
+
+#### [DELETE] [repair-details-dialog.tsx](file:///home/amine/coding/web/tek-mag/frontend/src/components/features/calendrier/repair-details-dialog.tsx)
+- Remove the old dialog component.
+
+#### [MODIFY] [page.tsx](file:///home/amine/coding/web/tek-mag/frontend/src/app/(dashboard)/repairs/page.tsx)
+- Import `RepairDetailsSheet` instead of [RepairDetailsDialog](file:///home/amine/coding/web/tek-mag/frontend/src/components/features/calendrier/repair-details-dialog.tsx#69-500).
+- Update usage.
+
+#### [MODIFY] [index.ts](file:///home/amine/coding/web/tek-mag/frontend/src/components/features/calendrier/index.ts)
+- Update exports.
+
+## Verification Plan
+
+### Manual Verification
+- Click the "Eye" icon on a repair in the table.
+- Verify a Sheet opens on the right with repair details.
+- Verify all actions inside the sheet (Edit, Print, Payment, etc.) still work.

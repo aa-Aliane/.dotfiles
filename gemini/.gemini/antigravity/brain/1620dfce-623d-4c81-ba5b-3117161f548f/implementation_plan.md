@@ -1,0 +1,39 @@
+# Refactor Repair Details to Side Panel (Master-Detail Layout)
+
+## Goal Description
+Implement a master-detail layout for the Repairs page. When a repair is selected, the repairs table should shrink in width, and the repair details should appear in a side panel on the right, allowing both to be visible simultaneously.
+
+## User Review Required
+> [!IMPORTANT]
+> This changes the layout from an overlay (Sheet/Dialog) to a side-by-side view on desktop.
+
+## Proposed Changes
+
+### Features
+#### [NEW] [repair-details.tsx](file:///home/amine/coding/web/tek-mag/frontend/src/components/features/calendrier/repair-details.tsx)
+- Extract the content and logic from `RepairDetailsSheet` into a standalone `RepairDetails` component.
+- This component will handle the display of repair info and the sub-dialogs (Payment, Status, Schedule).
+- It will accept `onClose` prop to close the panel.
+
+#### [MODIFY] [repair-details-sheet.tsx](file:///home/amine/coding/web/tek-mag/frontend/src/components/features/calendrier/repair-details-sheet.tsx)
+- Refactor to wrap `RepairDetails` component.
+- This can be used for mobile views if we want to keep the Sheet behavior on small screens.
+
+#### [MODIFY] [page.tsx](file:///home/amine/coding/web/tek-mag/frontend/src/app/(dashboard)/repairs/page.tsx)
+- Implement a Flexbox layout.
+- Container: `flex h-full gap-4`.
+- Table Container: `flex-1 min-w-0` (to allow shrinking).
+- Side Panel: Conditional rendering. If `selectedRepair` is not null, render `RepairDetails` in a `w-[400px]` (or similar) container.
+- Add animation for smooth transition (optional but nice).
+
+#### [MODIFY] [index.ts](file:///home/amine/coding/web/tek-mag/frontend/src/components/features/calendrier/index.ts)
+- Export `RepairDetails`.
+
+## Verification Plan
+
+### Manual Verification
+- Open Repairs page.
+- Click "Eye" icon on a repair.
+- Verify table shrinks and details panel appears on the right.
+- Verify all actions in details panel work.
+- Verify closing the panel expands the table back to full width.

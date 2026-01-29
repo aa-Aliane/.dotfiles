@@ -1,0 +1,408 @@
+[
+  {
+    "sessionId": "54f9d461-df8a-4439-ab0f-a290441cf156",
+    "messageId": 0,
+    "type": "user",
+    "message": "~/mobile/starter                                                                         0s | │npm error A complete log of this run can be found in: /home/amine/.npm/_logs/2025-10-12T07_20_\n❯ dc exec frontend npm start -- -c --tunnel                                                   │52_449Z-debug-0.log\n                                                                                              │(base)\n> frontend@1.0.0 start                                                                        │~/mobile/starter/frontend on  master ✘!?                                 via  v22.16.0 0s |\n> expo start -c --tunnel                                                                      │❯\n                                                                                              ├──────────────────────────────────────────────────────────────────────────────────────────────\nStarting project at /app                                                                      │> npm install\nPluginError: Failed to resolve plugin for module \"expo-camera\" relative to \"/app\". Do you have│\n node modules installed?                                                                      │added 2 packages, and audited 795 packages in 2s\nPluginError: Failed to resolve plugin for module \"expo-camera\" relative to \"/app\". Do you have│\n node modules installed?                                                                      │76 packages are looking for funding\n    at resolvePluginForModule (/app/node_modules/@expo/config-plugins/build/utils/plugin-resol│  run `npm fund` for details\nver.js:96:9)                                                                                  │\n    at resolveConfigPluginFunctionWithInfo (/app/node_modules/@expo/config-plugins/build/utils│found 0 vulnerabilities\n/plugin-resolver.js:145:7)                                                                    │(base)\n    at resolveConfigPluginFunction (/app/node_modules/@expo/config-plugins/build/utils/plugin-│~/mobile/starter                                                                         3s |\nresolver.js:136:7)                                                                            │❯ dc exec frontend npx expo install expo-camera\n    at withStaticPlugin (/app/node_modules/@expo/config-plugins/build/plugins/withStaticPlugin│› Installing 1 SDK 54.0.0 compatible native module using npm\n.js:85:70)                                                                                    │> npm install\n    at /app/node_modules/@expo/config-plugins/build/plugins/withPlugins.js:30:84              │\n    at Array.reduce (<anonymous>)                                                             │added 1 package, and audited 796 packages in 3s\n    at withPlugins (/app/node_modules/@expo/config-plugins/build/plugins/withPlugins.js:30:18)│\n    at withConfigPlugins (/app/node_modules/@expo/config/build/plugins/withConfigPlugins.js:35│76 packages are looking for funding\n:47)                                                                                          │  run `npm fund` for details\n    at fillAndReturnConfig (/app/node_modules/@expo/config/build/Config.js:236:78)            │\n    at getConfig (/app/node_modules/@expo/config/build/Config.js:293:10)                      │found 0 vulnerabilities\n(base)",
+    "timestamp": "2025-10-12T15:49:09.436Z"
+  },
+  {
+    "sessionId": "54f9d461-df8a-4439-ab0f-a290441cf156",
+    "messageId": 1,
+    "type": "user",
+    "message": "fuck its an error",
+    "timestamp": "2025-10-12T15:49:30.772Z"
+  },
+  {
+    "sessionId": "54f9d461-df8a-4439-ab0f-a290441cf156",
+    "messageId": 2,
+    "type": "user",
+    "message": "│npm error this command with --force or --legacy-peer-deps\nLogs for your project will appear below. Press Ctrl+C to exit.                                │npm error to accept an incorrect (and potentially broken) dependency resolution.\nWeb Bundling failed 8779ms node_modules/expo-router/entry.js (905 modules)                    │npm error\nUnable to resolve \"@/components/EventCard\" from \"src/app/events.tsx\"                          │npm error\n  1 | import { ScrollView } from \"react-native\";                                              │npm error For a full report see:\n> 2 | import { EventCard } from \"@/components/EventCard\";                                     │npm error /home/amine/.npm/_logs/2025-10-12T07_20_52_449Z-eresolve-report.txt\n    |                            ^                                                            │npm error A complete log of this run can be found in: /home/amine/.npm/_logs/2025-10-12T07_20_\n  3 |                                                                                         │52_449Z-debug-0.log\n  4 | export default function Events() {                                                      │(base)\n  5 |   const sampleEvent = {                                                                 │~/mobile/starter/frontend on  master ✘!?                                 via  v22.16.0 0s |\n                                                                                              │❯\nImport stack:                                                                                 ├──────────────────────────────────────────────────────────────────────────────────────────────\n                                                                                              │> npm install\n src/app/events.tsx                                                                           │\n | import \"@/components/EventCard\"                                                            │added 2 packages, and audited 795 packages in 2s\n                                                                                              │\n src/app (require.context)                                                                    │76 packages are looking for funding\n                                                                                              │  run `npm fund` for details\nWeb Bundling failed 748ms node_modules/expo-router/entry.js (868 modules)                     │\nUnable to resolve \"@/components/EventCard\" from \"src/app/events.tsx\"                          │found 0 vulnerabilities\n  1 | import { ScrollView } from \"react-native\";                                              │(base)\n> 2 | import { EventCard } from \"@/components/EventCard\";                                     │~/mobile/starter                                                                         3s |\n    |                            ^                                                            │❯ dc exec frontend npx expo install expo-camera\n  3 |                                                                                         │› Installing 1 SDK 54.0.0 compatible native module using npm\n  4 | export default function Events() {                                                      │> npm install\n  5 |   const sampleEvent = {                                                                 │\n                                                                                              │added 1 package, and audited 796 packages in 3s\nImport stack:                                                                                 │\n                                                                                              │76 packages are looking for funding\n src/app/events.tsx                                                                           │  run `npm fund` for details\n | import \"@/components/EventCard\"                                                            │\n                                                                                              │found 0 vulnerabilities\n src/app (require.context)",
+    "timestamp": "2025-10-12T17:36:51.450Z"
+  },
+  {
+    "sessionId": "54f9d461-df8a-4439-ab0f-a290441cf156",
+    "messageId": 3,
+    "type": "user",
+    "message": "check package.json to see if its not there!",
+    "timestamp": "2025-10-12T17:39:13.946Z"
+  },
+  {
+    "sessionId": "1e6c02d2-35e1-4711-a844-48cbbb69459f",
+    "messageId": 0,
+    "type": "user",
+    "message": "am trying to implement theming in my native app its not working the project doesnt recongnize dark or light mode or bg-background could you analuse all the project and investigate why ?",
+    "timestamp": "2025-10-16T16:22:05.399Z"
+  },
+  {
+    "sessionId": "1e6c02d2-35e1-4711-a844-48cbbb69459f",
+    "messageId": 1,
+    "type": "user",
+    "message": "all thing considered i preffer zustand rather than react context. use context7.",
+    "timestamp": "2025-10-16T16:24:41.108Z"
+  },
+  {
+    "sessionId": "1e6c02d2-35e1-4711-a844-48cbbb69459f",
+    "messageId": 2,
+    "type": "user",
+    "message": "okay the problem with this theme provider approach is that am using Stack in layout if you wouldnt mind check. how do we work around it check app/_layput.tsx",
+    "timestamp": "2025-10-16T16:26:49.254Z"
+  },
+  {
+    "sessionId": "1e6c02d2-35e1-4711-a844-48cbbb69459f",
+    "messageId": 3,
+    "type": "user",
+    "message": "its installed",
+    "timestamp": "2025-10-16T16:30:34.653Z"
+  },
+  {
+    "sessionId": "1e6c02d2-35e1-4711-a844-48cbbb69459f",
+    "messageId": 4,
+    "type": "user",
+    "message": "6 | type ThemeType = \"light\" | \"dark\";                                                      │\n  7 |                                                                                         │added 1 package, removed 1 package, changed 2 packages, and audited 813 packages in 4s\n                                                                                              │\nImport stack:                                                                                 │80 packages are looking for funding\n                                                                                              │  run `npm fund` for details\n src/lib/theme-context.tsx                                                                    │\n | import \"./theme\"                                                                           │found 0 vulnerabilities\n                                                                                              │(base)\n src/app/events.tsx                                                                           │~/mobile/starter                                                                         6s |\n | import \"@/lib/theme-context\"                                                               │❯ dc exec frontend npx shadcn@latest add @nativeui/badge\n                                                                                              │Need to install the following packages:\n src/app (require.context)                                                                    │shadcn@3.4.2\n                                                                                              │Ok to proceed? (y) y\nWeb Bundling failed 362ms node_modules/expo-router/entry.js (1 module)                        │\nUnable to resolve \"./theme\" from \"src/lib/theme-context.tsx\"                                  │npm warn deprecated node-domexception@1.0.0: Use your platform's native DOMException instead\n  2 | import React, { createContext, useContext, useEffect, useState } from \"react\";          │✔ Checking registry.\n  3 | import { useColorScheme as useNativeColorScheme } from \"react-native\";                  │✔ Installing dependencies.\n> 4 | import { themes } from \"./theme\";                                                       │✔ Created 1 file:\n    |                         ^                                                               │  - src/components/ui/badge.tsx\n  5 |                                                                                         │\n  6 | type ThemeType = \"light\" | \"dark\";                                                      │(base)\n  7 |                                                                                         │~/mobile/starter                                                                        27s |\n                                                                                              │❯ dc exec frontend npm install zustand\nImport stack:                                                                                 │\n                                                                                              │added 1 package, and audited 814 packages in 2s\n src/lib/theme-context.tsx                                                                    │\n | import \"./theme\"                                                                           │80 packages are looking for funding\n                                                                                              │  run `npm fund` for details\n src/app/events.tsx                                                                           │\n | import \"@/lib/theme-context\"                                                               │found 0 vulnerabilities\n                                                                                              │(base)\n src/app (require.context)                                                                    │~/mobile/starter                                                                         2s |",
+    "timestamp": "2025-10-16T16:30:58.832Z"
+  },
+  {
+    "sessionId": "1e6c02d2-35e1-4711-a844-48cbbb69459f",
+    "messageId": 5,
+    "type": "user",
+    "message": "ive installed a switch component you find it in src/components/ui/ use it to toggle dark and light mode",
+    "timestamp": "2025-10-16T16:34:28.714Z"
+  },
+  {
+    "sessionId": "1e6c02d2-35e1-4711-a844-48cbbb69459f",
+    "messageId": 6,
+    "type": "user",
+    "message": "i dont think the theme is working around the app",
+    "timestamp": "2025-10-16T16:37:15.291Z"
+  },
+  {
+    "sessionId": "1e6c02d2-35e1-4711-a844-48cbbb69459f",
+    "messageId": 7,
+    "type": "user",
+    "message": "smells bullshit useThemeColor in Layout.tsx doesnt seem to do anything",
+    "timestamp": "2025-10-16T16:40:42.957Z"
+  },
+  {
+    "sessionId": "1e6c02d2-35e1-4711-a844-48cbbb69459f",
+    "messageId": 8,
+    "type": "user",
+    "message": "the problem is where is the access to the actual theme in lib/",
+    "timestamp": "2025-10-16T16:43:34.434Z"
+  },
+  {
+    "sessionId": "1e6c02d2-35e1-4711-a844-48cbbb69459f",
+    "messageId": 9,
+    "type": "user",
+    "message": "but toggling doenst do anything",
+    "timestamp": "2025-10-16T16:44:44.051Z"
+  },
+  {
+    "sessionId": "1e6c02d2-35e1-4711-a844-48cbbb69459f",
+    "messageId": 10,
+    "type": "user",
+    "message": "i did all of that nothing changes",
+    "timestamp": "2025-10-16T16:45:57.791Z"
+  },
+  {
+    "sessionId": "1e6c02d2-35e1-4711-a844-48cbbb69459f",
+    "messageId": 11,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-10-16T16:56:01.078Z"
+  },
+  {
+    "sessionId": "3106e9fc-b75d-4aa1-8adf-208c0e3ff1e4",
+    "messageId": 0,
+    "type": "user",
+    "message": "at /app/node_modules/@babel/parser/lib/index.js:10784:39                                  │› Installing 2 SDK 54.0.0 compatible native modules and 5 other packages using npm\n    at TypeScriptParserMixin.allowInAnd (/app/node_modules/@babel/parser/lib/index.js:12431:16│> npm install --save nativewind tailwindcss class-variance-authority tailwind-merge clsx\n)                                                                                             │\n    at TypeScriptParserMixin.parseExpression (/app/node_modules/@babel/parser/lib/index.js:107│added 1 package, removed 1 package, changed 2 packages, and audited 813 packages in 4s\n84:17)                                                                                        │\n    at TypeScriptParserMixin.parseReturnStatement (/app/node_modules/@babel/parser/lib/index.j│80 packages are looking for funding\ns:13151:28)                                                                                   │  run `npm fund` for details\n    at TypeScriptParserMixin.parseStatementContent (/app/node_modules/@babel/parser/lib/index.│\njs:12807:21)                                                                                  │found 0 vulnerabilities\n    at TypeScriptParserMixin.parseStatementContent (/app/node_modules/@babel/parser/lib/index.│(base)\njs:9532:18)                                                                                   │~/mobile/starter                                                                         6s |\nWeb Bundling failed 6ms node_modules/expo-router/entry.js (1 module)                          │❯ dc exec frontend npx shadcn@latest add @nativeui/badge\n ERROR  SyntaxError: /app/src/app/Layout.tsx: Unterminated JSX contents. (26:10)              │Need to install the following packages:\n                                                                                              │shadcn@3.4.2\n  24 |             headerBlurEffect: theme === \"dark\" ? \"dark\" : \"light\",                     │Ok to proceed? (y) y\n  25 |           }}                                                                           │\n> 26 |         />                                                                             │npm warn deprecated node-domexception@1.0.0: Use your platform's native DOMException instead\n     |           ^                                                                            │✔ Checking registry.\n  27 |   );                                                                                   │✔ Installing dependencies.\n  28 | }                                                                                      │✔ Created 1 file:\n  29 |                                                                                        │  - src/components/ui/badge.tsx\nWeb Bundling failed 7ms node_modules/expo-router/entry.js (1 module)                          │\n ERROR  SyntaxError: /app/src/app/Layout.tsx: Unterminated JSX contents. (26:10)              │(base)\n                                                                                              │~/mobile/starter                                                                        27s |\n  24 |             headerBlurEffect: theme === \"dark\" ? \"dark\" : \"light\",                     │❯ dc exec frontend npm install zustand\n  25 |           }}                                                                           │\n> 26 |         />                                                                             │added 1 package, and audited 814 packages in 2s\n     |           ^                                                                            │\n  27 |   );                                                                                   │80 packages are looking for funding\n  28 | }                                                                                      │  run `npm fund` for details\n  29 |                                                                                        │\nWeb Bundling failed 9ms node_modules/expo-router/entry.js (1 module)                          │found 0 vulnerabilities\n ERROR  SyntaxError: /app/src/app/Layout.tsx: Unterminated JSX contents. (26:10)              │(base)\n                                                                                              │~/mobile/starter                                                                         2s |\n  24 |             headerBlurEffect: theme === \"dark\" ? \"dark\" : \"light\",                     │❯ dc exec frontend npx shadcn@latest add @nativeui/switch\n  25 |           }}                                                                           │✔ Checking registry.\n> 26 |         />                                                                             │✔ Created 1 file:\n     |           ^                                                                            │  - src/components/ui/switch.tsx\n  27 |   );                                                                                   │\n  28 | }                                                                                      │(base)\n  29 |",
+    "timestamp": "2025-10-16T16:56:10.086Z"
+  },
+  {
+    "sessionId": "3106e9fc-b75d-4aa1-8adf-208c0e3ff1e4",
+    "messageId": 1,
+    "type": "user",
+    "message": "js:9532:18)                                                                                   │found 0 vulnerabilities\nWeb Bundling failed 6ms node_modules/expo-router/entry.js (1 module)                          │(base)\n ERROR  SyntaxError: /app/src/app/Layout.tsx: Unterminated JSX contents. (26:10)              │~/mobile/starter                                                                         6s |\n                                                                                              │❯ dc exec frontend npx shadcn@latest add @nativeui/badge\n  24 |             headerBlurEffect: theme === \"dark\" ? \"dark\" : \"light\",                     │Need to install the following packages:\n  25 |           }}                                                                           │shadcn@3.4.2\n> 26 |         />                                                                             │Ok to proceed? (y) y\n     |           ^                                                                            │\n  27 |   );                                                                                   │npm warn deprecated node-domexception@1.0.0: Use your platform's native DOMException instead\n  28 | }                                                                                      │✔ Checking registry.\n  29 |                                                                                        │✔ Installing dependencies.\nWeb Bundling failed 7ms node_modules/expo-router/entry.js (1 module)                          │✔ Created 1 file:\n ERROR  SyntaxError: /app/src/app/Layout.tsx: Unterminated JSX contents. (26:10)              │  - src/components/ui/badge.tsx\n                                                                                              │\n  24 |             headerBlurEffect: theme === \"dark\" ? \"dark\" : \"light\",                     │(base)\n  25 |           }}                                                                           │~/mobile/starter                                                                        27s |\n> 26 |         />                                                                             │❯ dc exec frontend npm install zustand\n     |           ^                                                                            │\n  27 |   );                                                                                   │added 1 package, and audited 814 packages in 2s\n  28 | }                                                                                      │\n  29 |                                                                                        │80 packages are looking for funding\nWeb Bundling failed 9ms node_modules/expo-router/entry.js (1 module)                          │  run `npm fund` for details\n ERROR  SyntaxError: /app/src/app/Layout.tsx: Unterminated JSX contents. (26:10)              │\n                                                                                              │found 0 vulnerabilities\n  24 |             headerBlurEffect: theme === \"dark\" ? \"dark\" : \"light\",                     │(base)\n  25 |           }}                                                                           │~/mobile/starter                                                                         2s |\n> 26 |         />                                                                             │❯ dc exec frontend npx shadcn@latest add @nativeui/switch\n     |           ^                                                                            │✔ Checking registry.\n  27 |   );                                                                                   │✔ Created 1 file:\n  28 | }                                                                                      │  - src/components/ui/switch.tsx\n  29 |                                                                                        │\nWeb Bundled 63ms node_modules/expo-router/entry.js (1 module)                                 │(base)\n LOG  [web] Logs will appear in the browser console                                           │~/mobile/starter                                                                         5s |",
+    "timestamp": "2025-10-16T16:57:13.930Z"
+  },
+  {
+    "sessionId": "3106e9fc-b75d-4aa1-8adf-208c0e3ff1e4",
+    "messageId": 2,
+    "type": "user",
+    "message": "Disconnected from Metro (1001: \"\").\n\nTo reconnect:\n- Ensure that Metro is running and available on the same network\n- Reload this app (will trigger further help if Metro cannot be connected to)\n      entry.bundle:72436:15\nDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools react-dom-client.development.js:24868:17\nRunning application \"main\" with appParams:\n \nObject { rootTag: \"#root\", hydrate: undefined }\n \nDevelopment-level warnings: ON.\nPerformance optimizations: OFF. index.js:71:15\nprops.pointerEvents is deprecated. Use style.pointerEvents index.js:24:13\nAnimated: `useNativeDriver` is not supported because the native animated module is missing. Falling back to JS-based animation. To resolve this, add `RCTAnimation` module to this app, or remove `useNativeDriver`. Make sure to run `bundle exec pod install` first. Read more about autolinking: https://github.com/react-native-community/cli/blob/master/docs/autolinking.md NativeAnimatedHelper.js:410:15\nReact has detected a change in the order of Hooks called by ContextNavigator. This will lead to bugs and errors if not fixed. For more information, read the Rules of Hooks: https://react.dev/link/rules-of-hooks\n\n   Previous render            Next render\n   ------------------------------------------------------\n1. useMemo                    useMemo\n2. useRef                     useRef\n3. useState                   useEffect\n   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nLogBox.web.ts:134:29\nuseEffect received a final argument during this render, but not during the previous render. Even though the final argument is optional, its type cannot change between renders. LogBox.web.ts:134:29\nuseEffect received a final argument during this render, but not during the previous render. Even though the final argument is optional, its type cannot change between renders. LogBox.web.ts:134:29\nError: Rendered fewer hooks than expected. This may be caused by an accidental early return statement.\n    React 4\n \n\nThe above error occurred in the <ContextNavigator> component.\n\nReact will try to recreate this component tree from scratch using the error boundary you provided, LogBoxStateSubscription.\nLogBox.web.ts:134:29\n    registerError LogBox.web.ts:134\n    error LogBox.web.ts:59\n    React 25\n    performWorkUntilDeadline scheduler.development.js:46\n    (Asynchrone : EventHandlerNonNull)\n    <anonyme> scheduler.development.js:223\n    <anonyme> scheduler.development.js:364\n    loadModuleImplementation require.js:248\n    guardedLoadModule require.js:163\n    metroRequire require.js:74\n    <anonyme> index.js:6\n    loadModuleImplementation require.js:248\n    guardedLoadModule require.js:163\n    metroRequire require.js:74\n    React 2\n    loadModuleImplementation require.js:248\n    guardedLoadModule require.js:163\n    metroRequire require.js:74\n    <anonyme> React\n    loadModuleImplementation require.js:248\n    guardedLoadModule require.js:163\n    metroRequire require.js:74\n    <anonyme> index.tsx:2\n    loadModuleImplementation require.js:248\n    guardedLoadModule require.js:163\n    metroRequire require.js:74\n    <anonyme> LogBoxData.tsx:19\n    loadModuleImplementation require.js:248\n    guardedLoadModule require.js:163\n    metroRequire require.js:74\n    <anonyme> LogBox.web.ts:9\n    loadModuleImplementation require.js:248\n    guardedLoadModule require.js:163\n    metroRequire require.js:74\n    <anonyme> index.ts:20\n    loadModuleImplementation require.js:248\n    guardedLoadModule require.js:156\n    metroRequire require.js:74\n    <anonyme> entry.bundle:126163",
+    "timestamp": "2025-10-16T16:59:33.102Z"
+  },
+  {
+    "sessionId": "3106e9fc-b75d-4aa1-8adf-208c0e3ff1e4",
+    "messageId": 3,
+    "type": "user",
+    "message": "fuck use-theme-setup.ts ive deleted the file",
+    "timestamp": "2025-10-16T17:01:58.311Z"
+  },
+  {
+    "sessionId": "3106e9fc-b75d-4aa1-8adf-208c0e3ff1e4",
+    "messageId": 4,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-10-16T17:09:20.330Z"
+  },
+  {
+    "sessionId": "51b3a09d-9f6e-433c-a3f4-cb4f134c3475",
+    "messageId": 0,
+    "type": "user",
+    "message": "Disconnected from Metro (1001: \"\").\n\nTo reconnect:\n- Ensure that Metro is running and available on the same network\n- Reload this app (will trigger further help if Metro cannot be connected to)\n      entry.bundle:72434:15\nDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools react-dom-client.development.js:24868:17\nRunning application \"main\" with appParams:\n \nObject { rootTag: \"#root\", hydrate: undefined }\n \nDevelopment-level warnings: ON.\nPerformance optimizations: OFF. index.js:71:15\nReact has detected a change in the order of Hooks called by ContextNavigator. This will lead to bugs and errors if not fixed. For more information, read the Rules of Hooks: https://react.dev/link/rules-of-hooks\n\n   Previous render            Next render\n   ------------------------------------------------------\n1. useMemo                    useMemo\n2. useRef                     useRef\n3. useState                   useEffect\n   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nLogBox.web.ts:134:29\nCan't perform a React state update on a component that hasn't mounted yet. This indicates that you have a side-effect in your render function that asynchronously later calls tries to update the component. Move this work to useEffect instead. LogBox.web.ts:134:29\nprops.pointerEvents is deprecated. Use style.pointerEvents index.js:24:13\nAnimated: `useNativeDriver` is not supported because the native animated module is missing. Falling back to JS-based animation. To resolve this, add `RCTAnimation` module to this app, or remove `useNativeDriver`. Make sure to run `bundle exec pod install` first. Read more about autolinking: https://github.com/react-native-community/cli/blob/master/docs/autolinking.md NativeAnimatedHelper.js:410:15\nTypeError: can't access property \"destroy\", inst is undefined\n    React 4\n \n\nThe above error occurred in the <ContextNavigator> component.\n\nReact will try to recreate this component tree from scratch using the error boundary you provided, LogBoxStateSubscription.\nLogBox.web.ts:134:29\nTypeError: can't access property \"destroy\", effect is undefined\n    React 4\n \n\nThe above error occurred in the <ContextNavigator> component.\n\nReact will try to recreate this component tree from scratch using the error boundary you provided, LogBoxStateSubscription.\nLogBox.web.ts:134:29\nInternal React error: Attempted to capture a commit phase error inside a detached tree. This indicates a bug in React. Potential causes include deleting the same fiber more than once, committing an already-finished tree, or an inconsistent return pointer.\n\nError message:\n\nTypeError: can't access property \"destroy\", inst is undefined LogBox.web.ts:134:29",
+    "timestamp": "2025-10-16T17:09:27.643Z"
+  },
+  {
+    "sessionId": "51b3a09d-9f6e-433c-a3f4-cb4f134c3475",
+    "messageId": 1,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-10-16T17:41:37.226Z"
+  },
+  {
+    "sessionId": "5a9caae7-2e3c-4f83-b980-9e9a3d1cbc5b",
+    "messageId": 0,
+    "type": "user",
+    "message": "Running application \"main\" with appParams:\n \nObject { rootTag: \"#root\", hydrate: undefined }\n \nDevelopment-level warnings: ON.\nPerformance optimizations: OFF. index.js:71:15\nReact has detected a change in the order of Hooks called by ContextNavigator. This will lead to bugs and errors if not fixed. For more information, read the Rules of Hooks: https://react.dev/link/rules-of-hooks\n\n   Previous render            Next render\n   ------------------------------------------------------\n1. useMemo                    useMemo\n2. useRef                     useRef\n3. useState                   useEffect\n   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nLogBox.web.ts:134:29\nCan't perform a React state update on a component that hasn't mounted yet. This indicates that you have a side-effect in your render function that asynchronously later calls tries to update the component. Move this work to useEffect instead. LogBox.web.ts:134:29\nprops.pointerEvents is deprecated. Use style.pointerEvents index.js:24:13\nAnimated: `useNativeDriver` is not supported because the native animated module is missing. Falling back to JS-based animation. To resolve this, add `RCTAnimation` module to this app, or remove `useNativeDriver`. Make sure to run `bundle exec pod install` first. Read more about autolinking: https://github.com/react-native-community/cli/blob/master/docs/autolinking.md NativeAnimatedHelper.js:410:15\nTypeError: can't access property \"destroy\", inst is undefined\n    React 4\n \n\nThe above error occurred in the <ContextNavigator> component.\n\nReact will try to recreate this component tree from scratch using the error boundary you provided, LogBoxStateSubscription.\nLogBox.web.ts:134:29\nTypeError: can't access property \"destroy\", effect is undefined\n    React 4\n \n\nThe above error occurred in the <ContextNavigator> component.\n\nReact will try to recreate this component tree from scratch using the error boundary you provided, LogBoxStateSubscription.\nLogBox.web.ts:134:29\nInternal React error: Attempted to capture a commit phase error inside a detached tree. This indicates a bug in React. Potential causes include deleting the same fiber more than once, committing an already-finished tree, or an inconsistent return pointer.\n\nError message:\n\nTypeError: can't access property \"destroy\", inst is undefined LogBox.web.ts:134:29",
+    "timestamp": "2025-10-16T17:41:54.463Z"
+  },
+  {
+    "sessionId": "5a9caae7-2e3c-4f83-b980-9e9a3d1cbc5b",
+    "messageId": 1,
+    "type": "user",
+    "message": "why is there a need to intialize the theme from layout ?",
+    "timestamp": "2025-10-16T17:45:06.085Z"
+  },
+  {
+    "sessionId": "5a9caae7-2e3c-4f83-b980-9e9a3d1cbc5b",
+    "messageId": 2,
+    "type": "user",
+    "message": "go on",
+    "timestamp": "2025-10-16T17:45:42.786Z"
+  },
+  {
+    "sessionId": "5a9caae7-2e3c-4f83-b980-9e9a3d1cbc5b",
+    "messageId": 3,
+    "type": "user",
+    "message": "yes but when i switch the theme the colors arent chan,ging",
+    "timestamp": "2025-10-16T17:49:27.286Z"
+  },
+  {
+    "sessionId": "5a9caae7-2e3c-4f83-b980-9e9a3d1cbc5b",
+    "messageId": 4,
+    "type": "user",
+    "message": "solve this but. use context7",
+    "timestamp": "2025-10-16T17:50:13.860Z"
+  },
+  {
+    "sessionId": "5a9caae7-2e3c-4f83-b980-9e9a3d1cbc5b",
+    "messageId": 5,
+    "type": "user",
+    "message": "okay themes are working now when i change the sytem color from the navigator for example in expo web but toggle switch in index.tsx isnt doing anything",
+    "timestamp": "2025-10-16T17:53:58.209Z"
+  },
+  {
+    "sessionId": "5a9caae7-2e3c-4f83-b980-9e9a3d1cbc5b",
+    "messageId": 6,
+    "type": "user",
+    "message": "Download the React DevTools for a better development experience: https://react.dev/link/react-devtools react-dom-client.development.js:24868:17\nRunning application \"main\" with appParams:\n \nObject { rootTag: \"#root\", hydrate: undefined }\n \nDevelopment-level warnings: ON.\nPerformance optimizations: OFF. index.js:71:15\nprops.pointerEvents is deprecated. Use style.pointerEvents index.js:24:13\nAnimated: `useNativeDriver` is not supported because the native animated module is missing. Falling back to JS-based animation. To resolve this, add `RCTAnimation` module to this app, or remove `useNativeDriver`. Make sure to run `bundle exec pod install` first. Read more about autolinking: https://github.com/react-native-community/cli/blob/master/docs/autolinking.md NativeAnimatedHelper.js:410:15\nError: Maximum update depth exceeded. This can happen when a component repeatedly calls setState inside componentWillUpdate or componentDidUpdate. React limits the number of nested updates to prevent infinite loops.\n    React 4\n \n\nThe above error occurred in the <ThemeInitializer> component.\n\nReact will try to recreate this component tree from scratch using the error boundary you provided, LogBoxStateSubscription.\nLogBox.web.ts:134:29\n\n​",
+    "timestamp": "2025-10-16T18:03:40.717Z"
+  },
+  {
+    "sessionId": "5a9caae7-2e3c-4f83-b980-9e9a3d1cbc5b",
+    "messageId": 7,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-10-16T20:52:35.941Z"
+  },
+  {
+    "sessionId": "65ddc94f-ee20-4417-a420-ae787e00b201",
+    "messageId": 0,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-10-16T20:56:49.384Z"
+  },
+  {
+    "sessionId": "bdf10fa3-879b-4be3-9934-27b39bfc6bd6",
+    "messageId": 0,
+    "type": "user",
+    "message": "/mcp",
+    "timestamp": "2025-10-16T20:57:56.400Z"
+  },
+  {
+    "sessionId": "bdf10fa3-879b-4be3-9934-27b39bfc6bd6",
+    "messageId": 1,
+    "type": "user",
+    "message": "hey gemi check my project structure i feel that its not complete it need more structure in app maybe should be a common styled layout and a navigation bar... use context7. use react-native-debugger-mcp",
+    "timestamp": "2025-10-16T20:59:18.341Z"
+  },
+  {
+    "sessionId": "bdf10fa3-879b-4be3-9934-27b39bfc6bd6",
+    "messageId": 2,
+    "type": "user",
+    "message": "what are you inventing themeProvider shit ?",
+    "timestamp": "2025-10-16T21:02:18.300Z"
+  },
+  {
+    "sessionId": "bdf10fa3-879b-4be3-9934-27b39bfc6bd6",
+    "messageId": 3,
+    "type": "user",
+    "message": "am using zustand dont fuck with my app",
+    "timestamp": "2025-10-16T21:03:13.940Z"
+  },
+  {
+    "sessionId": "bdf10fa3-879b-4be3-9934-27b39bfc6bd6",
+    "messageId": 4,
+    "type": "user",
+    "message": "go on",
+    "timestamp": "2025-10-16T21:03:43.925Z"
+  },
+  {
+    "sessionId": "bdf10fa3-879b-4be3-9934-27b39bfc6bd6",
+    "messageId": 5,
+    "type": "user",
+    "message": "$thanks to you its not working now",
+    "timestamp": "2025-10-16T21:04:28.589Z"
+  },
+  {
+    "sessionId": "bdf10fa3-879b-4be3-9934-27b39bfc6bd6",
+    "messageId": 6,
+    "type": "user",
+    "message": "ok its working now you should add a switch in the layout to change mode using switch component from components/ui",
+    "timestamp": "2025-10-16T21:07:35.376Z"
+  },
+  {
+    "sessionId": "bdf10fa3-879b-4be3-9934-27b39bfc6bd6",
+    "messageId": 7,
+    "type": "user",
+    "message": "Disconnected from Metro (1001: \"\").\n\nTo reconnect:\n- Ensure that Metro is running and available on the same network\n- Reload this app (will trigger further help if Metro cannot be connected to)\n      entry.bundle:71243:15\nError: Maximum update depth exceeded. This can happen when a component repeatedly calls setState inside componentWillUpdate or componentDidUpdate. React limits the number of nested updates to prevent infinite loops.\n    React 4\n \n\nThe above error occurred in the <ThemeProvider> component.\n\nReact will try to recreate this component tree from scratch using the error boundary you provided, LogBoxStateSubscription.\nentry.bundle:902:33\nDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools react-dom-client.development.js:24868:17\nRunning application \"main\" with appParams:\n \nObject { rootTag: \"#root\", hydrate: undefined }\n \nDevelopment-level warnings: ON.\nPerformance optimizations: OFF. index.js:71:15\nEach child in a list should have a unique \"key\" prop.\n\nCheck the render method of `View`. It was passed a child from EventCard. See https://react.dev/link/warning-keys for more information. LogBox.web.ts:134:29\nprops.pointerEvents is deprecated. Use style.pointerEvents index.js:24:13\nAnimated: `useNativeDriver` is not supported because the native animated module is missing. Falling back to JS-based animation. To resolve this, add `RCTAnimation` module to this app, or remove `useNativeDriver`. Make sure to run `bundle exec pod install` first. Read more about autolinking: https://github.com/react-native-community/cli/blob/master/docs/autolinking.md NativeAnimatedHelper.js:410:15\nGET\nhttps://images.unsplash.com/photo-1555939594-58d7cb561231?w=500&h=300&fit=crop\nNS_BINDING_ABORTED\n\nGET\nhttps://images.unsplash.com/photo-1561214115-6d2f1b0609fa?w=500&h=300&fit=crop\nNS_BINDING_ABORTED\n\nGET\nhttps://images.unsplash.com/photo-1489749798305-4fea3ba63d60?w=500&h=300&fit=crop\nNS_BINDING_ABORTED\n\nGET\nhttps://images.unsplash.com/photo-1538481143235-5d8b4cb8f34d?w=500&h=300&fit=crop\nNS_BINDING_ABORTED\n\nGET\nhttps://images.unsplash.com/photo-1516035069371-29a08e8260f3?w=500&h=300&fit=crop\nNS_BINDING_ABORTED\n\nError: Maximum update depth exceeded. This can happen when a component repeatedly calls setState inside componentWillUpdate or componentDidUpdate. React limits the number of nested updates to prevent infinite loops.\n    React 4\n \n\nThe above error occurred in the <ThemeProvider> component.\n\nReact will try to recreate this component tree from scratch using the error boundary you provided, LogBoxStateSubscription.\nLogBox.web.ts:134:29\nA resource is blocked by OpaqueResponseBlocking, please check browser console for details. photo-1555939594-58d7cb561231\nA resource is blocked by OpaqueResponseBlocking, please check browser console for details. photo-1561214115-6d2f1b0609fa\nA resource is blocked by OpaqueResponseBlocking, please check browser console for details. photo-1489749798305-4fea3ba63d60\nA resource is blocked by OpaqueResponseBlocking, please check browser console for details. photo-1538481143235-5d8b4cb8f34d\nA resource is blocked by OpaqueResponseBlocking, please check browser console for details. use react-native-debugger-mcp",
+    "timestamp": "2025-10-16T21:08:57.171Z"
+  },
+  {
+    "sessionId": "bdf10fa3-879b-4be3-9934-27b39bfc6bd6",
+    "messageId": 8,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-10-16T21:12:57.330Z"
+  },
+  {
+    "sessionId": "8a49847a-a6ac-4d92-a148-21dbe2f87121",
+    "messageId": 0,
+    "type": "user",
+    "message": "the ui in this project is shit. surtout the navigation bar so improve it. use flyonui-mcp",
+    "timestamp": "2025-10-16T21:13:41.190Z"
+  },
+  {
+    "sessionId": "8a49847a-a6ac-4d92-a148-21dbe2f87121",
+    "messageId": 1,
+    "type": "user",
+    "message": "go on",
+    "timestamp": "2025-10-16T21:14:41.601Z"
+  },
+  {
+    "sessionId": "8a49847a-a6ac-4d92-a148-21dbe2f87121",
+    "messageId": 2,
+    "type": "user",
+    "message": "whats taking you so long",
+    "timestamp": "2025-10-16T21:17:41.441Z"
+  },
+  {
+    "sessionId": "8a49847a-a6ac-4d92-a148-21dbe2f87121",
+    "messageId": 3,
+    "type": "user",
+    "message": "not only its uglier now but i prever navigation bar than drawer",
+    "timestamp": "2025-10-16T21:18:25.314Z"
+  },
+  {
+    "sessionId": "8a49847a-a6ac-4d92-a148-21dbe2f87121",
+    "messageId": 4,
+    "type": "user",
+    "message": "but the navigation is wtill very ugly",
+    "timestamp": "2025-10-16T21:19:46.650Z"
+  },
+  {
+    "sessionId": "8a49847a-a6ac-4d92-a148-21dbe2f87121",
+    "messageId": 5,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-10-16T21:39:05.799Z"
+  },
+  {
+    "sessionId": "b8b9d336-8f11-48d8-b1f3-741e152036e1",
+    "messageId": 0,
+    "type": "user",
+    "message": "is there a way to make the header disapear while scrolling ?",
+    "timestamp": "2025-10-16T21:39:30.679Z"
+  },
+  {
+    "sessionId": "b8b9d336-8f11-48d8-b1f3-741e152036e1",
+    "messageId": 1,
+    "type": "user",
+    "message": "no i mean with an animation",
+    "timestamp": "2025-10-16T21:40:09.168Z"
+  },
+  {
+    "sessionId": "b8b9d336-8f11-48d8-b1f3-741e152036e1",
+    "messageId": 2,
+    "type": "user",
+    "message": "events",
+    "timestamp": "2025-10-16T21:41:49.824Z"
+  },
+  {
+    "sessionId": "b8b9d336-8f11-48d8-b1f3-741e152036e1",
+    "messageId": 3,
+    "type": "user",
+    "message": "ok",
+    "timestamp": "2025-10-16T21:42:24.233Z"
+  },
+  {
+    "sessionId": "b8b9d336-8f11-48d8-b1f3-741e152036e1",
+    "messageId": 4,
+    "type": "user",
+    "message": "its not budging",
+    "timestamp": "2025-10-16T21:42:46.135Z"
+  },
+  {
+    "sessionId": "b8b9d336-8f11-48d8-b1f3-741e152036e1",
+    "messageId": 5,
+    "type": "user",
+    "message": "go on",
+    "timestamp": "2025-10-16T21:43:01.895Z"
+  },
+  {
+    "sessionId": "b8b9d336-8f11-48d8-b1f3-741e152036e1",
+    "messageId": 6,
+    "type": "user",
+    "message": "dud you implemented any of that ?",
+    "timestamp": "2025-10-16T21:43:30.759Z"
+  },
+  {
+    "sessionId": "b8b9d336-8f11-48d8-b1f3-741e152036e1",
+    "messageId": 7,
+    "type": "user",
+    "message": "why ?",
+    "timestamp": "2025-10-16T21:43:44.081Z"
+  },
+  {
+    "sessionId": "b8b9d336-8f11-48d8-b1f3-741e152036e1",
+    "messageId": 8,
+    "type": "user",
+    "message": "TypeError: can't convert undefined to object\n    buildDependencies utils.js:13\n    useHandler useHandler.js:43\n    useAnimatedScrollHandler useAnimatedScrollHandler.js:29\n \n\nThe above error occurred in the <Page(./(tabs)/events.tsx)> component.\n\nReact will try to recreate this component tree from scratch using the error boundary you provided, LogBoxStateSubscription.\nLogBox.web.ts:134:29\nTypeError: can't convert undefined to object\n    buildDependencies utils.js:13\n    useHandler useHandler.js:43\n    useAnimatedScrollHandler useAnimatedScrollHandler.js:29\n \n\nThe above error occurred in the <Page(./(tabs)/events.tsx)> component.\n\nReact will try to recreate this component tree from scratch using the error boundary you provided, LogBoxStateSubscription.\nLogBox.web.ts:134:29",
+    "timestamp": "2025-10-16T23:14:22.959Z"
+  },
+  {
+    "sessionId": "b8b9d336-8f11-48d8-b1f3-741e152036e1",
+    "messageId": 9,
+    "type": "user",
+    "message": "TypeError: can't convert undefined to object\n    buildDependencies utils.js:13\n    useHandler useHandler.js:43\n    useAnimatedScrollHandler useAnimatedScrollHandler.js:29\n    Page events.tsx:145\n \n\nThe above error occurred in the <Page(./(tabs)/events.tsx)> component.\n\nReact will try to recreate this component tree from scratch using the error boundary you provided, LogBoxStateSubscription.\nLogBox.web.ts:134:29\n    registerError LogBox.web.ts:134\n    error LogBox.web.ts:59\n    React 22\n    performWorkUntilDeadline scheduler.development.js:46\n    (Asynchrone : EventHandlerNonNull)\n    <anonyme> scheduler.development.js:223\n    <anonyme> scheduler.development.js:364\n    loadModuleImplementation require.js:248\n    guardedLoadModule require.js:163\n    metroRequire require.js:74\n    <anonyme> index.js:6\n    loadModuleImplementation require.js:248\n    guardedLoadModule require.js:163\n    metroRequire require.js:74\n    React 2\n    loadModuleImplementation require.js:248\n    guardedLoadModule require.js:163\n    metroRequire require.js:74\n    <anonyme> React\n    loadModuleImplementation require.js:248\n    guardedLoadModule require.js:163\n    metroRequire require.js:74\n    <anonyme> index.tsx:2\n    loadModuleImplementation require.js:248\n    guardedLoadModule require.js:163\n    metroRequire require.js:74\n    <anonyme> LogBoxData.tsx:19\n    loadModuleImplementation require.js:248\n    guardedLoadModule require.js:163\n    metroRequire require.js:74\n    <anonyme> LogBox.web.ts:9\n    loadModuleImplementation require.js:248\n    guardedLoadModule require.js:163\n    metroRequire require.js:74\n    <anonyme> index.ts:20\n    loadModuleImplementation require.js:248\n    guardedLoadModule require.js:156\n    metroRequire require.js:74\n    <anonyme> entry.bundle:292628",
+    "timestamp": "2025-10-16T23:16:51.893Z"
+  },
+  {
+    "sessionId": "b8b9d336-8f11-48d8-b1f3-741e152036e1",
+    "messageId": 10,
+    "type": "user",
+    "message": "TypeError: can't convert undefined to object\n    buildDependencies utils.js:13\n    useHandler useHandler.js:43\n    useAnimatedScrollHandler useAnimatedScrollHandler.js:29\n    Page events.tsx:145\n \n\nThe above error occurred in the <Page(./(tabs)/events.tsx)> component.\n\nReact will try to recreate this component tree from scratch using the error boundary you provided, LogBoxStateSubscription.\nLogBox.web.ts:134:29\n    registerError LogBox.web.ts:134\n    error LogBox.web.ts:59\n    React 22\n    performWorkUntilDeadline scheduler.development.js:46\n    (Asynchrone : EventHandlerNonNull)\n    <anonyme> scheduler.development.js:223\n    <anonyme> scheduler.development.js:364\n    loadModuleImplementation require.js:248\n    guardedLoadModule require.js:163\n    metroRequire require.js:74\n    <anonyme> index.js:6\n    loadModuleImplementation require.js:248\n    guardedLoadModule require.js:163\n    metroRequire require.js:74\n    React 2\n    loadModuleImplementation require.js:248\n    guardedLoadModule require.js:163\n    metroRequire require.js:74\n    <anonyme> React\n    loadModuleImplementation require.js:248\n    guardedLoadModule require.js:163\n    metroRequire require.js:74\n    <anonyme> index.tsx:2\n    loadModuleImplementation require.js:248\n    guardedLoadModule require.js:163\n    metroRequire require.js:74\n    <anonyme> LogBoxData.tsx:19\n    loadModuleImplementation require.js:248\n    guardedLoadModule require.js:163\n    metroRequire require.js:74\n    <anonyme> LogBox.web.ts:9\n    loadModuleImplementation require.js:248\n    guardedLoadModule require.js:163\n    metroRequire require.js:74\n    <anonyme> index.ts:20\n    loadModuleImplementation require.js:248\n    guardedLoadModule require.js:156\n    metroRequire require.js:74\n    <anonyme> entry.bundle:292628",
+    "timestamp": "2025-10-16T23:25:02.791Z"
+  }
+]

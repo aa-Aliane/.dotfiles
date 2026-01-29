@@ -1,0 +1,16 @@
+[
+  {
+    "sessionId": "cb4b0905-d6fb-4986-8f1d-4d464e512ae7",
+    "messageId": 0,
+    "type": "user",
+    "message": "could you check the project here and add prisma language server",
+    "timestamp": "2025-10-02T09:41:52.955Z"
+  },
+  {
+    "sessionId": "cb4b0905-d6fb-4986-8f1d-4d464e512ae7",
+    "messageId": 1,
+    "type": "user",
+    "message": "exit",
+    "timestamp": "2025-10-02T13:51:14.568Z"
+  }
+]

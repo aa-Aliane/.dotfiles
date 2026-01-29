@@ -1,0 +1,39 @@
+# Refactor Payment Dialog to Side Panel
+
+## Goal Description
+Refactor the payment interaction in the repairs table to open as a side panel (Sheet) on the right side instead of a modal dialog. This provides a better user experience for viewing details alongside the table.
+
+## User Review Required
+> [!IMPORTANT]
+> I will be creating a new UI component `Sheet` in `src/components/ui/sheet.tsx` which mimics the standard shadcn/ui Sheet component using `@radix-ui/react-dialog`.
+
+## Proposed Changes
+
+### UI Components
+#### [NEW] [sheet.tsx](file:///home/amine/coding/web/tek-mag/frontend/src/components/ui/sheet.tsx)
+- Create a `Sheet` component using `@radix-ui/react-dialog`.
+- Implement variants for side positioning (right, left, top, bottom), defaulting to right.
+
+### Features
+#### [NEW] [payment-sheet.tsx](file:///home/amine/coding/web/tek-mag/frontend/src/components/features/commands/payment-sheet.tsx)
+- Create a new component `PaymentSheet` based on [PaymentDialog](file:///home/amine/coding/web/tek-mag/frontend/src/components/features/commands/payment-dialog.tsx#27-204).
+- Use `Sheet` instead of [Dialog](file:///home/amine/coding/web/tek-mag/frontend/src/components/features/commands/payment-dialog.tsx#27-204).
+- Adjust layout for vertical space (side panel).
+
+#### [DELETE] [payment-dialog.tsx](file:///home/amine/coding/web/tek-mag/frontend/src/components/features/commands/payment-dialog.tsx)
+- Remove the old dialog component.
+
+#### [MODIFY] [repairs-table.tsx](file:///home/amine/coding/web/tek-mag/frontend/src/components/features/calendrier/repairs-table.tsx)
+- Import `PaymentSheet` instead of [PaymentDialog](file:///home/amine/coding/web/tek-mag/frontend/src/components/features/commands/payment-dialog.tsx#27-204).
+- Update the state and render logic to use the sheet.
+
+## Verification Plan
+
+### Automated Tests
+- Run `npm run build` to ensure no type errors or missing imports.
+- (Optional) If there are existing tests for `repairs-table`, run them.
+
+### Manual Verification
+- Verify that clicking the payment action in the repairs table opens the sheet on the right.
+- Verify that the sheet contains all the payment functionality (add, list, delete).
+- Verify that the sheet closes correctly.

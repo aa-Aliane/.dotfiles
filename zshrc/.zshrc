@@ -12,6 +12,12 @@ source $ZSH/oh-my-zsh.sh
 
 export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
 
+export ANDROID_HOME=$HOME/programs/android_sdk
+export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+
+alias dc='docker compose'
+alias prod="docker comose -f docker-compose.prod.yml"
 
 
 alias vim="nvim"
@@ -23,9 +29,11 @@ alias dc="docker compose"
 alias dcp="docker compose -f docker-compose.prod.yml"
 alias dco="docker compose -f docker-compose.override.yml"
 
+alias firefox='/home/amine/programs/firefox/firefox'
 alias web="firefox --private-window &! exit"
 alias chrome="google-chrome &! exit"
 alias fx="firefox &! exit"
+
 
 export STARSHIP_CONFIG=$HOME/.config/starship/starship.toml
 eval "$(starship init zsh)"
@@ -67,3 +75,7 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+export PATH=$PATH:/home/amine/programs/android_sdk/emulator:/home/amine/programs/android_sdk/platform-tools
+
+alias k=kubectl
+export KUBE_EDITOR="nvim"

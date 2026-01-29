@@ -1,0 +1,72 @@
+[
+  {
+    "sessionId": "3a5fafef-4ea0-4240-a778-d128d5fb80c1",
+    "messageId": 0,
+    "type": "user",
+    "message": "/mcp",
+    "timestamp": "2025-10-04T14:41:15.619Z"
+  },
+  {
+    "sessionId": "3a5fafef-4ea0-4240-a778-d128d5fb80c1",
+    "messageId": 1,
+    "type": "user",
+    "message": "/mcp",
+    "timestamp": "2025-10-04T15:06:47.242Z"
+  },
+  {
+    "sessionId": "3a5fafef-4ea0-4240-a778-d128d5fb80c1",
+    "messageId": 2,
+    "type": "user",
+    "message": "/mcp",
+    "timestamp": "2025-10-04T15:08:44.788Z"
+  },
+  {
+    "sessionId": "3a5fafef-4ea0-4240-a778-d128d5fb80c1",
+    "messageId": 3,
+    "type": "user",
+    "message": "/q!",
+    "timestamp": "2025-10-04T16:06:28.454Z"
+  },
+  {
+    "sessionId": "3a5fafef-4ea0-4240-a778-d128d5fb80c1",
+    "messageId": 4,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-10-04T16:06:30.521Z"
+  },
+  {
+    "sessionId": "5a24a488-2890-4f86-8a17-4a630cd927a6",
+    "messageId": 0,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-10-04T16:13:46.407Z"
+  },
+  {
+    "sessionId": "66879a50-4c41-4f98-ad38-a88a6a23b29b",
+    "messageId": 0,
+    "type": "user",
+    "message": "/mcp",
+    "timestamp": "2025-10-04T16:18:49.726Z"
+  },
+  {
+    "sessionId": "66879a50-4c41-4f98-ad38-a88a6a23b29b",
+    "messageId": 1,
+    "type": "user",
+    "message": "clear",
+    "timestamp": "2025-10-04T16:18:58.692Z"
+  },
+  {
+    "sessionId": "66879a50-4c41-4f98-ad38-a88a6a23b29b",
+    "messageId": 2,
+    "type": "user",
+    "message": "reboot",
+    "timestamp": "2025-10-04T16:19:10.854Z"
+  },
+  {
+    "sessionId": "66879a50-4c41-4f98-ad38-a88a6a23b29b",
+    "messageId": 3,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-10-04T16:19:19.034Z"
+  }
+]

@@ -1,0 +1,8 @@
+# Refactor Payment Dialog to Side Panel
+
+- [ ] Explore current implementation of `repairs-table.tsx` and `payment-dialog.tsx` <!-- id: 0 -->
+- [ ] Check for available "Sheet" or "Drawer" UI components <!-- id: 1 -->
+- [ ] Create implementation plan <!-- id: 2 -->
+- [ ] Rename/Refactor `payment-dialog.tsx` to `payment-sheet.tsx` (or similar) <!-- id: 3 -->
+- [ ] Update `repairs-table.tsx` to use the new side panel component <!-- id: 4 -->
+- [ ] Verify the changes <!-- id: 5 -->

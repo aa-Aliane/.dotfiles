@@ -1,0 +1,6 @@
+{
+  "artifactType": "ARTIFACT_TYPE_IMPLEMENTATION_PLAN",
+  "summary": "Expose missing fields for Repairs table and add status field",
+  "updatedAt": "2025-11-19T11:56:33.688845822Z",
+  "version": "1"
+}

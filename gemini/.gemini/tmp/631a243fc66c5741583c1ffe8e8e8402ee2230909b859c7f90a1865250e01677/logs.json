@@ -1,0 +1,65 @@
+[
+  {
+    "sessionId": "6b712cdf-522e-4d42-a43b-194596b35617",
+    "messageId": 0,
+    "type": "user",
+    "message": "ok donne moi un exercice de finance",
+    "timestamp": "2026-01-11T10:11:45.664Z"
+  },
+  {
+    "sessionId": "6b712cdf-522e-4d42-a43b-194596b35617",
+    "messageId": 1,
+    "type": "user",
+    "message": "put the exercice in a file md format",
+    "timestamp": "2026-01-11T10:26:46.277Z"
+  },
+  {
+    "sessionId": "6b712cdf-522e-4d42-a43b-194596b35617",
+    "messageId": 2,
+    "type": "user",
+    "message": "tu peux",
+    "timestamp": "2026-01-11T15:07:04.534Z"
+  },
+  {
+    "sessionId": "6b712cdf-522e-4d42-a43b-194596b35617",
+    "messageId": 3,
+    "type": "user",
+    "message": "tu peux me donner la correction sur un fichier md",
+    "timestamp": "2026-01-11T15:07:17.771Z"
+  },
+  {
+    "sessionId": "6b712cdf-522e-4d42-a43b-194596b35617",
+    "messageId": 4,
+    "type": "user",
+    "message": "quand il y'a la tva il faut atjouter un étape le bilan rétractif",
+    "timestamp": "2026-01-11T15:19:25.155Z"
+  },
+  {
+    "sessionId": "6b712cdf-522e-4d42-a43b-194596b35617",
+    "messageId": 5,
+    "type": "user",
+    "message": "non c pas ce que je veux dire check in the pdf exercices of chap2 : @Analyse\\ financière\\ Intro\\ Ch1\\ Ch2\\ \\(2\\).pdf",
+    "timestamp": "2026-01-11T15:22:04.243Z"
+  },
+  {
+    "sessionId": "6b712cdf-522e-4d42-a43b-194596b35617",
+    "messageId": 6,
+    "type": "user",
+    "message": "donne moi un autre exercice dans un autre fichier md dailleurs mets les dans un dossier exercices/",
+    "timestamp": "2026-01-11T16:18:35.585Z"
+  },
+  {
+    "sessionId": "6b712cdf-522e-4d42-a43b-194596b35617",
+    "messageId": 7,
+    "type": "user",
+    "message": "ok maintenatn genere la correction du dernier exercice",
+    "timestamp": "2026-01-11T19:52:07.801Z"
+  },
+  {
+    "sessionId": "6b712cdf-522e-4d42-a43b-194596b35617",
+    "messageId": 8,
+    "type": "user",
+    "message": "ok un autre exercice mais cette fois l'entreprise pert de l'argent",
+    "timestamp": "2026-01-11T21:47:27.757Z"
+  }
+]

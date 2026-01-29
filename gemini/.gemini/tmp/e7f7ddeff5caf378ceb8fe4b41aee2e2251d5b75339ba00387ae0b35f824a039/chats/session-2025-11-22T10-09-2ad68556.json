@@ -1,0 +1,58 @@
+{
+  "sessionId": "2ad68556-18d7-4e36-86ad-ef904fa13f23",
+  "projectHash": "e7f7ddeff5caf378ceb8fe4b41aee2e2251d5b75339ba00387ae0b35f824a039",
+  "startTime": "2025-11-22T10:09:30.487Z",
+  "lastUpdated": "2025-11-22T10:10:49.640Z",
+  "messages": [
+    {
+      "id": "bd491476-c880-4b91-951b-b610e84c0c0c",
+      "timestamp": "2025-11-22T10:09:30.487Z",
+      "type": "user",
+      "content": "hello"
+    },
+    {
+      "id": "86820a72-4f90-4973-b127-ee37a295082c",
+      "timestamp": "2025-11-22T10:09:37.218Z",
+      "type": "gemini",
+      "content": "Hello! How can I assist you today?",
+      "thoughts": [
+        {
+          "subject": "Addressing the Input",
+          "description": "My current focus is on crafting the appropriate response to the user's initial \"hello.\" I've decided on a friendly greeting, followed by an inquiry about their specific needs. Further refinements are being made to ensure clarity and helpfulness in the prompt.",
+          "timestamp": "2025-11-22T10:09:37.177Z"
+        }
+      ],
+      "tokens": {
+        "input": 6979,
+        "output": 9,
+        "cached": 0,
+        "thoughts": 43,
+        "tool": 0,
+        "total": 7031
+      },
+      "model": "gemini-2.5-flash"
+    },
+    {
+      "id": "c27d5418-8358-44e4-bdcd-cf83f2f43459",
+      "timestamp": "2025-11-22T10:10:25.041Z",
+      "type": "user",
+      "content": "what vesion ofgemini are you ?"
+    },
+    {
+      "id": "1e537dd0-b64f-41f8-add5-6db68abda9db",
+      "timestamp": "2025-11-22T10:10:49.640Z",
+      "type": "gemini",
+      "content": "I am a large language model, trained by Google.I am a large language model, trained by Google.",
+      "thoughts": [],
+      "tokens": {
+        "input": 10982,
+        "output": 22,
+        "cached": 7174,
+        "thoughts": 0,
+        "tool": 0,
+        "total": 11004
+      },
+      "model": "gemini-2.5-flash"
+    }
+  ]
+}

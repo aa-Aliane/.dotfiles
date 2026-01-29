@@ -1,0 +1,30 @@
+[
+  {
+    "sessionId": "f847964e-6946-46ca-9697-2238567f91d3",
+    "messageId": 0,
+    "type": "user",
+    "message": "here i did tar xvf firefox... then i did cd firefox you can do pwd to check whats the next step to finish the instalation",
+    "timestamp": "2025-10-02T15:35:16.419Z"
+  },
+  {
+    "sessionId": "f847964e-6946-46ca-9697-2238567f91d3",
+    "messageId": 1,
+    "type": "user",
+    "message": "go on",
+    "timestamp": "2025-10-02T15:36:09.306Z"
+  },
+  {
+    "sessionId": "f847964e-6946-46ca-9697-2238567f91d3",
+    "messageId": 2,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-10-02T15:36:51.192Z"
+  },
+  {
+    "sessionId": "71d96393-7b6a-41f8-8fd2-407351d0de31",
+    "messageId": 0,
+    "type": "user",
+    "message": "❯ sudo ln -s /home/amine/programs/firefox/firefox /usr/local/bin/firefox\n(base)\n~/programs/firefox\n❯ which firefox\n/usr/bin/firefox\n(base)\n~/programs/firefox\n❯ firefox\n\nCommand '/usr/bin/firefox' requires the firefox snap to be installed.\nPlease install it with:\n\nsnap install firefox\n\n(base)\n~/progr",
+    "timestamp": "2025-10-02T15:37:52.104Z"
+  }
+]

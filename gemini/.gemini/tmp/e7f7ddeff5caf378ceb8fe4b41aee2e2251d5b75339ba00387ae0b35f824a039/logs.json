@@ -1,0 +1,30 @@
+[
+  {
+    "sessionId": "98321b4c-1682-47eb-a8e3-3bf672ca555e",
+    "messageId": 0,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-11-22T10:08:22.615Z"
+  },
+  {
+    "sessionId": "2ad68556-18d7-4e36-86ad-ef904fa13f23",
+    "messageId": 0,
+    "type": "user",
+    "message": "hello",
+    "timestamp": "2025-11-22T10:09:28.780Z"
+  },
+  {
+    "sessionId": "2ad68556-18d7-4e36-86ad-ef904fa13f23",
+    "messageId": 1,
+    "type": "user",
+    "message": "what vesion ofgemini are you ?",
+    "timestamp": "2025-11-22T10:10:00.213Z"
+  },
+  {
+    "sessionId": "2ad68556-18d7-4e36-86ad-ef904fa13f23",
+    "messageId": 2,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-11-22T10:11:01.319Z"
+  }
+]

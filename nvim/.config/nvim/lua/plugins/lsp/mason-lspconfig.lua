@@ -21,6 +21,7 @@ return {
                 "marksman",
                 "ts_ls",
                 "nginx_language_server",
+                "clojure-lsp",
             },
         })
         mason_tool_installer.setup({

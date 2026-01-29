@@ -1,0 +1,86 @@
+[
+  {
+    "sessionId": "171169b7-b3dd-4559-a930-a293606bc49f",
+    "messageId": 0,
+    "type": "user",
+    "message": "hey gemi this app is not about whaterver it its right now its about an app called lo",
+    "timestamp": "2025-10-11T11:00:34.783Z"
+  },
+  {
+    "sessionId": "10411ab6-6f54-4c80-a262-65f3fb2b4146",
+    "messageId": 0,
+    "type": "user",
+    "message": "\"Build a mobile app called LokaliParty using React Native Expo and Tamagui. Use the MCP context7 documentation to understand how to properly implement Tamagui components and best practices.\nThe app should include:\nFeatures:\n\nEvents Discovery Screen: Display a list of upcoming local events with advanced filtering capabilities (by date, category, location, price range, event type, etc.)\nDetailed Event Screen: Show comprehensive event information including description, date/time, location, capacity, organizer details, and images\nEvent Application System: Allow users to apply/register for events directly through the app\nAdvanced Filtering System: Enable multi-criteria filtering to narrow down events based on user preferences\nUser-Friendly Navigation: Smooth navigation between the events list, individual event details, and application screens\n\nTechnical Requirements:\n\nUse React Native Expo for cross-platform development (iOS & Android)\nUse Tamagui (with MCP context7 reference) for styling and UI components to ensure consistency and performance\nImplement responsive design that adapts to different screen sizes\nFollow Tamagui best practices from context7 documentation for component structure and theming\"",
+    "timestamp": "2025-10-11T11:00:57.638Z"
+  },
+  {
+    "sessionId": "10411ab6-6f54-4c80-a262-65f3fb2b4146",
+    "messageId": 1,
+    "type": "user",
+    "message": "donct forget to use context7",
+    "timestamp": "2025-10-11T11:01:52.054Z"
+  },
+  {
+    "sessionId": "10411ab6-6f54-4c80-a262-65f3fb2b4146",
+    "messageId": 2,
+    "type": "user",
+    "message": "i asked you to use constext7",
+    "timestamp": "2025-10-11T11:02:35.446Z"
+  },
+  {
+    "sessionId": "10411ab6-6f54-4c80-a262-65f3fb2b4146",
+    "messageId": 3,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-10-11T11:02:45.539Z"
+  },
+  {
+    "sessionId": "c77b1df3-3137-4ead-a8bf-e3eb23d30480",
+    "messageId": 0,
+    "type": "user",
+    "message": "could you use context7 mcp server for the next instruction i will give you ?",
+    "timestamp": "2025-10-11T11:03:10.332Z"
+  },
+  {
+    "sessionId": "c77b1df3-3137-4ead-a8bf-e3eb23d30480",
+    "messageId": 1,
+    "type": "user",
+    "message": "you have access to mcp server context7",
+    "timestamp": "2025-10-11T11:03:41.677Z"
+  },
+  {
+    "sessionId": "42a249be-5d11-4a67-a6bf-44b4e6bf57be",
+    "messageId": 0,
+    "type": "user",
+    "message": "\"Build a mobile app called LokaliParty using React Native Expo and Tamagui. Use the MCP context7 documentation to understand how to properly implement Tamagui components and best practices.\nThe app should include:\nFeatures:\n\nEvents Discovery Screen: Display a list of upcoming local events with advanced filtering capabilities (by date, category, location, price range, event type, etc.)\nDetailed Event Screen: Show comprehensive event information including description, date/time, location, capacity, organizer details, and images\nEvent Application System: Allow users to apply/register for events directly through the app\nAdvanced Filtering System: Enable multi-criteria filtering to narrow down events based on user preferences\nUser-Friendly Navigation: Smooth navigation between the events list, individual event details, and application screens\n\nTechnical Requirements:\n\nUse React Native Expo for cross-platform development (iOS & Android)\nUse Tamagui (with MCP context7 reference) for styling and UI components to ensure consistency and performance\nImplement responsive design that adapts to different screen sizes\nFollow Tamagui best practices from context7 documentation for component structure and theming\". use context7",
+    "timestamp": "2025-10-11T11:27:58.217Z"
+  },
+  {
+    "sessionId": "42a249be-5d11-4a67-a6bf-44b4e6bf57be",
+    "messageId": 1,
+    "type": "user",
+    "message": "Log 1 of 1\nServer Error\n(0 , _core.createThemes) is not a function\nSource\n \n 26 |\n       \n<\n/\nYStack\n>\n \n 27 |\n     \n<\n/\nToast\n>\n>\n 28 |\n   )\n \n    |\n    \n^\n \n 29 |\n }\n \n 30 |\n \n 31 |\n \nexport\n \nfunction\n \nToastControl\n() {\nCall Stack\nfactory\ncomponents/CurrentToast.tsx:28:110\nSee 2 more frames",
+    "timestamp": "2025-10-11T11:40:37.000Z"
+  },
+  {
+    "sessionId": "42a249be-5d11-4a67-a6bf-44b4e6bf57be",
+    "messageId": 2,
+    "type": "user",
+    "message": "Log 1 of 1\nServer Error\nCannot read properties of undefined (reading 'extra')\nSource\n \n 26 |\n       \n<\n/\nYStack\n>\n \n 27 |\n     \n<\n/\nToast\n>\n>\n 28 |\n   )\n \n    |\n    \n^\n \n 29 |\n }\n \n 30 |\n \n 31 |\n \nexport\n \nfunction\n \nToastControl\n() {\nCall Stack\nfactory\ncomponents/CurrentToast.tsx:28:110\nSee 1 more frame",
+    "timestamp": "2025-10-11T11:42:38.304Z"
+  },
+  {
+    "sessionId": "42a249be-5d11-4a67-a6bf-44b4e6bf57be",
+    "messageId": 3,
+    "type": "user",
+    "message": "Log 1 of 1\nServer Error\nCannot read properties of undefined (reading 'extra')\nSource\n \n 26 |\n       \n<\n/\nYStack\n>\n \n 27 |\n     \n<\n/\nToast\n>\n>\n 28 |\n   )\n \n    |\n    \n^\n \n 29 |\n }\n \n 30 |\n \n 31 |\n \nexport\n \nfunction\n \nToastControl\n() {\nCall Stack\nfactory\ncomponents/CurrentToast.tsx:28:110\nSee 1 more frame",
+    "timestamp": "2025-10-11T11:48:15.172Z"
+  },
+  {
+    "sessionId": "42a249be-5d11-4a67-a6bf-44b4e6bf57be",
+    "messageId": 4,
+    "type": "user",
+    "message": "| Error bundling tamagui config: Cannot convert object to primitive value (run with DEBUG=tamagui to see stack)\n| No bundled config generated, maybe an error in bundling. Set DEBUG=tamagui and re-run to get logs.\n|   [tamagui] skipped loading 1 module, see: https://tamagui.dev/docs/intro/errors#warning-001\n| Error bundling tamagui config: Cannot convert object to primitive value (run with DEBUG=tamagui to see stack)\n| No bundled config generated, maybe an error in bundling. Set DEBUG=tamagui and re-run to get logs.\n|   [tamagui] skipped loading 1 module, see: https://tamagui.dev/docs/intro/errors#warning-001\n| Error bundling tamagui config: Cannot convert object to primitive value (run with DEBUG=tamagui to see stack)\n| No bundled config generated, maybe an error in bundling. Set DEBUG=tamagui and re-run to get logs.\n|   [tamagui] skipped loading 1 module, see: https://tamagui.dev/docs/intro/errors#warning-001\n| Error bundling tamagui config: Cannot convert object to primitive value (run with DEBUG=tamagui to see stack)\n| No bundled config generated, maybe an error in bundling. Set DEBUG=tamagui and re-run to get logs.\n|   [tamagui] skipped loading 1 module, see: https://tamagui.dev/docs/intro/errors#warning-001\n| Error bundling tamagui config: Cannot convert object to primitive value (run with DEBUG=tamagui to see stack)\n| No bundled config generated, maybe an error in bundling. Set DEBUG=tamagui and re-run to get logs.\n|   [tamagui] skipped loading 1 module, see: https://tamagui.dev/docs/intro/errors#warning-001\n| Error bundling tamagui config: Cannot convert object to primitive value (run with DEBUG=tamagui to see stack)\n| No bundled config generated, maybe an error in bundling. Set DEBUG=tamagui and re-run to get logs.\n|   [tamagui] skipped loading 1 module, see: https://tamagui.dev/docs/intro/errors#warning-001\n| Error bundling tamagui config: Cannot convert object to primitive value (run with DEBUG=tamagui to see stack)\n| No bundled config generated, maybe an error in bundling. Set DEBUG=tamagui and re-run to get logs.\n|   [tamagui] skipped loading 1 module, see: https://tamagui.dev/docs/intro/errors#warning-001\n| Error bundling tamagui config: Cannot convert object to primitive value (run with DEBUG=tamagui to see stack)\n| No bundled config generated, maybe an error in bundling. Set DEBUG=tamagui and re-run to get logs.\n|   [tamagui] skipped loading 1 module, see: https://tamagui.dev/docs/intro/errors#warning-001\n| Error bundling tamagui config: Cannot convert object to primitive value (run with DEBUG=tamagui to see stack)\n| No bundled config generated, maybe an error in bundling. Set DEBUG=tamagui and re-run to get logs.\nλ Bundling failed 23134ms node_modules/expo-router/node/render.js (667 modules)\n\nMetro error: app/(tabs)/index.tsx: Must provide components\n\nCall Stack\n  process.processTicksAndRejections (node:internal/process/task_queues)\nWeb Bundling failed 23556ms node_modules/expo-router/entry.js (699 modules)\nWeb Bundled 458ms node_modules/expo-router/_error.js (288 modules)",
+    "timestamp": "2025-10-11T12:48:39.739Z"
+  }
+]

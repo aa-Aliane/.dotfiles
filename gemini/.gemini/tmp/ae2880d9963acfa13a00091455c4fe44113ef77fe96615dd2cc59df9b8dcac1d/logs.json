@@ -1,0 +1,2830 @@
+[
+  {
+    "sessionId": "928c5789-c693-4a41-86af-6c234d47bc82",
+    "messageId": 0,
+    "type": "user",
+    "message": "hey gemini i want to change this project its a project about package delivery i want it now to be about seminar organization with articles and reviewers for the reviewer model you check invaco-data.tsv check backend before starting",
+    "timestamp": "2025-09-09T11:24:33.114Z"
+  },
+  {
+    "sessionId": "928c5789-c693-4a41-86af-6c234d47bc82",
+    "messageId": 1,
+    "type": "user",
+    "message": "you are suggesting to replace with the same",
+    "timestamp": "2025-09-09T11:27:48.486Z"
+  },
+  {
+    "sessionId": "928c5789-c693-4a41-86af-6c234d47bc82",
+    "messageId": 2,
+    "type": "user",
+    "message": "i dont like where you are going you are overwriting files that will be deleted like delivery.py i told you it will be about seminars",
+    "timestamp": "2025-09-09T11:29:39.154Z"
+  },
+  {
+    "sessionId": "928c5789-c693-4a41-86af-6c234d47bc82",
+    "messageId": 3,
+    "type": "user",
+    "message": "not specialy deletion conversion",
+    "timestamp": "2025-09-09T11:30:00.589Z"
+  },
+  {
+    "sessionId": "928c5789-c693-4a41-86af-6c234d47bc82",
+    "messageId": 4,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-09-09T18:06:55.499Z"
+  },
+  {
+    "sessionId": "e21a5e1b-80b8-4dcf-ac7a-662f685576da",
+    "messageId": 0,
+    "type": "user",
+    "message": "hey gemi in apps backend check it and add app universities",
+    "timestamp": "2025-09-09T18:07:57.106Z"
+  },
+  {
+    "sessionId": "e21a5e1b-80b8-4dcf-ac7a-662f685576da",
+    "messageId": 1,
+    "type": "user",
+    "message": "but spell it correct",
+    "timestamp": "2025-09-09T18:08:14.725Z"
+  },
+  {
+    "sessionId": "e21a5e1b-80b8-4dcf-ac7a-662f685576da",
+    "messageId": 2,
+    "type": "user",
+    "message": "not with docker just create the needed files and use the same folder structure like accounts app",
+    "timestamp": "2025-09-09T18:19:03.824Z"
+  },
+  {
+    "sessionId": "e21a5e1b-80b8-4dcf-ac7a-662f685576da",
+    "messageId": 3,
+    "type": "user",
+    "message": "okay now i need models and serializers and views",
+    "timestamp": "2025-09-09T18:20:26.135Z"
+  },
+  {
+    "sessionId": "e21a5e1b-80b8-4dcf-ac7a-662f685576da",
+    "messageId": 4,
+    "type": "user",
+    "message": "give me suggestion",
+    "timestamp": "2025-09-09T18:20:44.800Z"
+  },
+  {
+    "sessionId": "67f48ee3-3dd6-443b-8b8f-e1f6a08c777d",
+    "messageId": 0,
+    "type": "user",
+    "message": "hey gezmi check backend and i want yiu to add missing files in app universities in models views .....",
+    "timestamp": "2025-09-10T09:32:09.378Z"
+  },
+  {
+    "sessionId": "67f48ee3-3dd6-443b-8b8f-e1f6a08c777d",
+    "messageId": 1,
+    "type": "user",
+    "message": "okay now in seminar app in author a field is missing affiliation which is the university of the author",
+    "timestamp": "2025-09-10T09:36:33.610Z"
+  },
+  {
+    "sessionId": "67f48ee3-3dd6-443b-8b8f-e1f6a08c777d",
+    "messageId": 2,
+    "type": "user",
+    "message": "i run migrations my self",
+    "timestamp": "2025-09-10T09:38:11.339Z"
+  },
+  {
+    "sessionId": "67f48ee3-3dd6-443b-8b8f-e1f6a08c777d",
+    "messageId": 3,
+    "type": "user",
+    "message": "q",
+    "timestamp": "2025-09-10T09:47:02.229Z"
+  },
+  {
+    "sessionId": "67f48ee3-3dd6-443b-8b8f-e1f6a08c777d",
+    "messageId": 4,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-09-10T09:48:43.978Z"
+  },
+  {
+    "sessionId": "81559875-3628-471f-a2b6-0b2627f123ec",
+    "messageId": 0,
+    "type": "user",
+    "message": "hey gimmi go an look in backend in app accounts in profile model you can see affiliation whoch is not properly serialized in profile serializer",
+    "timestamp": "2025-09-10T09:51:45.976Z"
+  },
+  {
+    "sessionId": "81559875-3628-471f-a2b6-0b2627f123ec",
+    "messageId": 1,
+    "type": "user",
+    "message": "ok",
+    "timestamp": "2025-09-10T09:52:32.515Z"
+  },
+  {
+    "sessionId": "81559875-3628-471f-a2b6-0b2627f123ec",
+    "messageId": 2,
+    "type": "user",
+    "message": "now in seminar app in article model author isnt of type Author rather a profile of type author you can check app accounts/profile",
+    "timestamp": "2025-09-10T09:56:27.887Z"
+  },
+  {
+    "sessionId": "81559875-3628-471f-a2b6-0b2627f123ec",
+    "messageId": 3,
+    "type": "user",
+    "message": "okay",
+    "timestamp": "2025-09-10T09:57:52.852Z"
+  },
+  {
+    "sessionId": "81559875-3628-471f-a2b6-0b2627f123ec",
+    "messageId": 4,
+    "type": "user",
+    "message": "same in review reviewer isnt a Reviwer but rather a profile of type reviewer",
+    "timestamp": "2025-09-10T09:59:25.624Z"
+  },
+  {
+    "sessionId": "81559875-3628-471f-a2b6-0b2627f123ec",
+    "messageId": 5,
+    "type": "user",
+    "message": "yes",
+    "timestamp": "2025-09-10T10:00:10.357Z"
+  },
+  {
+    "sessionId": "81559875-3628-471f-a2b6-0b2627f123ec",
+    "messageId": 6,
+    "type": "user",
+    "message": "okay maybe change the serializers too article and review",
+    "timestamp": "2025-09-10T10:00:50.189Z"
+  },
+  {
+    "sessionId": "81559875-3628-471f-a2b6-0b2627f123ec",
+    "messageId": 7,
+    "type": "user",
+    "message": "yes",
+    "timestamp": "2025-09-10T10:01:28.083Z"
+  },
+  {
+    "sessionId": "81559875-3628-471f-a2b6-0b2627f123ec",
+    "messageId": 8,
+    "type": "user",
+    "message": "in app universities urls is empty",
+    "timestamp": "2025-09-10T10:03:08.615Z"
+  },
+  {
+    "sessionId": "81559875-3628-471f-a2b6-0b2627f123ec",
+    "messageId": 9,
+    "type": "user",
+    "message": "yes",
+    "timestamp": "2025-09-10T10:03:58.918Z"
+  },
+  {
+    "sessionId": "81559875-3628-471f-a2b6-0b2627f123ec",
+    "messageId": 10,
+    "type": "user",
+    "message": "okay thanks",
+    "timestamp": "2025-09-10T10:05:59.838Z"
+  },
+  {
+    "sessionId": "81559875-3628-471f-a2b6-0b2627f123ec",
+    "messageId": 11,
+    "type": "user",
+    "message": "now can you check generate_test_data.py inside seminars/management/commands its a file i got from another project could you adapt it to this one so it generate a superuser with its admin profile and generate reviewer profiles and authors profiles, and seminars and articles and reviews and universities ....",
+    "timestamp": "2025-09-10T10:10:23.119Z"
+  },
+  {
+    "sessionId": "81559875-3628-471f-a2b6-0b2627f123ec",
+    "messageId": 12,
+    "type": "user",
+    "message": "go ahead",
+    "timestamp": "2025-09-10T10:11:52.602Z"
+  },
+  {
+    "sessionId": "81559875-3628-471f-a2b6-0b2627f123ec",
+    "messageId": 13,
+    "type": "user",
+    "message": "❯ make init-backend\nInitializing backend...\nCreating database migrations...\nTraceback (most recent call last):\n  File \"/app/manage.py\", line 22, in <module>\n    main()\n  File \"/app/manage.py\", line 18, in main\n    execute_from_command_line(sys.argv)\n  File \"/usr/local/lib/python3.11/site-packages/django/core/management/__init__.py\", line 442, in execute_from_command_line\n    utility.execute()\n  File \"/usr/local/lib/python3.11/site-packages/django/core/management/__init__.py\", line 416, in execute\n    django.setup()\n  File \"/usr/local/lib/python3.11/site-packages/django/__init__.py\", line 24, in setup\n    apps.populate(settings.INSTALLED_APPS)\n  File \"/usr/local/lib/python3.11/site-packages/django/apps/registry.py\", line 116, in populate\n    app_config.import_models()\n  File \"/usr/local/lib/python3.11/site-packages/django/apps/config.py\", line 269, in import_models\n    self.models_module = import_module(models_module_name)\n                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/importlib/__init__.py\", line 126, in import_module\n    return _bootstrap._gcd_import(name[level:], package, level)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<frozen importlib._bootstrap>\", line 1204, in _gcd_import\n  File \"<frozen importlib._bootstrap>\", line 1176, in _find_and_load\n  File \"<frozen importlib._bootstrap>\", line 1147, in _find_and_load_unlocked\n  File \"<frozen importlib._bootstrap>\", line 690, in _load_unlocked\n  File \"<frozen importlib._bootstrap_external>\", line 940, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 241, in _call_with_frames_removed\n  File \"/app/apps/accounts/models/__init__.py\", line 2, in <module>\n    from .profile import Profile, Role\n  File \"/app/apps/accounts/models/profile.py\", line 1, in <module>\n    from apps.universities.models.university import University\n  File \"/app/apps/universities/models/__init__.py\", line 1, in <module>\n    from .university import University\n  File \"/app/apps/universities/models/university.py\", line 4, in <module>\n    class University(models.Model):\n  File \"/usr/local/lib/python3.11/site-packages/django/db/models/base.py\", line 136, in __new__\n    raise RuntimeError(\nRuntimeError: Model class apps.universities.models.university.University doesn't declare an explicit app_label and isn't in an application in INSTALLED_APPS.\n\nmake: *** [Makefile:6: init-backend] Error 1\n(base)",
+    "timestamp": "2025-09-10T10:14:09.663Z"
+  },
+  {
+    "sessionId": "81559875-3628-471f-a2b6-0b2627f123ec",
+    "messageId": 14,
+    "type": "user",
+    "message": "❯ make init-backend\nInitializing backend...\nCreating database migrations...\nTraceback (most recent call last):\n  File \"/app/manage.py\", line 22, in <module>\n    main()\n  File \"/app/manage.py\", line 18, in main\n    execute_from_command_line(sys.argv)\n  File \"/usr/local/lib/python3.11/site-packages/django/core/management/__init__.py\", line 442, in execute_from_command_line\n    utility.execute()\n  File \"/usr/local/lib/python3.11/site-packages/django/core/management/__init__.py\", line 416, in execute\n    django.setup()\n  File \"/usr/local/lib/python3.11/site-packages/django/__init__.py\", line 24, in setup\n    apps.populate(settings.INSTALLED_APPS)\n  File \"/usr/local/lib/python3.11/site-packages/django/apps/registry.py\", line 116, in populate\n    app_config.import_models()\n  File \"/usr/local/lib/python3.11/site-packages/django/apps/config.py\", line 269, in import_models\n    self.models_module = import_module(models_module_name)\n                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/importlib/__init__.py\", line 126, in import_module\n    return _bootstrap._gcd_import(name[level:], package, level)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<frozen importlib._bootstrap>\", line 1204, in _gcd_import\n  File \"<frozen importlib._bootstrap>\", line 1176, in _find_and_load\n  File \"<frozen importlib._bootstrap>\", line 1147, in _find_and_load_unlocked\n  File \"<frozen importlib._bootstrap>\", line 690, in _load_unlocked\n  File \"<frozen importlib._bootstrap_external>\", line 940, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 241, in _call_with_frames_removed\n  File \"/app/apps/accounts/models/__init__.py\", line 2, in <module>\n    from .profile import Profile, Role\n  File \"/app/apps/accounts/models/profile.py\", line 1, in <module>\n    from apps.universities.models.university import University\n  File \"/app/apps/universities/models/__init__.py\", line 1, in <module>\n    from .university import University\n  File \"/app/apps/universities/models/university.py\", line 4, in <module>\n    class University(models.Model):\n  File \"/usr/local/lib/python3.11/site-packages/django/db/models/base.py\", line 136, in __new__\n    raise RuntimeError(\nRuntimeError: Model class apps.universities.models.university.University doesn't declare an explicit app_label and isn't in an application in INSTALLED_APPS.\n\nmake: *** [Makefile:6: init-backend] Error 1\n(base)",
+    "timestamp": "2025-09-10T10:16:32.891Z"
+  },
+  {
+    "sessionId": "81559875-3628-471f-a2b6-0b2627f123ec",
+    "messageId": 15,
+    "type": "user",
+    "message": "❯ make init-backend\nInitializing backend...\nCreating database migrations...\nTraceback (most recent call last):\n  File \"/app/manage.py\", line 22, in <module>\n    main()\n  File \"/app/manage.py\", line 18, in main\n    execute_from_command_line(sys.argv)\n  File \"/usr/local/lib/python3.11/site-packages/django/core/management/__init__.py\", line 442, in execute_from_command_line\n    utility.execute()\n  File \"/usr/local/lib/python3.11/site-packages/django/core/management/__init__.py\", line 416, in execute\n    django.setup()\n  File \"/usr/local/lib/python3.11/site-packages/django/__init__.py\", line 24, in setup\n    apps.populate(settings.INSTALLED_APPS)\n  File \"/usr/local/lib/python3.11/site-packages/django/apps/registry.py\", line 116, in populate\n    app_config.import_models()\n  File \"/usr/local/lib/python3.11/site-packages/django/apps/config.py\", line 269, in import_models\n    self.models_module = import_module(models_module_name)\n                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/importlib/__init__.py\", line 126, in import_module\n    return _bootstrap._gcd_import(name[level:], package, level)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<frozen importlib._bootstrap>\", line 1204, in _gcd_import\n  File \"<frozen importlib._bootstrap>\", line 1176, in _find_and_load\n  File \"<frozen importlib._bootstrap>\", line 1147, in _find_and_load_unlocked\n  File \"<frozen importlib._bootstrap>\", line 690, in _load_unlocked\n  File \"<frozen importlib._bootstrap_external>\", line 940, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 241, in _call_with_frames_removed\n  File \"/app/apps/seminars/models/__init__.py\", line 1, in <module>\n    from .article import Article\n  File \"/app/apps/seminars/models/article.py\", line 2, in <module>\n    from apps.accounts.models import Profile\n  File \"/app/apps/accounts/models/__init__.py\", line 1, in <module>\n    from .user import User\n  File \"/app/apps/accounts/models/user.py\", line 5, in <module>\n    class User(AbstractUser):\n  File \"/usr/local/lib/python3.11/site-packages/django/db/models/base.py\", line 136, in __new__\n    raise RuntimeError(\nRuntimeError: Model class apps.accounts.models.user.User doesn't declare an explicit app_label and isn't in an application in INSTALLED_APPS.\n\nmake: *** [Makefile:6: init-backend] Error 1\n(base)",
+    "timestamp": "2025-09-10T10:31:21.673Z"
+  },
+  {
+    "sessionId": "81559875-3628-471f-a2b6-0b2627f123ec",
+    "messageId": 16,
+    "type": "user",
+    "message": "there is an app label you can check",
+    "timestamp": "2025-09-10T10:47:39.447Z"
+  },
+  {
+    "sessionId": "81559875-3628-471f-a2b6-0b2627f123ec",
+    "messageId": 17,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-09-10T11:26:17.024Z"
+  },
+  {
+    "sessionId": "916bcf03-666c-4d85-bcfd-2dc52f2f9cf2",
+    "messageId": 0,
+    "type": "user",
+    "message": "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/rest_framework/settings.py\", line 227, in __getattr__\n    val = perform_import(val, attr)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/rest_framework/settings.py\", line 168, in perform_import\n    return import_from_string(val, setting_name)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/rest_framework/settings.py\", line 179, in import_from_string\n    return import_string(val)\n           ^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/django/utils/module_loading.py\", line 30, in import_string\n    return cached_import(module_path, class_name)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/django/utils/module_loading.py\", line 15, in cached_import\n    module = import_module(module_path)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/importlib/__init__.py\", line 126, in import_module\n    return _bootstrap._gcd_import(name[level:], package, level)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/apps/accounts/serializers/__init__.py\", line 2, in <module>\n    from .profile import ProfileSerializer, RoleSerializer\n  File \"/app/apps/accounts/serializers/profile.py\", line 6, in <module>\n    from ..models import Profile, Role\n  File \"/app/apps/accounts/models/__init__.py\", line 1, in <module>\n    from .user import User\n  File \"/app/apps/accounts/models/user.py\", line 5, in <module>\n    class User(AbstractUser):\n  File \"/usr/local/lib/python3.11/site-packages/django/db/models/base.py\", line 322, in __new__\n    new_class.add_to_class(field.name, new_field)\n  File \"/usr/local/lib/python3.11/site-packages/django/db/models/base.py\", line 373, in add_to_class\n    value.contribute_to_class(cls, name)\n  File \"/usr/local/lib/python3.11/site-packages/django/db/models/fields/related.py\", line 1991, in contribute_to_class\n    self.remote_field.through = create_many_to_many_intermediary_model(\n                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/django/db/models/fields/related.py\", line 1340, in create_many_to_many_intermediary_model\n    return type(\n           ^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/django/db/models/base.py\", line 368, in __new__\n    new_class._meta.apps.register_model(new_class._meta.app_label, new_class)\n  File \"/usr/local/lib/python3.11/site-packages/django/apps/registry.py\", line 234, in register_model\n    raise RuntimeError(\nRuntimeError: Conflicting 'user_groups' models in application 'accounts': <class 'apps.accounts.models.user.User_groups'> and <class 'accounts.models.user.User_groups'>.\n\nmake: *** [Makefile:6: init-backend] Error 1\n(base)",
+    "timestamp": "2025-09-10T11:26:23.664Z"
+  },
+  {
+    "sessionId": "ca4feadc-ffed-475f-8638-8148771be927",
+    "messageId": 0,
+    "type": "user",
+    "message": "could you add new app called seminar and remove the app eurotack and its traces from settings",
+    "timestamp": "2025-09-10T15:36:13.085Z"
+  },
+  {
+    "sessionId": "ca4feadc-ffed-475f-8638-8148771be927",
+    "messageId": 1,
+    "type": "user",
+    "message": "dont use python command just put the files",
+    "timestamp": "2025-09-10T15:38:25.969Z"
+  },
+  {
+    "sessionId": "ca4feadc-ffed-475f-8638-8148771be927",
+    "messageId": 2,
+    "type": "user",
+    "message": "no models and views and serializers are all folders with file for each model article, review",
+    "timestamp": "2025-09-10T15:45:12.035Z"
+  },
+  {
+    "sessionId": "0c26f2e0-a91f-4c3e-9499-8699aaf5c778",
+    "messageId": 0,
+    "type": "user",
+    "message": "y gemi in the app seminar in models paper and review are empty could you suggest somthing",
+    "timestamp": "2025-09-10T16:57:24.831Z"
+  },
+  {
+    "sessionId": "0c26f2e0-a91f-4c3e-9499-8699aaf5c778",
+    "messageId": 1,
+    "type": "user",
+    "message": "what the hell i asked you just about paper.py and review.py",
+    "timestamp": "2025-09-10T17:00:20.359Z"
+  },
+  {
+    "sessionId": "0c26f2e0-a91f-4c3e-9499-8699aaf5c778",
+    "messageId": 2,
+    "type": "user",
+    "message": "okay for paper the field authors inst charfield but rather a list of profiles of type author and reviewer in review isnt of type user but profile of type Reviewer",
+    "timestamp": "2025-09-10T17:03:26.433Z"
+  },
+  {
+    "sessionId": "0c26f2e0-a91f-4c3e-9499-8699aaf5c778",
+    "messageId": 3,
+    "type": "user",
+    "message": "i already have profile in accounts you can check",
+    "timestamp": "2025-09-10T17:04:23.022Z"
+  },
+  {
+    "sessionId": "0c26f2e0-a91f-4c3e-9499-8699aaf5c778",
+    "messageId": 4,
+    "type": "user",
+    "message": "i changed my mind for paper authors is a list of profile with the field role hase name = \"author\" and for review reviewer is a profile with the field role has the name = \"reviwer\"",
+    "timestamp": "2025-09-10T17:20:27.299Z"
+  },
+  {
+    "sessionId": "0c26f2e0-a91f-4c3e-9499-8699aaf5c778",
+    "messageId": 5,
+    "type": "user",
+    "message": "you shoud not create reviewer when creatin the review it doesnt have any actual meaning reviewers are already sign up users",
+    "timestamp": "2025-09-10T17:23:48.317Z"
+  },
+  {
+    "sessionId": "0c26f2e0-a91f-4c3e-9499-8699aaf5c778",
+    "messageId": 6,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-09-10T18:05:45.777Z"
+  },
+  {
+    "sessionId": "45bdbee9-81b9-4432-b4ca-2ba0ddcfa2cf",
+    "messageId": 0,
+    "type": "user",
+    "message": "hey gemini inside seminar models/__init__.py could you add the missing imports",
+    "timestamp": "2025-09-10T18:06:19.441Z"
+  },
+  {
+    "sessionId": "45bdbee9-81b9-4432-b4ca-2ba0ddcfa2cf",
+    "messageId": 1,
+    "type": "user",
+    "message": "no its false check the class names inside each file before imports",
+    "timestamp": "2025-09-10T18:07:35.640Z"
+  },
+  {
+    "sessionId": "45bdbee9-81b9-4432-b4ca-2ba0ddcfa2cf",
+    "messageId": 2,
+    "type": "user",
+    "message": "there is repition in the file __init__.py",
+    "timestamp": "2025-09-10T18:08:57.264Z"
+  },
+  {
+    "sessionId": "45bdbee9-81b9-4432-b4ca-2ba0ddcfa2cf",
+    "messageId": 3,
+    "type": "user",
+    "message": "okay i want the missing files in serializers/ and in views/",
+    "timestamp": "2025-09-10T18:09:55.271Z"
+  },
+  {
+    "sessionId": "45bdbee9-81b9-4432-b4ca-2ba0ddcfa2cf",
+    "messageId": 4,
+    "type": "user",
+    "message": "i told you about missing files review.py, seminar.py ..... in both views and serializers",
+    "timestamp": "2025-09-10T18:13:37.339Z"
+  },
+  {
+    "sessionId": "45bdbee9-81b9-4432-b4ca-2ba0ddcfa2cf",
+    "messageId": 5,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-09-10T18:22:17.984Z"
+  },
+  {
+    "sessionId": "d4c27975-d53f-4fd7-b8e8-3369598a27c8",
+    "messageId": 0,
+    "type": "user",
+    "message": "could you check in management/commands the file generate_test_data.py and complete it",
+    "timestamp": "2025-09-10T18:23:24.835Z"
+  },
+  {
+    "sessionId": "d4c27975-d53f-4fd7-b8e8-3369598a27c8",
+    "messageId": 1,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-09-10T18:57:59.226Z"
+  },
+  {
+    "sessionId": "331d2b2f-8630-4585-8b6b-d7ae7197c9fd",
+    "messageId": 0,
+    "type": "user",
+    "message": "check in seminars/models in all files models is not imported",
+    "timestamp": "2025-09-10T19:04:18.588Z"
+  },
+  {
+    "sessionId": "331d2b2f-8630-4585-8b6b-d7ae7197c9fd",
+    "messageId": 1,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-09-11T11:48:09.704Z"
+  },
+  {
+    "sessionId": "57a0a600-19c8-44cb-b690-6e71a4f63bcd",
+    "messageId": 0,
+    "type": "user",
+    "message": "hey gemi check backend apps seminars models and add missing import in each file if there is",
+    "timestamp": "2025-09-11T11:48:43.887Z"
+  },
+  {
+    "sessionId": "57a0a600-19c8-44cb-b690-6e71a4f63bcd",
+    "messageId": 1,
+    "type": "user",
+    "message": "undo what you done",
+    "timestamp": "2025-09-11T11:52:47.112Z"
+  },
+  {
+    "sessionId": "57a0a600-19c8-44cb-b690-6e71a4f63bcd",
+    "messageId": 2,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-09-11T12:01:39.942Z"
+  },
+  {
+    "sessionId": "d45869cd-ecc8-4652-a60f-a50463a665ed",
+    "messageId": 0,
+    "type": "user",
+    "message": "__init__.py in backend/apps/seminar/serializers imports are missing",
+    "timestamp": "2025-09-11T12:13:01.273Z"
+  },
+  {
+    "sessionId": "d45869cd-ecc8-4652-a60f-a50463a665ed",
+    "messageId": 1,
+    "type": "user",
+    "message": "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/django/core/checks/urls.py\", line 63, in _load_all_namespaces\n    url_patterns = getattr(resolver, \"url_patterns\", [])\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/django/utils/functional.py\", line 47, in __get__\n    res = instance.__dict__[self.name] = self.func(instance)\n                                         ^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/django/urls/resolvers.py\", line 718, in url_patterns\n    patterns = getattr(self.urlconf_module, \"urlpatterns\", self.urlconf_module)\n                       ^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/django/utils/functional.py\", line 47, in __get__\n    res = instance.__dict__[self.name] = self.func(instance)\n                                         ^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/django/urls/resolvers.py\", line 711, in urlconf_module\n    return import_module(self.urlconf_name)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/importlib/__init__.py\", line 126, in import_module\n    return _bootstrap._gcd_import(name[level:], package, level)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<frozen importlib._bootstrap>\", line 1204, in _gcd_import\n  File \"<frozen importlib._bootstrap>\", line 1176, in _find_and_load\n  File \"<frozen importlib._bootstrap>\", line 1147, in _find_and_load_unlocked\n  File \"<frozen importlib._bootstrap>\", line 690, in _load_unlocked\n  File \"<frozen importlib._bootstrap_external>\", line 940, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 241, in _call_with_frames_removed\n  File \"/app/conf/urls.py\", line 11, in <module>\n    path(\"api/\", include(\"eurotrack.urls\")),\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/django/urls/conf.py\", line 39, in include\n    urlconf_module = import_module(urlconf_module)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/importlib/__init__.py\", line 126, in import_module\n    return _bootstrap._gcd_import(name[level:], package, level)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<frozen importlib._bootstrap>\", line 1204, in _gcd_import\n  File \"<frozen importlib._bootstrap>\", line 1176, in _find_and_load\n  File \"<frozen importlib._bootstrap>\", line 1126, in _find_and_load_unlocked\n  File \"<frozen importlib._bootstrap>\", line 241, in _call_with_frames_removed\n  File \"<frozen importlib._bootstrap>\", line 1204, in _gcd_import\n  File \"<frozen importlib._bootstrap>\", line 1176, in _find_and_load\n  File \"<frozen importlib._bootstrap>\", line 1140, in _find_and_load_unlocked\nModuleNotFoundError: No module named 'eurotrack'\n\nmake: *** [Makefile:6: init-backend] Error 1",
+    "timestamp": "2025-09-11T12:14:11.430Z"
+  },
+  {
+    "sessionId": "d45869cd-ecc8-4652-a60f-a50463a665ed",
+    "messageId": 2,
+    "type": "user",
+    "message": "could you correct the imports in apps/seminars its serilaizers and views files its seminars not seminar",
+    "timestamp": "2025-09-11T12:19:54.397Z"
+  },
+  {
+    "sessionId": "d45869cd-ecc8-4652-a60f-a50463a665ed",
+    "messageId": 3,
+    "type": "user",
+    "message": "^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/django/urls/resolvers.py\", line 711, in urlconf_module\n    return import_module(self.urlconf_name)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/importlib/__init__.py\", line 126, in import_module\n    return _bootstrap._gcd_import(name[level:], package, level)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<frozen importlib._bootstrap>\", line 1204, in _gcd_import\n  File \"<frozen importlib._bootstrap>\", line 1176, in _find_and_load\n  File \"<frozen importlib._bootstrap>\", line 1147, in _find_and_load_unlocked\n  File \"<frozen importlib._bootstrap>\", line 690, in _load_unlocked\n  File \"<frozen importlib._bootstrap_external>\", line 940, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 241, in _call_with_frames_removed\n  File \"/app/conf/urls.py\", line 11, in <module>\n    path(\"api/\", include(\"seminars.urls\")),\n                 ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/django/urls/conf.py\", line 39, in include\n    urlconf_module = import_module(urlconf_module)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/importlib/__init__.py\", line 126, in import_module\n    return _bootstrap._gcd_import(name[level:], package, level)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<frozen importlib._bootstrap>\", line 1204, in _gcd_import\n  File \"<frozen importlib._bootstrap>\", line 1176, in _find_and_load\n  File \"<frozen importlib._bootstrap>\", line 1147, in _find_and_load_unlocked\n  File \"<frozen importlib._bootstrap>\", line 690, in _load_unlocked\n  File \"<frozen importlib._bootstrap_external>\", line 940, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 241, in _call_with_frames_removed\n  File \"/app/apps/seminars/urls.py\", line 3, in <module>\n    from .views.seminar import SeminarViewSet\n  File \"/app/apps/seminars/views/__init__.py\", line 1, in <module>\n    from .country import CountryViewSet\n  File \"/app/apps/seminars/views/country.py\", line 2, in <module>\n    from seminars.serializers import CountrySerializer\n  File \"/app/apps/seminars/serializers/__init__.py\", line 7, in <module>\n    from .topic import TopicSerializer\nImportError: cannot import name 'TopicSerializer' from 'seminars.serializers.topic' (/app/apps/seminars/serializers/topic.py)\n\nmake: *** [Makefile:6: init-backend] Error 1",
+    "timestamp": "2025-09-11T12:23:05.074Z"
+  },
+  {
+    "sessionId": "d45869cd-ecc8-4652-a60f-a50463a665ed",
+    "messageId": 4,
+    "type": "user",
+    "message": "❯ make init-backend\nInitializing backend...\nCreating database migrations...\nSystemCheckError: System check identified some issues:\n\nERRORS:\nseminars.Submission.assigned_reviewers: (fields.E335) The model is used as an intermediate model by 'seminars.Submission.assigned_reviewers', but it has more than one foreign key to 'User',\n which is ambiguous. You must specify which foreign key Django should use via the through_fields keyword argument.\n        HINT: If you want to create a recursive relationship, use ManyToManyField(\"self\", through=\"ReviewAssignment\").\n\nmake: *** [Makefile:6: init-backend] Error 1\n(base)*",
+    "timestamp": "2025-09-11T12:24:32.639Z"
+  },
+  {
+    "sessionId": "d45869cd-ecc8-4652-a60f-a50463a665ed",
+    "messageId": 5,
+    "type": "user",
+    "message": "File \"<frozen importlib._bootstrap>\", line 690, in _load_unlocked\n  File \"<frozen importlib._bootstrap_external>\", line 940, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 241, in _call_with_frames_removed\n  File \"/app/apps/seminars/management/commands/generate_test_data.py\", line 7, in <module>\n    from seminarorg.models import (\nModuleNotFoundError: No module named 'seminarorg'\n\nmake: *** [Makefile:43: generate-test-data] Error 1",
+    "timestamp": "2025-09-11T12:47:28.575Z"
+  },
+  {
+    "sessionId": "d45869cd-ecc8-4652-a60f-a50463a665ed",
+    "messageId": 6,
+    "type": "user",
+    "message": "/usr/local/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1671: RuntimeWarning: DateTimeField User.date_joined received a naive datetime (2025-02-02 13:48:08.102543) while\n time zone support is active.\n  warnings.warn(\n/usr/local/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1671: RuntimeWarning: DateTimeField User.date_joined received a naive datetime (2025-02-14 13:48:08.632963) while\n time zone support is active.\n  warnings.warn(\n/usr/local/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1671: RuntimeWarning: DateTimeField User.date_joined received a naive datetime (2024-10-06 13:48:09.162849) while\n time zone support is active.\n  warnings.warn(\n/usr/local/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1671: RuntimeWarning: DateTimeField User.date_joined received a naive datetime (2024-10-01 13:48:09.687107) while\n time zone support is active.\n  warnings.warn(\n/usr/local/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1671: RuntimeWarning: DateTimeField User.date_joined received a naive datetime (2025-03-04 13:48:10.251203) while\n time zone support is active.\n  warnings.warn(\n/usr/local/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1671: RuntimeWarning: DateTimeField User.date_joined received a naive datetime (2025-03-02 13:48:10.799332) while\n time zone support is active.\n  warnings.warn(\n14 additional users generated.\nGenerating profiles...\nProfile already exists for user: admin. Skipping.\nTraceback (most recent call last):\n  File \"/app/manage.py\", line 22, in <module>\n    main()\n  File \"/app/manage.py\", line 18, in main\n    execute_from_command_line(sys.argv)\n  File \"/usr/local/lib/python3.11/site-packages/django/core/management/__init__.py\", line 442, in execute_from_command_line\n    utility.execute()\n  File \"/usr/local/lib/python3.11/site-packages/django/core/management/__init__.py\", line 436, in execute\n    self.fetch_command(subcommand).run_from_argv(self.argv)\n  File \"/usr/local/lib/python3.11/site-packages/django/core/management/base.py\", line 416, in run_from_argv\n    self.execute(*args, **cmd_options)\n  File \"/usr/local/lib/python3.11/site-packages/django/core/management/base.py\", line 460, in execute\n    output = self.handle(*args, **options)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/apps/seminars/management/commands/generate_test_data.py\", line 32, in handle\n    self.generate_profiles(all_users)\n  File \"/app/apps/seminars/management/commands/generate_test_data.py\", line 321, in generate_profiles\n    Profile(\n  File \"/usr/local/lib/python3.11/site-packages/django/db/models/base.py\", line 569, in __init__\n    raise TypeError(\nTypeError: Profile() got unexpected keyword arguments: 'status'\n\nmake: *** [Makefile:43: generate-test-data] Error 1\n(base)\n~/coding/web/seminar on  main $✘!?",
+    "timestamp": "2025-09-11T12:48:21.517Z"
+  },
+  {
+    "sessionId": "d45869cd-ecc8-4652-a60f-a50463a665ed",
+    "messageId": 7,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-09-11T12:48:28.170Z"
+  },
+  {
+    "sessionId": "b732a303-fa46-40ad-b2d4-c87c277e2b23",
+    "messageId": 0,
+    "type": "user",
+    "message": "/usr/local/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1671: RuntimeWarning: DateTimeField User.date_joined received a naive datetime (2025-02-02 13:48:08.102543) while\n time zone support is active.\n  warnings.warn(\n/usr/local/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1671: RuntimeWarning: DateTimeField User.date_joined received a naive datetime (2025-02-14 13:48:08.632963) while\n time zone support is active.\n  warnings.warn(\n/usr/local/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1671: RuntimeWarning: DateTimeField User.date_joined received a naive datetime (2024-10-06 13:48:09.162849) while\n time zone support is active.\n  warnings.warn(\n/usr/local/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1671: RuntimeWarning: DateTimeField User.date_joined received a naive datetime (2024-10-01 13:48:09.687107) while\n time zone support is active.\n  warnings.warn(\n/usr/local/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1671: RuntimeWarning: DateTimeField User.date_joined received a naive datetime (2025-03-04 13:48:10.251203) while\n time zone support is active.\n  warnings.warn(\n/usr/local/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1671: RuntimeWarning: DateTimeField User.date_joined received a naive datetime (2025-03-02 13:48:10.799332) while\n time zone support is active.\n  warnings.warn(\n14 additional users generated.\nGenerating profiles...\nProfile already exists for user: admin. Skipping.\nTraceback (most recent call last):\n  File \"/app/manage.py\", line 22, in <module>\n    main()\n  File \"/app/manage.py\", line 18, in main\n    execute_from_command_line(sys.argv)\n  File \"/usr/local/lib/python3.11/site-packages/django/core/management/__init__.py\", line 442, in execute_from_command_line\n    utility.execute()\n  File \"/usr/local/lib/python3.11/site-packages/django/core/management/__init__.py\", line 436, in execute\n    self.fetch_command(subcommand).run_from_argv(self.argv)\n  File \"/usr/local/lib/python3.11/site-packages/django/core/management/base.py\", line 416, in run_from_argv\n    self.execute(*args, **cmd_options)\n  File \"/usr/local/lib/python3.11/site-packages/django/core/management/base.py\", line 460, in execute\n    output = self.handle(*args, **options)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/apps/seminars/management/commands/generate_test_data.py\", line 32, in handle\n    self.generate_profiles(all_users)\n  File \"/app/apps/seminars/management/commands/generate_test_data.py\", line 321, in generate_profiles\n    Profile(\n  File \"/usr/local/lib/python3.11/site-packages/django/db/models/base.py\", line 569, in __init__\n    raise TypeError(\nTypeError: Profile() got unexpected keyword arguments: 'status'\n\nmake: *** [Makefile:43: generate-test-data] Error 1\n(base)\n~/coding/web/seminar on  main $✘!?",
+    "timestamp": "2025-09-11T12:48:38.542Z"
+  },
+  {
+    "sessionId": "b732a303-fa46-40ad-b2d4-c87c277e2b23",
+    "messageId": 1,
+    "type": "user",
+    "message": "/usr/local/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1671: RuntimeWarning: DateTimeField User.date_joined received a naive datetime (2025-02-02 13:48:08.102543) while\n time zone support is active.\n  warnings.warn(\n/usr/local/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1671: RuntimeWarning: DateTimeField User.date_joined received a naive datetime (2025-02-14 13:48:08.632963) while\n time zone support is active.\n  warnings.warn(\n/usr/local/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1671: RuntimeWarning: DateTimeField User.date_joined received a naive datetime (2024-10-06 13:48:09.162849) while\n time zone support is active.\n  warnings.warn(\n/usr/local/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1671: RuntimeWarning: DateTimeField User.date_joined received a naive datetime (2024-10-01 13:48:09.687107) while\n time zone support is active.\n  warnings.warn(\n/usr/local/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1671: RuntimeWarning: DateTimeField User.date_joined received a naive datetime (2025-03-04 13:48:10.251203) while\n time zone support is active.\n  warnings.warn(\n/usr/local/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1671: RuntimeWarning: DateTimeField User.date_joined received a naive datetime (2025-03-02 13:48:10.799332) while\n time zone support is active.\n  warnings.warn(\n14 additional users generated.\nGenerating profiles...\nProfile already exists for user: admin. Skipping.\nTraceback (most recent call last):\n  File \"/app/manage.py\", line 22, in <module>\n    main()\n  File \"/app/manage.py\", line 18, in main\n    execute_from_command_line(sys.argv)\n  File \"/usr/local/lib/python3.11/site-packages/django/core/management/__init__.py\", line 442, in execute_from_command_line\n    utility.execute()\n  File \"/usr/local/lib/python3.11/site-packages/django/core/management/__init__.py\", line 436, in execute\n    self.fetch_command(subcommand).run_from_argv(self.argv)\n  File \"/usr/local/lib/python3.11/site-packages/django/core/management/base.py\", line 416, in run_from_argv\n    self.execute(*args, **cmd_options)\n  File \"/usr/local/lib/python3.11/site-packages/django/core/management/base.py\", line 460, in execute\n    output = self.handle(*args, **options)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/apps/seminars/management/commands/generate_test_data.py\", line 32, in handle\n    self.generate_profiles(all_users)\n  File \"/app/apps/seminars/management/commands/generate_test_data.py\", line 321, in generate_profiles\n    Profile(\n  File \"/usr/local/lib/python3.11/site-packages/django/db/models/base.py\", line 569, in __init__\n    raise TypeError(\nTypeError: Profile() got unexpected keyword arguments: 'status'\n\nmake: *** [Makefile:43: generate-test-data] Error 1\n(base)\n~/coding/web/seminar on  main $✘!",
+    "timestamp": "2025-09-11T12:49:04.710Z"
+  },
+  {
+    "sessionId": "b732a303-fa46-40ad-b2d4-c87c277e2b23",
+    "messageId": 2,
+    "type": "user",
+    "message": "help me with that error : /usr/local/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1671: RuntimeWarning: DateTimeField User.date_joined received a naive datetime (2025-02-02 13:48:08.102543) while\n time zone support is active.\n  warnings.warn(\n/usr/local/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1671: RuntimeWarning: DateTimeField User.date_joined received a naive datetime (2025-02-14 13:48:08.632963) while\n time zone support is active.\n  warnings.warn(\n/usr/local/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1671: RuntimeWarning: DateTimeField User.date_joined received a naive datetime (2024-10-06 13:48:09.162849) while\n time zone support is active.\n  warnings.warn(\n/usr/local/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1671: RuntimeWarning: DateTimeField User.date_joined received a naive datetime (2024-10-01 13:48:09.687107) while\n time zone support is active.\n  warnings.warn(\n/usr/local/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1671: RuntimeWarning: DateTimeField User.date_joined received a naive datetime (2025-03-04 13:48:10.251203) while\n time zone support is active.\n  warnings.warn(\n/usr/local/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1671: RuntimeWarning: DateTimeField User.date_joined received a naive datetime (2025-03-02 13:48:10.799332) while\n time zone support is active.\n  warnings.warn(\n14 additional users generated.\nGenerating profiles...\nProfile already exists for user: admin. Skipping.\nTraceback (most recent call last):\n  File \"/app/manage.py\", line 22, in <module>\n    main()\n  File \"/app/manage.py\", line 18, in main\n    execute_from_command_line(sys.argv)\n  File \"/usr/local/lib/python3.11/site-packages/django/core/management/__init__.py\", line 442, in execute_from_command_line\n    utility.execute()\n  File \"/usr/local/lib/python3.11/site-packages/django/core/management/__init__.py\", line 436, in execute\n    self.fetch_command(subcommand).run_from_argv(self.argv)\n  File \"/usr/local/lib/python3.11/site-packages/django/core/management/base.py\", line 416, in run_from_argv\n    self.execute(*args, **cmd_options)\n  File \"/usr/local/lib/python3.11/site-packages/django/core/management/base.py\", line 460, in execute\n    output = self.handle(*args, **options)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/apps/seminars/management/commands/generate_test_data.py\", line 32, in handle\n    self.generate_profiles(all_users)\n  File \"/app/apps/seminars/management/commands/generate_test_data.py\", line 321, in generate_profiles\n    Profile(\n  File \"/usr/local/lib/python3.11/site-packages/django/db/models/base.py\", line 569, in __init__\n    raise TypeError(\nTypeError: Profile() got unexpected keyword arguments: 'status'\n\nmake: *** [Makefile:43: generate-test-data] Error 1\n(base)\n~/coding/web/seminar on  main $✘!?",
+    "timestamp": "2025-09-11T12:49:15.844Z"
+  },
+  {
+    "sessionId": "b732a303-fa46-40ad-b2d4-c87c277e2b23",
+    "messageId": 3,
+    "type": "user",
+    "message": "what status is for ?",
+    "timestamp": "2025-09-11T12:49:54.458Z"
+  },
+  {
+    "sessionId": "b732a303-fa46-40ad-b2d4-c87c277e2b23",
+    "messageId": 4,
+    "type": "user",
+    "message": "okay go on",
+    "timestamp": "2025-09-11T12:50:24.204Z"
+  },
+  {
+    "sessionId": "b732a303-fa46-40ad-b2d4-c87c277e2b23",
+    "messageId": 5,
+    "type": "user",
+    "message": "should it be choices no ?",
+    "timestamp": "2025-09-11T12:50:56.075Z"
+  },
+  {
+    "sessionId": "b732a303-fa46-40ad-b2d4-c87c277e2b23",
+    "messageId": 6,
+    "type": "user",
+    "message": "dont forget its a seminar research app",
+    "timestamp": "2025-09-11T12:51:33.372Z"
+  },
+  {
+    "sessionId": "b732a303-fa46-40ad-b2d4-c87c277e2b23",
+    "messageId": 7,
+    "type": "user",
+    "message": "no choose choices according to genearate_test_data.py",
+    "timestamp": "2025-09-11T12:52:12.022Z"
+  },
+  {
+    "sessionId": "103dab9a-25af-4c7c-b025-805745fb9641",
+    "messageId": 0,
+    "type": "user",
+    "message": "hey gemi could you check generate-test-data.py its inside backand apps/seminars/management/commands and make sure to remove function that tries to generate stuff i didnt declare in my models you can check apps/seminars/models and apps/accounts/models",
+    "timestamp": "2025-09-12T10:14:24.955Z"
+  },
+  {
+    "sessionId": "103dab9a-25af-4c7c-b025-805745fb9641",
+    "messageId": 1,
+    "type": "user",
+    "message": "role exists you didnt even checked",
+    "timestamp": "2025-09-12T10:15:28.345Z"
+  },
+  {
+    "sessionId": "103dab9a-25af-4c7c-b025-805745fb9641",
+    "messageId": 2,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-09-12T10:18:39.479Z"
+  },
+  {
+    "sessionId": "f04577d7-32d8-4457-bf65-08b4d77ad180",
+    "messageId": 0,
+    "type": "user",
+    "message": "self.execute(*args, **cmd_options)\n  File \"/usr/local/lib/python3.11/site-packages/django/core/management/base.py\", line 460, in execute\n    output = self.handle(*args, **options)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/apps/seminars/management/commands/generate_test_data.py\", line 35, in handle\n    submissions = self.generate_submissions(seminars, num_submissions=150)\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/apps/seminars/management/commands/generate_test_data.py\", line 578, in generate_submissions\n    Submission.objects.bulk_create(submissions_to_create)\n  File \"/usr/local/lib/python3.11/site-packages/django/db/models/manager.py\", line 87, in manager_method\n    return getattr(self.get_queryset(), name)(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/django/db/models/query.py\", line 823, in bulk_create\n    returned_columns = self._batched_insert(\n                       ^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/django/db/models/query.py\", line 1896, in _batched_insert\n    self._insert(\n  File \"/usr/local/lib/python3.11/site-packages/django/db/models/query.py\", line 1868, in _insert\n    return query.get_compiler(using=using).execute_sql(returning_fields)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py\", line 1882, in execute_sql\n    cursor.execute(sql, params)\n  File \"/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py\", line 122, in execute\n    return super().execute(sql, params)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py\", line 79, in execute\n    return self._execute_with_wrappers(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py\", line 92, in _execute_with_wrappers\n    return executor(sql, params, many, context)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py\", line 100, in _execute\n    with self.db.wrap_database_errors:\n  File \"/usr/local/lib/python3.11/site-packages/django/db/utils.py\", line 91, in __exit__\n    raise dj_exc_value.with_traceback(traceback) from exc_value\n  File \"/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py\", line 105, in _execute\n    return self.cursor.execute(sql, params)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/psycopg/cursor.py\", line 97, in execute\n    raise ex.with_traceback(None)\ndjango.db.utils.IntegrityError: duplicate key value violates unique constraint \"seminars_submission_submission_id_key\"\nDETAIL:  Key (submission_id)=() already exists.\n\nmake: *** [Makefile:43: generate-test-data] Error 1\n(base)",
+    "timestamp": "2025-09-12T10:18:58.523Z"
+  },
+  {
+    "sessionId": "f04577d7-32d8-4457-bf65-08b4d77ad180",
+    "messageId": 1,
+    "type": "user",
+    "message": "hey gemi could you register models in admin for app seminars",
+    "timestamp": "2025-09-12T10:34:32.940Z"
+  },
+  {
+    "sessionId": "f04577d7-32d8-4457-bf65-08b4d77ad180",
+    "messageId": 2,
+    "type": "user",
+    "message": "in auth layout its says welcome to nanegui its not nanegui any more its sémi-org look in frontend",
+    "timestamp": "2025-09-12T10:49:58.744Z"
+  },
+  {
+    "sessionId": "f04577d7-32d8-4457-bf65-08b4d77ad180",
+    "messageId": 3,
+    "type": "user",
+    "message": "Sémi-Org not Séminaire-org",
+    "timestamp": "2025-09-12T10:50:28.529Z"
+  },
+  {
+    "sessionId": "f04577d7-32d8-4457-bf65-08b4d77ad180",
+    "messageId": 4,
+    "type": "user",
+    "message": "hey gemi could you tell me in the app nav menu what are the items ?",
+    "timestamp": "2025-09-12T10:57:51.650Z"
+  },
+  {
+    "sessionId": "f04577d7-32d8-4457-bf65-08b4d77ad180",
+    "messageId": 5,
+    "type": "user",
+    "message": "okay could you remove history an carriers",
+    "timestamp": "2025-09-12T10:58:44.777Z"
+  },
+  {
+    "sessionId": "f04577d7-32d8-4457-bf65-08b4d77ad180",
+    "messageId": 6,
+    "type": "user",
+    "message": "and change the to others to submissions and reviewers",
+    "timestamp": "2025-09-12T10:59:18.529Z"
+  },
+  {
+    "sessionId": "f04577d7-32d8-4457-bf65-08b4d77ad180",
+    "messageId": 7,
+    "type": "user",
+    "message": "in lib/api check everything than right queries.ts and fetchers.ts inside submission so it works along with the backend for submissions",
+    "timestamp": "2025-09-12T11:01:57.604Z"
+  },
+  {
+    "sessionId": "f04577d7-32d8-4457-bf65-08b4d77ad180",
+    "messageId": 8,
+    "type": "user",
+    "message": "ok now could you right pages/submissions/index.tsx it will be well organized and framed and present to you a paginated list of submissions",
+    "timestamp": "2025-09-12T11:06:39.662Z"
+  },
+  {
+    "sessionId": "f04577d7-32d8-4457-bf65-08b4d77ad180",
+    "messageId": 9,
+    "type": "user",
+    "message": "there is no data-table what i sugest to you is to create a folder inside components called submissions and inside submissions there will be all components related to the submissions page along with them submissionsTable wich will use Table  inspire from this example i found online : import { useTranslation } from \"react-i18next\"; // Added for re-indexing\nimport { AssignPackageDialog } from \"./AssignPackageDialog\";\nimport { CarrierStatusBadge } from \"./CarrierStatusBadge\";\nimport {\n  Table,\n  TableBody,\n  TableCell,\n  TableHead,\n  TableHeader,\n  TableRow,\n} from \"@/components/ui/table\";\nimport { Button } from \"@/components/ui/button\";\nimport { Avatar, AvatarFallback, AvatarImage } from \"@/components/ui/avatar\";\nimport {\n  User,\n  MoreHorizontal,\n  CheckCircle,\n  XCircle,\n  Truck,\n} from \"lucide-react\";\nimport {\n  DropdownMenu,\n  DropdownMenuContent,\n  DropdownMenuItem,\n  DropdownMenuTrigger,\n} from \"@/components/ui/dropdown-menu\";\n\ninterface CarrierTableProps {\n  carriers: any[];\n}\n\nexport function CarrierTable({ carriers }: CarrierTableProps) {\n  const { t } = useTranslation();\n  return (\n    <div className=\"rounded-md border bg-card\">\n      <Table>\n        <TableHeader>\n          <TableRow className=\"hover:bg-transparent border-b\">\n            <TableHead className=\"font-semibold text-foreground\">\n              <div className=\"flex items-center gap-2\">\n                <User className=\"h-4 w-4\" />\n                {t(\"carrier_table_header_carrier\")}\n              </div>\n            </TableHead>\n            <TableHead className=\"font-semibold text-foreground\">\n              <div className=\"flex items-center gap-2\">\n                <Truck className=\"h-4 w-4\" />\n                {t(\"carrier_table_header_status\")}",
+    "timestamp": "2025-09-12T11:10:37.751Z"
+  },
+  {
+    "sessionId": "f04577d7-32d8-4457-bf65-08b4d77ad180",
+    "messageId": 10,
+    "type": "user",
+    "message": "[plugin:vite:react-babel] /app/src/pages/submissions/index.tsx: 'return' outside of function. (15:2)\n  18 |         <CardTitle>{t(\"submissions_page.title\")}</CardTitle>\n\n/app/src/pages/submissions/index.tsx:15:2\n\n13 |  \n14 |  // Define columns for the DataTable\n15 |    return (\n   |    ^\n16 |      <Card>\n17 |        <CardHeader>\n\n    at constructor (/app/node_modules/@babel/parser/lib/index.js:363:19)\n    at TypeScriptParserMixin.raise (/app/node_modules/@babel/parser/lib/index.js:6609:19)\n    at TypeScriptParserMixin.parseReturnStatement (/app/node_modules/@babel/parser/lib/index.js:13055:12)\n    at TypeScriptParserMixin.parseStatementContent (/app/node_modules/@babel/parser/lib/index.js:12716:21)\n    at TypeScriptParserMixin.parseStatementContent (/app/node_modules/@babel/parser/lib/index.js:9469:18)\n    at TypeScriptParserMixin.parseStatementLike (/app/node_modules/@babel/parser/lib/index.js:12685:17)\n    at TypeScriptParserMixin.parseModuleItem (/app/node_modules/@babel/parser/lib/index.js:12662:17)\n    at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/app/node_modules/@babel/parser/lib/index.js:13235:36)\n    at TypeScriptParserMixin.parseBlockBody (/app/node_modules/@babel/parser/lib/index.js:13228:10)\n    at TypeScriptParserMixin.parseProgram (/app/node_modules/@babel/parser/lib/index.js:12541:10)\n    at TypeScriptParserMixin.parseTopLevel (/app/node_modules/@babel/parser/lib/index.js:12531:25)\n    at TypeScriptParserMixin.parse (/app/node_modules/@babel/parser/lib/index.js:14410:10)\n    at TypeScriptParserMixin.parse (/app/node_modules/@babel/parser/lib/index.js:10086:18)\n    at parse (/app/node_modules/@babel/parser/lib/index.js:14444:38)\n    at parser (/app/node_modules/@babel/core/lib/parser/index.js:41:34)\n    at parser.next (<anonymous>)\n    at normalizeFile (/app/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)\n    at normalizeFile.next (<anonymous>)\n    at run (/app/node_modules/@babel/core/lib/transformation/index.js:22:50)\n    at run.next (<anonymous>)\n    at transform (/app/node_modules/@babel/core/lib/transform.js:22:33)\n    at transform.next (<anonymous>)\n    at step (/app/node_modules/gensync/index.js:261:32)\n    at /app/node_modules/gensync/index.js:273:13\n    at async.call.result.err.err (/app/node_modules/gensync/index.js:223:11)\n    at /app/node_modules/gensync/index.js:189:28\n    at /app/node_modules/@babel/core/lib/gensync-utils/async.js:67:7",
+    "timestamp": "2025-09-12T11:11:48.349Z"
+  },
+  {
+    "sessionId": "f04577d7-32d8-4457-bf65-08b4d77ad180",
+    "messageId": 11,
+    "type": "user",
+    "message": "whats wrong with you lib/api/submission everything is wrong inspire from the other quiries and fetchers like package for example",
+    "timestamp": "2025-09-12T11:14:00.747Z"
+  },
+  {
+    "sessionId": "f04577d7-32d8-4457-bf65-08b4d77ad180",
+    "messageId": 12,
+    "type": "user",
+    "message": "The requested module 'http://localhost:5173/src/lib/types.ts' doesn't provide an export named: 'Submission'",
+    "timestamp": "2025-09-12T11:16:52.526Z"
+  },
+  {
+    "sessionId": "f04577d7-32d8-4457-bf65-08b4d77ad180",
+    "messageId": 13,
+    "type": "user",
+    "message": "okay now i need inside lib/api another folder reviewer with fetchers.tsx and queries.tsx it gets profiles with role reviewer check the backend the accounts app",
+    "timestamp": "2025-09-12T14:05:48.689Z"
+  },
+  {
+    "sessionId": "f04577d7-32d8-4457-bf65-08b4d77ad180",
+    "messageId": 14,
+    "type": "user",
+    "message": "okay now gemi in submission page in the table component you should allow the admin to affec a submission to a reviewer if its not the case yet",
+    "timestamp": "2025-09-12T14:09:25.331Z"
+  },
+  {
+    "sessionId": "f04577d7-32d8-4457-bf65-08b4d77ad180",
+    "messageId": 15,
+    "type": "user",
+    "message": "no it shouldnt be in submission folder create new folder with new fetchers and queries",
+    "timestamp": "2025-09-12T14:11:25.571Z"
+  },
+  {
+    "sessionId": "f04577d7-32d8-4457-bf65-08b4d77ad180",
+    "messageId": 16,
+    "type": "user",
+    "message": "[plugin:vite:import-analysis] Failed to resolve import \"@/components/ui/use-toast\" from \"src/components/submissions/AssignReviewerDialog.tsx\". Does the file exist?\n\n/app/src/components/submissions/AssignReviewerDialog.tsx:21:25\n\n35 |    SelectValue\n36 |  } from \"@/components/ui/select\";\n37 |  import { useToast } from \"@/components/ui/use-toast\";\n   |                            ^\n38 |  import { useReviewerProfilesQuery } from \"@/lib/api/reviewer/queries\";\n39 |  import { useCreateReviewAssignment } from \"@/lib/api/review-assignment/queries\";",
+    "timestamp": "2025-09-12T14:14:10.876Z"
+  },
+  {
+    "sessionId": "f04577d7-32d8-4457-bf65-08b4d77ad180",
+    "messageId": 17,
+    "type": "user",
+    "message": "why dont you check components/ui",
+    "timestamp": "2025-09-12T14:14:36.028Z"
+  },
+  {
+    "sessionId": "f04577d7-32d8-4457-bf65-08b4d77ad180",
+    "messageId": 18,
+    "type": "user",
+    "message": "could you change the approach and remove reviewer from lib/api i just chekced inside li/api/auth there is a query useListOfUsersByRole could you check",
+    "timestamp": "2025-09-12T14:19:05.770Z"
+  },
+  {
+    "sessionId": "f04577d7-32d8-4457-bf65-08b4d77ad180",
+    "messageId": 19,
+    "type": "user",
+    "message": "The requested module 'http://localhost:5173/src/lib/types.ts?t=1757686204642' doesn't provide an export named: 'ReviewAssignment'",
+    "timestamp": "2025-09-12T14:21:41.446Z"
+  },
+  {
+    "sessionId": "f04577d7-32d8-4457-bf65-08b4d77ad180",
+    "messageId": 20,
+    "type": "user",
+    "message": "The requested module 'http://localhost:5173/src/components/ui/sonner.tsx' doesn't provide an export named: 'toast'",
+    "timestamp": "2025-09-12T14:23:10.398Z"
+  },
+  {
+    "sessionId": "f04577d7-32d8-4457-bf65-08b4d77ad180",
+    "messageId": 21,
+    "type": "user",
+    "message": "toast is deprectaed here is the webpage of the sonner docs https://ui.shadcn.com/docs/components/sonner",
+    "timestamp": "2025-09-12T14:26:57.639Z"
+  },
+  {
+    "sessionId": "f04577d7-32d8-4457-bf65-08b4d77ad180",
+    "messageId": 22,
+    "type": "user",
+    "message": "fuck check https://ui.shadcn.com/docs/components/sonner",
+    "timestamp": "2025-09-12T14:27:50.164Z"
+  },
+  {
+    "sessionId": "f04577d7-32d8-4457-bf65-08b4d77ad180",
+    "messageId": 23,
+    "type": "user",
+    "message": "are you dumb fetch the doc wget or curl it https://ui.shadcn.com/docs/components/sonner",
+    "timestamp": "2025-09-12T14:28:16.734Z"
+  },
+  {
+    "sessionId": "f04577d7-32d8-4457-bf65-08b4d77ad180",
+    "messageId": 24,
+    "type": "user",
+    "message": "fuck gemi there is no toas there is Toaster check inside components/ui/sonner",
+    "timestamp": "2025-09-12T14:29:36.517Z"
+  },
+  {
+    "sessionId": "f04577d7-32d8-4457-bf65-08b4d77ad180",
+    "messageId": 25,
+    "type": "user",
+    "message": "The requested module 'http://localhost:5173/src/lib/api/submission/queries.ts?t=1757686977371' doesn't provide an export named: 'submissionKeys'",
+    "timestamp": "2025-09-12T14:30:36.812Z"
+  },
+  {
+    "sessionId": "f04577d7-32d8-4457-bf65-08b4d77ad180",
+    "messageId": 26,
+    "type": "user",
+    "message": "useSubmissionsQuery is not defined",
+    "timestamp": "2025-09-12T14:35:50.746Z"
+  },
+  {
+    "sessionId": "f04577d7-32d8-4457-bf65-08b4d77ad180",
+    "messageId": 27,
+    "type": "user",
+    "message": "its working now bit assing submition action should appear only if the subission isnt already assigned",
+    "timestamp": "2025-09-12T15:02:19.646Z"
+  },
+  {
+    "sessionId": "f04577d7-32d8-4457-bf65-08b4d77ad180",
+    "messageId": 28,
+    "type": "user",
+    "message": "could you remove the id from the table",
+    "timestamp": "2025-09-12T15:03:57.408Z"
+  },
+  {
+    "sessionId": "f04577d7-32d8-4457-bf65-08b4d77ad180",
+    "messageId": 29,
+    "type": "user",
+    "message": "ok remove score also",
+    "timestamp": "2025-09-12T15:04:51.488Z"
+  },
+  {
+    "sessionId": "f04577d7-32d8-4457-bf65-08b4d77ad180",
+    "messageId": 30,
+    "type": "user",
+    "message": "okay assing reviewer action should appear if subission has less than 3 reviewers",
+    "timestamp": "2025-09-12T15:06:42.183Z"
+  },
+  {
+    "sessionId": "f04577d7-32d8-4457-bf65-08b4d77ad180",
+    "messageId": 31,
+    "type": "user",
+    "message": "another action should let you see the reviewers list",
+    "timestamp": "2025-09-12T15:07:45.794Z"
+  },
+  {
+    "sessionId": "f04577d7-32d8-4457-bf65-08b4d77ad180",
+    "messageId": 32,
+    "type": "user",
+    "message": "the action isnt properly translated in actions choice",
+    "timestamp": "2025-09-12T15:10:06.411Z"
+  },
+  {
+    "sessionId": "f04577d7-32d8-4457-bf65-08b4d77ad180",
+    "messageId": 33,
+    "type": "user",
+    "message": "i see this in the browser so its not properly translated submissions_table.assign_reviewer",
+    "timestamp": "2025-09-12T15:11:56.404Z"
+  },
+  {
+    "sessionId": "f04577d7-32d8-4457-bf65-08b4d77ad180",
+    "messageId": 34,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-09-12T15:14:34.097Z"
+  },
+  {
+    "sessionId": "ef352260-a6d9-4343-ba3e-7dbd2d9346a2",
+    "messageId": 0,
+    "type": "user",
+    "message": "hey gemi submissions_table.assign_reviewer this is not properly translated its in the table component inside components/submissions",
+    "timestamp": "2025-09-12T15:15:12.700Z"
+  },
+  {
+    "sessionId": "ef352260-a6d9-4343-ba3e-7dbd2d9346a2",
+    "messageId": 1,
+    "type": "user",
+    "message": "SubmissionsTable.tsx isnt properly translated",
+    "timestamp": "2025-09-12T15:19:07.721Z"
+  },
+  {
+    "sessionId": "ef352260-a6d9-4343-ba3e-7dbd2d9346a2",
+    "messageId": 2,
+    "type": "user",
+    "message": "table_header_actions",
+    "timestamp": "2025-09-12T15:19:59.170Z"
+  },
+  {
+    "sessionId": "ef352260-a6d9-4343-ba3e-7dbd2d9346a2",
+    "messageId": 3,
+    "type": "user",
+    "message": "but its not translated fuck sake i read it like this in the browser table_header_actions",
+    "timestamp": "2025-09-12T15:20:22.235Z"
+  },
+  {
+    "sessionId": "ef352260-a6d9-4343-ba3e-7dbd2d9346a2",
+    "messageId": 4,
+    "type": "user",
+    "message": "check translationS.json there is nothing am sure",
+    "timestamp": "2025-09-12T15:25:48.177Z"
+  },
+  {
+    "sessionId": "ef352260-a6d9-4343-ba3e-7dbd2d9346a2",
+    "messageId": 5,
+    "type": "user",
+    "message": "check translation.json there is nothing am sure",
+    "timestamp": "2025-09-12T15:26:09.849Z"
+  },
+  {
+    "sessionId": "ef352260-a6d9-4343-ba3e-7dbd2d9346a2",
+    "messageId": 6,
+    "type": "user",
+    "message": "okay but in both translation.json submisions_table.view_reviwers is missing",
+    "timestamp": "2025-09-12T15:29:54.261Z"
+  },
+  {
+    "sessionId": "ef352260-a6d9-4343-ba3e-7dbd2d9346a2",
+    "messageId": 7,
+    "type": "user",
+    "message": "okay its woking now",
+    "timestamp": "2025-09-12T17:51:11.199Z"
+  },
+  {
+    "sessionId": "ef352260-a6d9-4343-ba3e-7dbd2d9346a2",
+    "messageId": 8,
+    "type": "user",
+    "message": "Error: Bad argument type. Starting with v5, only the \"Object\" form is allowed when calling query related functions. Please use the error stack to find the culprit call. More info here: https://tanstack.com/query/latest/docs/react/guides/migrating-to-v5#supports-a-single-signature-one-object\n    useBaseQuery useBaseQuery.ts:46\n    useQuery useQuery.ts:51\n    ViewReviewersDialog ViewReviewersDialog.tsx:39\n    React 14\n    dispatchDiscreteCustomEvent primitive.tsx:97\n    handleSelect menu.tsx:628\n    handleEvent primitive.tsx:10\n    React 8\n \n\nThe above error occurred in the <ViewReviewersDialog> component.\n\nReact will try to recreate this component tree from scratch using the error boundary you provided, CatchBoundaryImpl.\n Stack: \n    SubmissionsTable SubmissionsTable.tsx:134\n    SubmissionsPage index.tsx:68\n    Lazy lazyRouteComponent.tsx:101\n    out Match.tsx:199\n    React 3\n    MatchInnerImpl Match.tsx:196\n    MatchImpl Match.tsx:111\n    OutletImpl Match.tsx:317\n    RouteComponent _main.tsx:53\n    Lazy lazyRouteComponent.tsx:101\n    out Match.tsx:199\n    React 3\n    MatchInnerImpl Match.tsx:196\n    MatchImpl Match.tsx:111\n    OutletImpl Match.tsx:317\n    RootComponent __root.tsx:12\n    out Match.tsx:199\n    React 3\n    MatchInnerImpl Match.tsx:196\n    MatchImpl Match.tsx:111\n    MatchesInner Matches.tsx:92",
+    "timestamp": "2025-09-13T11:01:01.662Z"
+  },
+  {
+    "sessionId": "ef352260-a6d9-4343-ba3e-7dbd2d9346a2",
+    "messageId": 9,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-09-13T11:02:16.608Z"
+  },
+  {
+    "sessionId": "3c971ecd-d135-48b4-8c43-709d51f99d1c",
+    "messageId": 0,
+    "type": "user",
+    "message": "XHRGET\nhttp://localhost:8000/api/users/91/\n[HTTP/1.1 500 Internal Server Error 64ms]",
+    "timestamp": "2025-09-13T11:02:28.170Z"
+  },
+  {
+    "sessionId": "3c971ecd-d135-48b4-8c43-709d51f99d1c",
+    "messageId": 1,
+    "type": "user",
+    "message": "AttributeError at /api/users/91/\n\n'UserSerializer' object has no attribute 'get_assigned_deliveries_count'\n\nRequest Method: GET\nRequest URL: http://localhost:8000/api/users/91/\nDjango Version: 5.2.4\nException Type: AttributeError\nException Value: \n\n'UserSerializer' object has no attribute 'get_assigned_deliveries_count'\n\nException Location: /usr/local/lib/python3.11/site-packages/rest_framework/fields.py, line 1869, in to_representation\nRaised during: accounts.views.user.UserViewSet\nPython Executable: /usr/local/bin/python\nPython Version: 3.11.4\nPython Path: \n\n['/app',\n '/usr/local/bin',\n '/usr/local/lib/python311.zip',\n '/usr/local/lib/python3.11',\n '/usr/local/lib/python3.11/lib-dynload',\n '/usr/local/lib/python3.11/site-packages',\n '/app/apps']\n\nServer time: Sat, 13 Sep 2025 12:01:55 +0100",
+    "timestamp": "2025-09-13T11:02:40.149Z"
+  },
+  {
+    "sessionId": "3c971ecd-d135-48b4-8c43-709d51f99d1c",
+    "messageId": 2,
+    "type": "user",
+    "message": "i dont want the term deliveries actualy this is an old project am converting it was about package deliveries but am converting it into seminar organization",
+    "timestamp": "2025-09-13T11:04:20.088Z"
+  },
+  {
+    "sessionId": "3c971ecd-d135-48b4-8c43-709d51f99d1c",
+    "messageId": 3,
+    "type": "user",
+    "message": "yes in ViewReviewersDialog.tsx the user should be able to delete a reviewer from the list",
+    "timestamp": "2025-09-13T11:20:14.669Z"
+  },
+  {
+    "sessionId": "3c971ecd-d135-48b4-8c43-709d51f99d1c",
+    "messageId": 4,
+    "type": "user",
+    "message": "actualy i dont like to work this way i like to work with lib/api/... there is review-assignment give it a check",
+    "timestamp": "2025-09-13T11:22:23.052Z"
+  },
+  {
+    "sessionId": "3c971ecd-d135-48b4-8c43-709d51f99d1c",
+    "messageId": 5,
+    "type": "user",
+    "message": "i dont use anything other than fetchers.ts and queries.ts",
+    "timestamp": "2025-09-13T11:23:26.720Z"
+  },
+  {
+    "sessionId": "3c971ecd-d135-48b4-8c43-709d51f99d1c",
+    "messageId": 6,
+    "type": "user",
+    "message": "check the backend before to see if that is possible this wat the app is seminars inside apps",
+    "timestamp": "2025-09-13T11:24:02.852Z"
+  },
+  {
+    "sessionId": "3c971ecd-d135-48b4-8c43-709d51f99d1c",
+    "messageId": 7,
+    "type": "user",
+    "message": "i dont like all that seems not beautiful in ViewReviewersDialog.tsx couldnt you unstead of using that use a query from review-assignments where the submission is the current submission than we can esealy delete the assignment ?",
+    "timestamp": "2025-09-13T11:29:05.694Z"
+  },
+  {
+    "sessionId": "3c971ecd-d135-48b4-8c43-709d51f99d1c",
+    "messageId": 8,
+    "type": "user",
+    "message": "the only thing i dont like is as if you didnt understood my approach i dont like to use directly useQuery on the file i like to define them in lib/api/..",
+    "timestamp": "2025-09-13T11:32:05.961Z"
+  },
+  {
+    "sessionId": "3c971ecd-d135-48b4-8c43-709d51f99d1c",
+    "messageId": 9,
+    "type": "user",
+    "message": "did you modify user recently ? from the backend ?",
+    "timestamp": "2025-09-13T11:36:52.146Z"
+  },
+  {
+    "sessionId": "3c971ecd-d135-48b4-8c43-709d51f99d1c",
+    "messageId": 10,
+    "type": "user",
+    "message": "no you did more for sure am getting this error   File \"/usr/local/lib/python3.11/importlib/__init__.py\", line 126, in import_module\n    return _bootstrap._gcd_import(name[level:], package, level)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<frozen importlib._bootstrap>\", line 1204, in _gcd_import\n  File \"<frozen importlib._bootstrap>\", line 1176, in _find_and_load\n  File \"<frozen importlib._bootstrap>\", line 1147, in _find_and_load_unlocked\n  File \"<frozen importlib._bootstrap>\", line 690, in _load_unlocked\n  File \"<frozen importlib._bootstrap_external>\", line 940, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 241, in _call_with_frames_removed\n  File \"/app/apps/seminars/urls.py\", line 3, in <module>\n    from .views.seminar import SeminarViewSet\n  File \"/app/apps/seminars/views/__init__.py\", line 1, in <module>\n    from .country import CountryViewSet\n  File \"/app/apps/seminars/views/country.py\", line 2, in <module>\n    from seminars.serializers import CountrySerializer\n  File \"/app/apps/seminars/serializers/__init__.py\", line 4, in <module>\n    from .reviewassignment import ReviewAssignmentSerializer\n  File \"/app/apps/seminars/serializers/reviewassignment.py\", line 3, in <module>\n    from apps.accounts.serializers import UserSerializer\n  File \"/app/apps/accounts/serializers/__init__.py\", line 2, in <module>\n    from .profile import ProfileSerializer, RoleSerializer\n  File \"/app/apps/accounts/serializers/profile.py\", line 5, in <module>\n    from ..models import Profile, Role\n  File \"/app/apps/accounts/models/__init__.py\", line 1, in <module>\n    from .user import User\n  File \"/app/apps/accounts/models/user.py\", line 5, in <module>\n    class User(AbstractUser):\n  File \"/usr/local/lib/python3.11/site-packages/django/db/models/base.py\", line 136, in __new__\n    raise RuntimeError(\nRuntimeError: Model class apps.accounts.models.user.User doesn't declare an explicit app_label and isn't in an application in INSTALLED_APPS.",
+    "timestamp": "2025-09-13T11:37:37.802Z"
+  },
+  {
+    "sessionId": "3c971ecd-d135-48b4-8c43-709d51f99d1c",
+    "messageId": 11,
+    "type": "user",
+    "message": "i can see any reviewer on the list",
+    "timestamp": "2025-09-13T15:20:51.568Z"
+  },
+  {
+    "sessionId": "3c971ecd-d135-48b4-8c43-709d51f99d1c",
+    "messageId": 12,
+    "type": "user",
+    "message": "can you check backend review-assignment to see if its possible to request this way ?",
+    "timestamp": "2025-09-13T15:22:19.072Z"
+  },
+  {
+    "sessionId": "3c971ecd-d135-48b4-8c43-709d51f99d1c",
+    "messageId": 13,
+    "type": "user",
+    "message": "Review Assignments: \nObject { count: 1, next: null, previous: null, results: (1) […] } but in ui its still an empty list",
+    "timestamp": "2025-09-13T15:24:13.321Z"
+  },
+  {
+    "sessionId": "3c971ecd-d135-48b4-8c43-709d51f99d1c",
+    "messageId": 14,
+    "type": "user",
+    "message": "or maybe just in the viewset make it not paginated i dont need this one to be paginated at all",
+    "timestamp": "2025-09-13T15:24:54.351Z"
+  },
+  {
+    "sessionId": "3c971ecd-d135-48b4-8c43-709d51f99d1c",
+    "messageId": 15,
+    "type": "user",
+    "message": "could you redo what you did i accidently modfied the file",
+    "timestamp": "2025-09-13T15:48:54.965Z"
+  },
+  {
+    "sessionId": "3c971ecd-d135-48b4-8c43-709d51f99d1c",
+    "messageId": 16,
+    "type": "user",
+    "message": "al talking about ViewReviewersList.tsx",
+    "timestamp": "2025-09-13T15:49:15.476Z"
+  },
+  {
+    "sessionId": "3c971ecd-d135-48b4-8c43-709d51f99d1c",
+    "messageId": 17,
+    "type": "user",
+    "message": "forget it in ViewReviwersDialog.tsx admin user should be able to remove reviewer if he want",
+    "timestamp": "2025-09-13T15:53:00.453Z"
+  },
+  {
+    "sessionId": "3c971ecd-d135-48b4-8c43-709d51f99d1c",
+    "messageId": 18,
+    "type": "user",
+    "message": "no need for admin only deletion just do it",
+    "timestamp": "2025-09-13T15:53:54.712Z"
+  },
+  {
+    "sessionId": "3c971ecd-d135-48b4-8c43-709d51f99d1c",
+    "messageId": 19,
+    "type": "user",
+    "message": "in AssignReviewerDialog.tsx the list is empty",
+    "timestamp": "2025-09-13T15:59:18.039Z"
+  },
+  {
+    "sessionId": "3c971ecd-d135-48b4-8c43-709d51f99d1c",
+    "messageId": 20,
+    "type": "user",
+    "message": "yes but in the frontend the selection is fucked up check it it select everything from the list",
+    "timestamp": "2025-09-13T16:04:10.584Z"
+  },
+  {
+    "sessionId": "3c971ecd-d135-48b4-8c43-709d51f99d1c",
+    "messageId": 21,
+    "type": "user",
+    "message": "User:  \nObject { id: 14, username: \"reviewer_dr.pierremartin967\", email: \"reviewer_dr.pierre.martin971@university.edu\", first_name: \"Dr. Pierre\", last_name: \"Martin\", profile: {…} }\n<anonymous code>:1:148389\nUser:  \nObject { id: 12, username: \"reviewer_harperharris868\", email: \"reviewer_harper.harris799@university.edu\", first_name: \"Harper\", last_name: \"Harris\", profile: {…} }\n<anonymous code>:1:148389\nUser:  \nObject { id: 15, username: \"reviewer_harperhernandez701\", email: \"reviewer_harper.hernandez949@university.edu\", first_name: \"Harper\", last_name: \"Hernandez\", profile: {…} }\n<anonymous code>:1:148389\nUser:  \nObject { id: 13, username: \"reviewer_harperlopez519\", email: \"reviewer_harper.lopez161@university.edu\", first_name: \"Harper\", last_name: \"Lopez\", profile: {…} }\n<anonymous code>:1:148389\nUser:  \nObject { id: 2, username: \"reviewer_henrydavis169\", email: \"reviewer_henry.davis528@university.edu\", first_name: \"Henry\", last_name: \"Davis\", profile: {…} }\n<anonymous code>:1:148389\nUser:  \nObject { id: 10, username: \"reviewer_jamesclark187\", email: \"reviewer_james.clark16@university.edu\", first_name: \"James\", last_name: \"Clark\", profile: {…} }\n<anonymous code>:1:148389\nUser:  \nObject { id: 4, username: \"reviewer_lauramoreau463\", email: \"reviewer_laura.moreau404@university.edu\", first_name: \"Laura\", last_name: \"Moreau\", profile: {…} }\n<anonymous code>:1:148389\nUser:  \nObject { id: 6, username: \"reviewer_matthewclark116\", email: \"reviewer_matthew.clark746@university.edu\", first_name: \"Matthew\", last_name: \"Clark\", profile: {…} }\n<anonymous code>:1:148389\nUser:  \nObject { id: 5, username: \"reviewer_robertanderson838\", email: \"reviewer_robert.anderson90@university.edu\", first_name: \"Robert\", last_name: \"Anderson\", profile: {…} }\n<anonymous code>:1:148389\nUser:  \nObject { id: 11, username: \"reviewer_sophiaanderson459\", email: \"reviewer_sophia.anderson496@university.edu\", first_name: \"Sophia\", last_name: \"Anderson\", profile: {…} }\n<anonymous code>:1:148389",
+    "timestamp": "2025-09-13T16:14:15.312Z"
+  },
+  {
+    "sessionId": "3c971ecd-d135-48b4-8c43-709d51f99d1c",
+    "messageId": 22,
+    "type": "user",
+    "message": "IntegrityError at /api/review-assignments/\n\nnull value in column \"reviewer_id\" of relation \"seminars_reviewassignment\" violates not-null constraint\nDETAIL:  Failing row contains (300, 2025-09-13 16:15:28.476519+00, null, f, 1, null, 150).\n\nRequest Method: POST\nRequest URL: http://localhost:8000/api/review-assignments/\nDjango Version: 5.2.4\nException Type: IntegrityError\nException Value: \n\nnull value in column \"reviewer_id\" of relation \"seminars_reviewassignment\" violates not-null constraint\nDETAIL:  Failing row contains (300, 2025-09-13 16:15:28.476519+00, null, f, 1, null, 150).\n\nException Location: /usr/local/lib/python3.11/site-packages/psycopg/cursor.py, line 97, in execute\nRaised during: seminars.views.reviewassignment.ReviewAssignmentViewSet\nPython Executable: /usr/local/bin/python\nPython Version: 3.11.4\nPython Path: \n\n['/app',\n '/usr/local/bin',\n '/usr/local/lib/python311.zip',\n '/usr/local/lib/python3.11',\n '/usr/local/lib/python3.11/lib-dynload',\n '/usr/local/lib/python3.11/site-packages',\n '/app/apps']\n\nServer time: Sat, 13 Sep 2025 17:15:28 +0100",
+    "timestamp": "2025-09-13T16:15:47.578Z"
+  },
+  {
+    "sessionId": "3c971ecd-d135-48b4-8c43-709d51f99d1c",
+    "messageId": 23,
+    "type": "user",
+    "message": "error 404 {\"reviewer_id\":[\"Ce champ est obligatoire.\"]}",
+    "timestamp": "2025-09-13T16:58:51.245Z"
+  },
+  {
+    "sessionId": "3c971ecd-d135-48b4-8c43-709d51f99d1c",
+    "messageId": 24,
+    "type": "user",
+    "message": "{\"reviewer_id\":[\"Ce champ est obligatoire.\"]}",
+    "timestamp": "2025-09-13T17:01:30.537Z"
+  },
+  {
+    "sessionId": "3c971ecd-d135-48b4-8c43-709d51f99d1c",
+    "messageId": 25,
+    "type": "user",
+    "message": "whats wrong with you ?",
+    "timestamp": "2025-09-13T17:02:16.363Z"
+  },
+  {
+    "sessionId": "3c971ecd-d135-48b4-8c43-709d51f99d1c",
+    "messageId": 26,
+    "type": "user",
+    "message": "[vite] hot updated: /src/index.css client:883:32\n[vite] hot updated: /src/components/submissions/AssignReviewerDialog.tsx client:883:32\n[vite] hot updated: /src/index.css client:883:32\n[vite] hot updated: /src/components/submissions/AssignReviewerDialog.tsx client:883:32\n[vite] hot updated: /src/index.css client:883:32\n[vite] hot updated: /src/components/submissions/AssignReviewerDialog.tsx client:883:32\n[vite] hot updated: /src/index.css client:883:32\nSelected Reviewer ID: 6 AssignReviewerDialog.tsx:63:15\nSelected Reviewer ID: 6 AssignReviewerDialog.tsx:64:15\nSelected Reviewer ID: 6 AssignReviewerDialog.tsx:65:15\nSelected Reviewer ID: 6",
+    "timestamp": "2025-09-13T17:02:33.404Z"
+  },
+  {
+    "sessionId": "3c971ecd-d135-48b4-8c43-709d51f99d1c",
+    "messageId": 27,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-09-13T17:03:37.254Z"
+  },
+  {
+    "sessionId": "398dab02-262e-4eb2-8acd-6bf43b116286",
+    "messageId": 0,
+    "type": "user",
+    "message": "when i select a reviewer in AssignReviewerDialog.tsx in frontend components/... i got this error {\"reviewer_id\":[\"Ce champ est obligatoire.\"]}",
+    "timestamp": "2025-09-13T17:04:12.025Z"
+  },
+  {
+    "sessionId": "398dab02-262e-4eb2-8acd-6bf43b116286",
+    "messageId": 1,
+    "type": "user",
+    "message": "check the backend before the seminar app",
+    "timestamp": "2025-09-13T17:05:14.571Z"
+  },
+  {
+    "sessionId": "398dab02-262e-4eb2-8acd-6bf43b116286",
+    "messageId": 2,
+    "type": "user",
+    "message": "check the view dumbass before assuming its expecting reviewer unstead of you stupid clame",
+    "timestamp": "2025-09-13T17:05:59.254Z"
+  },
+  {
+    "sessionId": "398dab02-262e-4eb2-8acd-6bf43b116286",
+    "messageId": 3,
+    "type": "user",
+    "message": "Selected Reviewer ID (string): 2 AssignReviewerDialog.tsx:63:15\nParsed Reviewer ID (integer): 2 AssignReviewerDialog.tsx:64:15\nXHRPOST\nhttp://localhost:8000/api/review-assignments/\n[HTTP/1.1 400 Bad Request 35ms]\n\nFailed to assign reviewer: \nObject { message: \"Request failed with status code 400\", name: \"AxiosError\", code: \"ERR_BAD_REQUEST\", config: {…}, request: XMLHttpRequest, response: {…}, status: 400, stack: \"\", … }\n<anonymous code>:1:145535",
+    "timestamp": "2025-09-13T17:07:04.876Z"
+  },
+  {
+    "sessionId": "398dab02-262e-4eb2-8acd-6bf43b116286",
+    "messageId": 4,
+    "type": "user",
+    "message": "still the same error",
+    "timestamp": "2025-09-13T17:08:27.308Z"
+  },
+  {
+    "sessionId": "398dab02-262e-4eb2-8acd-6bf43b116286",
+    "messageId": 5,
+    "type": "user",
+    "message": "you are going to far",
+    "timestamp": "2025-09-13T17:08:55.645Z"
+  },
+  {
+    "sessionId": "4fdfbce2-252e-434e-8978-cdd05bcad39a",
+    "messageId": 0,
+    "type": "user",
+    "message": "in both ViewReviewersDialog.tsx and AssignReviewerDialog.tsx there is an error TypeError: can't access property \"profile\", assignment.reviewer is undefined\n    children ViewReviewersDialog.tsx:66\n    ViewReviewersDialog ViewReviewersDialog.tsx:59\n    React 14\n    dispatchDiscreteCustomEvent primitive.tsx:97\n    handleSelect menu.tsx:628\n    handleEvent primitive.tsx:10\n    React 8\n \n\nThe above error occurred in the <ViewReviewersDialog> component.\n\nReact will try to recreate this component tree from scratch using the error boundary you provided, CatchBoundaryImpl.\n Stack:   2 -- XHRPOST\nhttp://localhost:8000/api/review-assignments/\n[HTTP/1.1 400 Bad Request 46ms]\n\nFailed to assign reviewer: \nObject { message: \"Request failed with status code 400\", name: \"AxiosError\", code: \"ERR_BAD_REQUEST\", config: {…}, request: XMLHttpRequest, response: {…}, status: 400, stack: \"\", … }",
+    "timestamp": "2025-09-15T10:55:50.483Z"
+  },
+  {
+    "sessionId": "4fdfbce2-252e-434e-8978-cdd05bcad39a",
+    "messageId": 1,
+    "type": "user",
+    "message": "can you check the backend to understand better in the seminar app",
+    "timestamp": "2025-09-15T10:56:57.181Z"
+  },
+  {
+    "sessionId": "4fdfbce2-252e-434e-8978-cdd05bcad39a",
+    "messageId": 2,
+    "type": "user",
+    "message": "no i dont use hooks for this i use lib/api",
+    "timestamp": "2025-09-15T10:58:34.725Z"
+  },
+  {
+    "sessionId": "4fdfbce2-252e-434e-8978-cdd05bcad39a",
+    "messageId": 3,
+    "type": "user",
+    "message": "i dont understand assignedByUserId what are you trying to do ?",
+    "timestamp": "2025-09-15T11:00:13.760Z"
+  },
+  {
+    "sessionId": "4fdfbce2-252e-434e-8978-cdd05bcad39a",
+    "messageId": 4,
+    "type": "user",
+    "message": "no go on",
+    "timestamp": "2025-09-15T11:00:50.466Z"
+  },
+  {
+    "sessionId": "4fdfbce2-252e-434e-8978-cdd05bcad39a",
+    "messageId": 5,
+    "type": "user",
+    "message": "ReferenceError: useAuth is not defined\n    AssignReviewerDialog AssignReviewerDialog.tsx:46\n    React 14\n    dispatchDiscreteCustomEvent primitive.tsx:97\n    handleSelect menu.tsx:628\n    handleEvent primitive.tsx:10\n    React 28\n    setValue use-controllable-state.tsx:59\n    onOpenToggle dropdown-menu.tsx:77\n    onPointerDown dropdown-menu.tsx:121\n    handleEvent primitive.tsx:10\n    React 13\n    <anonymous> main.tsx:65\n \n\nThe above error occurred in the <AssignReviewerDialog> component.\n\nReact will try to recreate this component tree from scratch using the error boundary you provided, CatchBoundaryImpl.\n Stack: \n    SubmissionsTable SubmissionsTable.tsx:126\n    SubmissionsPage index.tsx:68\n    Lazy lazyRouteComponent.tsx:101\n    out Match.tsx:199\n    React 3\n    MatchInnerImpl Match.tsx:196\n    MatchImpl Match.tsx:111\n    OutletImpl Match.tsx:317\n    RouteComponent _main.tsx:53\n    Lazy lazyRouteComponent.tsx:101\n    out Match.tsx:199\n    React 3",
+    "timestamp": "2025-09-15T11:02:05.620Z"
+  },
+  {
+    "sessionId": "4fdfbce2-252e-434e-8978-cdd05bcad39a",
+    "messageId": 6,
+    "type": "user",
+    "message": "am always getting this when i click on assign     Échec de l'assignation\n    Échec de l'assignation de l'évaluateur. Veuillez réessayer.",
+    "timestamp": "2025-09-15T11:04:47.816Z"
+  },
+  {
+    "sessionId": "4fdfbce2-252e-434e-8978-cdd05bcad39a",
+    "messageId": 7,
+    "type": "user",
+    "message": "no you did nothing",
+    "timestamp": "2025-09-15T11:05:23.839Z"
+  },
+  {
+    "sessionId": "4fdfbce2-252e-434e-8978-cdd05bcad39a",
+    "messageId": 8,
+    "type": "user",
+    "message": "its not even fetching when i click on assign",
+    "timestamp": "2025-09-15T11:06:25.801Z"
+  },
+  {
+    "sessionId": "4fdfbce2-252e-434e-8978-cdd05bcad39a",
+    "messageId": 9,
+    "type": "user",
+    "message": "selectedReviewerId 6 AssignReviewerDialog.tsx:59:13\nsubmission.id 150 AssignReviewerDialog.tsx:60:13\ncurrentUser \nObject { pk: 1, username: \"admin\", email: \"admin@example.com\", first_name: \"\", last_name: \"\", profile: {…} }",
+    "timestamp": "2025-09-15T11:07:11.512Z"
+  },
+  {
+    "sessionId": "4fdfbce2-252e-434e-8978-cdd05bcad39a",
+    "messageId": 10,
+    "type": "user",
+    "message": "okay but when you assign a reviewer it should invalidate the query in ViewReviewersDialog.tsx so the list is updated",
+    "timestamp": "2025-09-15T11:09:28.927Z"
+  },
+  {
+    "sessionId": "4fdfbce2-252e-434e-8978-cdd05bcad39a",
+    "messageId": 11,
+    "type": "user",
+    "message": "and when you remove a reviewer from the list in ViewReviewerDialog.tsx it should incalidate a query somewhere so the button assign a reviewer in actions is activated",
+    "timestamp": "2025-09-15T11:11:34.554Z"
+  },
+  {
+    "sessionId": "4fdfbce2-252e-434e-8978-cdd05bcad39a",
+    "messageId": 12,
+    "type": "user",
+    "message": "/Q",
+    "timestamp": "2025-09-15T11:49:31.845Z"
+  },
+  {
+    "sessionId": "4fdfbce2-252e-434e-8978-cdd05bcad39a",
+    "messageId": 13,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-09-15T11:49:36.456Z"
+  },
+  {
+    "sessionId": "e53d8b2f-92b5-4769-88de-7d7b2ace3564",
+    "messageId": 0,
+    "type": "user",
+    "message": "in the frontend i want a dirrent menu depending on the role of the connected user if the role is admin i want the current menu if its reviewer i want a different menu",
+    "timestamp": "2025-09-15T11:50:35.931Z"
+  },
+  {
+    "sessionId": "e53d8b2f-92b5-4769-88de-7d7b2ace3564",
+    "messageId": 1,
+    "type": "user",
+    "message": "dont use hooks",
+    "timestamp": "2025-09-15T11:50:53.078Z"
+  },
+  {
+    "sessionId": "e53d8b2f-92b5-4769-88de-7d7b2ace3564",
+    "messageId": 2,
+    "type": "user",
+    "message": "youll find the alternavie in lib/api/auth",
+    "timestamp": "2025-09-15T11:51:56.581Z"
+  },
+  {
+    "sessionId": "e53d8b2f-92b5-4769-88de-7d7b2ace3564",
+    "messageId": 3,
+    "type": "user",
+    "message": "there is no getUserRole its not necessarily the solution",
+    "timestamp": "2025-09-15T11:52:39.404Z"
+  },
+  {
+    "sessionId": "e53d8b2f-92b5-4769-88de-7d7b2ace3564",
+    "messageId": 4,
+    "type": "user",
+    "message": "no i want you to use the same approach is currently used check components/alyout/Header",
+    "timestamp": "2025-09-15T11:54:47.287Z"
+  },
+  {
+    "sessionId": "e53d8b2f-92b5-4769-88de-7d7b2ace3564",
+    "messageId": 5,
+    "type": "user",
+    "message": "fuck hooks i told not tio use it dumbass",
+    "timestamp": "2025-09-15T11:55:26.502Z"
+  },
+  {
+    "sessionId": "e53d8b2f-92b5-4769-88de-7d7b2ace3564",
+    "messageId": 6,
+    "type": "user",
+    "message": "not mes devoirs whats wrong with you it is research use the correct teminology",
+    "timestamp": "2025-09-15T11:57:22.559Z"
+  },
+  {
+    "sessionId": "e53d8b2f-92b5-4769-88de-7d7b2ace3564",
+    "messageId": 7,
+    "type": "user",
+    "message": "ive connected with a reviewer and the nav is still the same",
+    "timestamp": "2025-09-15T12:00:17.120Z"
+  },
+  {
+    "sessionId": "e53d8b2f-92b5-4769-88de-7d7b2ace3564",
+    "messageId": 8,
+    "type": "user",
+    "message": "check backend account to know where to find role its a field in profile but check first",
+    "timestamp": "2025-09-15T12:01:09.952Z"
+  },
+  {
+    "sessionId": "e53d8b2f-92b5-4769-88de-7d7b2ace3564",
+    "messageId": 9,
+    "type": "user",
+    "message": "no sorry itsq not type you should use role check models in the accounts app to understand maybe its not well seraialized but check first please dont upset me",
+    "timestamp": "2025-09-15T12:02:44.928Z"
+  },
+  {
+    "sessionId": "e53d8b2f-92b5-4769-88de-7d7b2ace3564",
+    "messageId": 10,
+    "type": "user",
+    "message": "i told you to check not only serializers but models 2",
+    "timestamp": "2025-09-15T12:03:17.956Z"
+  },
+  {
+    "sessionId": "e53d8b2f-92b5-4769-88de-7d7b2ace3564",
+    "messageId": 11,
+    "type": "user",
+    "message": "Uncaught SyntaxError: The requested module 'http://localhost:5173/src/lib/types.ts?t=1757937869251' doesn't provide an export named: 'UserRole'",
+    "timestamp": "2025-09-15T12:04:52.643Z"
+  },
+  {
+    "sessionId": "e53d8b2f-92b5-4769-88de-7d7b2ace3564",
+    "messageId": 12,
+    "type": "user",
+    "message": "in the nav of a reviewer he should have another item in the menu which is requests for assignment use the correct research teminolgy",
+    "timestamp": "2025-09-15T12:06:29.153Z"
+  },
+  {
+    "sessionId": "7956bfcc-b8ba-45ef-833a-2ec69e4ab266",
+    "messageId": 0,
+    "type": "user",
+    "message": "now ive added a folder in pages affectation-requests try to de the same as submissions but analyse the project the AssignReviewerDialog.tsx and the backend  the app sminar to understand what to do in the folder affectation-requests",
+    "timestamp": "2025-09-15T12:42:27.595Z"
+  },
+  {
+    "sessionId": "7956bfcc-b8ba-45ef-833a-2ec69e4ab266",
+    "messageId": 1,
+    "type": "user",
+    "message": "actualy its assignment-requests not affectation",
+    "timestamp": "2025-09-15T12:45:28.550Z"
+  },
+  {
+    "sessionId": "7956bfcc-b8ba-45ef-833a-2ec69e4ab266",
+    "messageId": 2,
+    "type": "user",
+    "message": "wtf no need for that",
+    "timestamp": "2025-09-15T12:46:29.614Z"
+  },
+  {
+    "sessionId": "7956bfcc-b8ba-45ef-833a-2ec69e4ab266",
+    "messageId": 3,
+    "type": "user",
+    "message": "i told you fuck dont do that stupid",
+    "timestamp": "2025-09-15T12:47:16.747Z"
+  },
+  {
+    "sessionId": "7956bfcc-b8ba-45ef-833a-2ec69e4ab266",
+    "messageId": 4,
+    "type": "user",
+    "message": "check routes too",
+    "timestamp": "2025-09-15T12:48:31.351Z"
+  },
+  {
+    "sessionId": "7956bfcc-b8ba-45ef-833a-2ec69e4ab266",
+    "messageId": 5,
+    "type": "user",
+    "message": "[plugin:vite:react-babel] /app/src/pages/assignment-requests/index.tsx: Identifier 'useState' has already been declared. (6:9)\n  9 |\n\n/app/src/pages/assignment-requests/index.tsx:6:9\n\n4  |  \n5  |  \n6  |  import { useState } from \"react\";\n   |           ^\n7  |  import { useTranslation } from \"react-i18next\";\n8  |  // import { useAssignmentRequestsQuery } from \"@/lib/api/assignment-request/queries\"; // This will be created later\n\n    at constructor (/app/node_modules/@babel/parser/lib/index.js:363:19)\n    at TypeScriptParserMixin.raise (/app/node_modules/@babel/parser/lib/index.js:6609:19)\n    at TypeScriptScopeHandler.declareName (/app/node_modules/@babel/parser/lib/index.js:4878:21)\n    at TypeScriptParserMixin.declareNameFromIdentifier (/app/node_modules/@babel/parser/lib/index.js:7538:16)\n    at TypeScriptParserMixin.checkIdentifier (/app/node_modules/@babel/parser/lib/index.js:7534:12)\n    at TypeScriptParserMixin.checkLVal (/app/node_modules/@babel/parser/lib/index.js:7475:12)\n    at TypeScriptParserMixin.finishImportSpecifier (/app/node_modules/@babel/parser/lib/index.js:14184:10)\n    at TypeScriptParserMixin.parseImportSpecifier (/app/node_modules/@babel/parser/lib/index.js:14341:17)\n    at TypeScriptParserMixin.parseImportSpecifier (/app/node_modules/@babel/parser/lib/index.js:10108:18)\n    at TypeScriptParserMixin.parseNamedImportSpecifiers (/app/node_modules/@babel/parser/lib/index.js:14320:36)\n    at TypeScriptParserMixin.parseImportSpecifiersAndAfter (/app/node_modules/@babel/parser/lib/index.js:14160:37)",
+    "timestamp": "2025-09-15T12:49:13.709Z"
+  },
+  {
+    "sessionId": "7956bfcc-b8ba-45ef-833a-2ec69e4ab266",
+    "messageId": 6,
+    "type": "user",
+    "message": "okay now check models in the semina app in review-assignment model dont you think i need to add a field that indicates if the reviewer accepted the task or not",
+    "timestamp": "2025-09-15T12:50:29.128Z"
+  },
+  {
+    "sessionId": "7956bfcc-b8ba-45ef-833a-2ec69e4ab266",
+    "messageId": 7,
+    "type": "user",
+    "message": "and if declined the review-assignment will be deleted",
+    "timestamp": "2025-09-15T12:51:15.160Z"
+  },
+  {
+    "sessionId": "7956bfcc-b8ba-45ef-833a-2ec69e4ab266",
+    "messageId": 8,
+    "type": "user",
+    "message": "now in assignment-requests it should display the pending reviewAssignments with the possiblility to accept or decline",
+    "timestamp": "2025-09-15T12:52:47.514Z"
+  },
+  {
+    "sessionId": "7956bfcc-b8ba-45ef-833a-2ec69e4ab266",
+    "messageId": 9,
+    "type": "user",
+    "message": "fuck gimini i told you now query for AssignmentSRequests the queries should reflect the backend endpoints for the query use lib/api/review-assignments its there",
+    "timestamp": "2025-09-15T12:54:13.779Z"
+  },
+  {
+    "sessionId": "7956bfcc-b8ba-45ef-833a-2ec69e4ab266",
+    "messageId": 10,
+    "type": "user",
+    "message": "fuck gemini there is not tanstack/react-table use same table as in submissions",
+    "timestamp": "2025-09-15T12:58:20.954Z"
+  },
+  {
+    "sessionId": "7956bfcc-b8ba-45ef-833a-2ec69e4ab266",
+    "messageId": 11,
+    "type": "user",
+    "message": "the assignment-requests table isnt dispaying anything because the review-assignment viewset is by default not paginated and its like that for a reason because i need it like that elsewhere",
+    "timestamp": "2025-09-15T13:02:12.867Z"
+  },
+  {
+    "sessionId": "7956bfcc-b8ba-45ef-833a-2ec69e4ab266",
+    "messageId": 12,
+    "type": "user",
+    "message": "now that you changed the approach in ViewReviewersDialog.tsx  the list is empty because its expecting a not paginated ..",
+    "timestamp": "2025-09-15T13:05:23.689Z"
+  },
+  {
+    "sessionId": "7956bfcc-b8ba-45ef-833a-2ec69e4ab266",
+    "messageId": 13,
+    "type": "user",
+    "message": "still not working it telling that the list is empy but i know  there is reviewers affected",
+    "timestamp": "2025-09-15T13:06:49.428Z"
+  },
+  {
+    "sessionId": "7956bfcc-b8ba-45ef-833a-2ec69e4ab266",
+    "messageId": 14,
+    "type": "user",
+    "message": "in this case paginated should be false",
+    "timestamp": "2025-09-15T13:07:40.698Z"
+  },
+  {
+    "sessionId": "7956bfcc-b8ba-45ef-833a-2ec69e4ab266",
+    "messageId": 15,
+    "type": "user",
+    "message": "the problem is when you modifyied viewset for reviewassignment how do you fetch when you need it paginated and how when you dont need it paginated",
+    "timestamp": "2025-09-15T13:10:02.925Z"
+  },
+  {
+    "sessionId": "7956bfcc-b8ba-45ef-833a-2ec69e4ab266",
+    "messageId": 16,
+    "type": "user",
+    "message": "try fetch somthing with curl with paginate=false to see if it works",
+    "timestamp": "2025-09-15T13:10:46.412Z"
+  },
+  {
+    "sessionId": "7956bfcc-b8ba-45ef-833a-2ec69e4ab266",
+    "messageId": 17,
+    "type": "user",
+    "message": "but you are not indicating paginate=false in the query",
+    "timestamp": "2025-09-15T13:14:30.380Z"
+  },
+  {
+    "sessionId": "7956bfcc-b8ba-45ef-833a-2ec69e4ab266",
+    "messageId": 18,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-09-15T15:45:00.519Z"
+  },
+  {
+    "sessionId": "0f96af77-a35a-44c3-b942-930dc407977a",
+    "messageId": 0,
+    "type": "user",
+    "message": "IntegrityError at /api/review-assignments/\n\nnull value in column \"is_completed\" of relation \"seminars_reviewassignment\" violates not-null constraint\nDETAIL:  Failing row contains (297, 2025-09-15 15:45:36.735659+00, null, null, null, 8, null, Pending).\n\nRequest Method: POST\nRequest URL: http://localhost:8000/api/review-assignments/\nDjango Version: 5.2.4\nException Type: IntegrityError\nException Value: \n\nnull value in column \"is_completed\" of relation \"seminars_reviewassignment\" violates not-null constraint\nDETAIL:  Failing row contains (297, 2025-09-15 15:45:36.735659+00, null, null, null, 8, null, Pending).\n\nException Location: /usr/local/lib/python3.11/site-packages/psycopg/cursor.py, line 97, in execute\nRaised during: seminars.views.reviewassignment.ReviewAssignmentViewSet\nPython Executable: /usr/local/bin/python",
+    "timestamp": "2025-09-15T15:45:56.930Z"
+  },
+  {
+    "sessionId": "0f96af77-a35a-44c3-b942-930dc407977a",
+    "messageId": 1,
+    "type": "user",
+    "message": "ImproperlyConfigured at /api/review-assignments/\n\nField name `is_completed` is not valid for model `ReviewAssignment` in `seminars.serializers.reviewassignment.ReviewAssignmentSerializer`.\n\nRequest Method: POST\nRequest URL: http://localhost:8000/api/review-assignments/\nDjango Version: 5.2.4\nException Type: ImproperlyConfigured\nException Value: \n\nField name `is_completed` is not valid for model `ReviewAssignment` in `seminars.serializers.reviewassignment.ReviewAssignmentSerializer`.\n\nException Location: /usr/local/lib/python3.11/site-packages/rest_framework/serializers.py, line 1369, in build_unknown_field\nRaised during: seminars.views.reviewassignment.ReviewAssignmentViewSet\nPython Executable: /usr/local/bin/python",
+    "timestamp": "2025-09-15T15:47:01.708Z"
+  },
+  {
+    "sessionId": "0f96af77-a35a-44c3-b942-930dc407977a",
+    "messageId": 2,
+    "type": "user",
+    "message": "IntegrityError at /api/review-assignments/\n\nnull value in column \"assigned_by_id\" of relation \"seminars_reviewassignment\" violates not-null constraint\nDETAIL:  Failing row contains (312, 2025-09-15 15:48:45.566607+00, null, f, null, 12, null, Pending).\n\nRequest Method: POST\nRequest URL: http://localhost:8000/api/review-assignments/\nDjango Version: 5.2.4\nException Type: IntegrityError\nException Value: \n\nnull value in column \"assigned_by_id\" of relation \"seminars_reviewassignment\" violates not-null constraint\nDETAIL:  Failing row contains (312, 2025-09-15 15:48:45.566607+00, null, f, null, 12, null, Pending).\n\nException Location: /usr/local/lib/python3.11/site-packages/psycopg/cursor.py, line 97, in execute\nRaised during: seminars.views.reviewassignment.ReviewAssignmentViewSet\nPython Executable: /usr/local/bin/python\nPython Version: 3.11.4",
+    "timestamp": "2025-09-15T15:48:55.311Z"
+  },
+  {
+    "sessionId": "0f96af77-a35a-44c3-b942-930dc407977a",
+    "messageId": 3,
+    "type": "user",
+    "message": "115 requests\n1.19 MB / 753.29 kB transferred\nFinish: 41.70 s\nDOMContentLoaded: 54 ms\nload: 1.24 s\n\nassigned_by_id[ \"Ce champ est obligatoire.\" ]",
+    "timestamp": "2025-09-15T15:49:33.245Z"
+  },
+  {
+    "sessionId": "0f96af77-a35a-44c3-b942-930dc407977a",
+    "messageId": 4,
+    "type": "user",
+    "message": "IntegrityError at /api/review-assignments/\n\nnull value in column \"submission_id\" of relation \"seminars_reviewassignment\" violates not-null constraint\nDETAIL:  Failing row contains (313, 2025-09-15 15:49:49.442098+00, null, f, 1, 12, null, Pending).\n\nRequest Method: POST\nRequest URL: http://localhost:8000/api/review-assignments/\nDjango Version: 5.2.4\nException Type: IntegrityError\nException Value: \n\nnull value in column \"submission_id\" of relation \"seminars_reviewassignment\" violates not-null constraint\nDETAIL:  Failing row contains (313, 2025-09-15 15:49:49.442098+00, null, f, 1, 12, null, Pending).\n\nException Location: /usr/local/lib/python3.11/site-packages/psycopg/cursor.py, line 97, in execute\nRaised during: seminars.views.reviewassignment.ReviewAssignmentViewSet\nPython Executable: /usr/local/bin/python\nPython Version: 3.11.4",
+    "timestamp": "2025-09-15T15:49:59.618Z"
+  },
+  {
+    "sessionId": "0f96af77-a35a-44c3-b942-930dc407977a",
+    "messageId": 5,
+    "type": "user",
+    "message": "return _bootstrap._gcd_import(name[level:], package, level)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<frozen importlib._bootstrap>\", line 1204, in _gcd_import\n  File \"<frozen importlib._bootstrap>\", line 1176, in _find_and_load\n  File \"<frozen importlib._bootstrap>\", line 1147, in _find_and_load_unlocked\n  File \"<frozen importlib._bootstrap>\", line 690, in _load_unlocked\n  File \"<frozen importlib._bootstrap_external>\", line 940, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 241, in _call_with_frames_removed\n  File \"/app/apps/seminars/urls.py\", line 3, in <module>\n    from .views.seminar import SeminarViewSet\n  File \"/app/apps/seminars/views/__init__.py\", line 1, in <module>\n    from .country import CountryViewSet\n  File \"/app/apps/seminars/views/country.py\", line 2, in <module>\n    from seminars.serializers import CountrySerializer\n  File \"/app/apps/seminars/serializers/__init__.py\", line 4, in <module>\n    from .reviewassignment import ReviewAssignmentSerializer\n  File \"/app/apps/seminars/serializers/reviewassignment.py\", line 9, in <module>\n    class ReviewAssignmentSerializer(serializers.ModelSerializer):\n  File \"/app/apps/seminars/serializers/reviewassignment.py\", line 14, in ReviewAssignmentSerializer\n    submission_id = serializers.PrimaryKeyRelatedField(queryset=Submission.objects.all(), source='submission', write_only=True)\n                                                                ^^^^^^^^^^\nNameError: name 'Submission' is not defined",
+    "timestamp": "2025-09-15T15:52:00.948Z"
+  },
+  {
+    "sessionId": "0f96af77-a35a-44c3-b942-930dc407977a",
+    "messageId": 6,
+    "type": "user",
+    "message": "150 requests\n877.56 kB / 443.25 kB transferred\nFinish: 32.33 s\nDOMContentLoaded: 45 ms\nload: 1.33 s\n\nsubmission_id[ \"Ce champ est obligatoire.\" ]",
+    "timestamp": "2025-09-15T15:56:50.917Z"
+  },
+  {
+    "sessionId": "0f96af77-a35a-44c3-b942-930dc407977a",
+    "messageId": 7,
+    "type": "user",
+    "message": "\"submission_id\":[\"Ce champ est obligatoire.\"]}",
+    "timestamp": "2025-09-15T15:58:07.746Z"
+  },
+  {
+    "sessionId": "0f96af77-a35a-44c3-b942-930dc407977a",
+    "messageId": 8,
+    "type": "user",
+    "message": "why not add it in the frontend look at AssignReviewDialog.tsx",
+    "timestamp": "2025-09-15T15:58:48.168Z"
+  },
+  {
+    "sessionId": "0f96af77-a35a-44c3-b942-930dc407977a",
+    "messageId": 9,
+    "type": "user",
+    "message": "{\"submission_id\":[\"Ce champ est obligatoire.\"]} still the same error",
+    "timestamp": "2025-09-15T15:59:59.049Z"
+  },
+  {
+    "sessionId": "0f96af77-a35a-44c3-b942-930dc407977a",
+    "messageId": 10,
+    "type": "user",
+    "message": "AssertionError at /api/review-assignments/\n\nThe field 'submission' was declared on serializer ReviewAssignmentSerializer, but has not been included in the 'fields' option.\n\nRequest Method: POST\nRequest URL: http://localhost:8000/api/review-assignments/\nDjango Version: 5.2.4\nException Type: AssertionError\nException Value: \n\nThe field 'submission' was declared on serializer ReviewAssignmentSerializer, but has not been included in the 'fields' option.\n\nException Location: /usr/local/lib/python3.11/site-packages/rest_framework/serializers.py, line 1177, in get_field_names\nRaised during: seminars.views.reviewassignment.ReviewAssignmentViewSet\nPython Executable: /usr/local/bin/python\nPython Version: 3.11.4\nPython Path: \n\n['/app',\n '/usr/local/bin',\n '/usr/local/lib/python311.zip',\n '/usr/local/lib/python3.11',\n '/usr/local/lib/python3.11/lib-dynload',\n '/usr/local/lib/python3.11/site-packages',\n '/app/apps']",
+    "timestamp": "2025-09-15T16:00:39.039Z"
+  },
+  {
+    "sessionId": "0f96af77-a35a-44c3-b942-930dc407977a",
+    "messageId": 11,
+    "type": "user",
+    "message": "you are frustrating me 116 requests\n1.10 MB / 705.31 kB transferred\nFinish: 1.32 min\nDOMContentLoaded: 50 ms\nload: 1.20 s\n\nsubmission_id[ \"Ce champ est obligatoire.\" ]",
+    "timestamp": "2025-09-15T16:01:12.127Z"
+  },
+  {
+    "sessionId": "0f96af77-a35a-44c3-b942-930dc407977a",
+    "messageId": 12,
+    "type": "user",
+    "message": "all of that because of submission_id could you change it back to submission unstead",
+    "timestamp": "2025-09-15T16:02:22.377Z"
+  },
+  {
+    "sessionId": "0f96af77-a35a-44c3-b942-930dc407977a",
+    "messageId": 13,
+    "type": "user",
+    "message": "TypeError: can't access property \"title\", assignment.submission is undefined\n    children AssignmentRequestsTable.tsx:89\n    AssignmentRequestsTable AssignmentRequestsTable.tsx:87\n    React 13\n \n\nThe above error occurred in the <AssignmentRequestsTable> component.\n\nReact will try to recreate this component tree from scratch using the error boundary you provided, CatchBoundaryImpl.\n Stack: \n    AssignmentRequestsPage index.tsx:67\n    Lazy lazyRouteComponent.tsx:101\n    out Match.tsx:199\n    React 3\n    MatchInnerImpl Match.tsx:196\n    MatchImpl Match.tsx:111\n    OutletImpl Match.tsx:317\n    RouteComponent _main.tsx:53\n    Lazy lazyRouteComponent.tsx:101\n    out Match.tsx:199\n    React 3\n    MatchInnerImpl Match.tsx:196\n    MatchImpl Match.tsx:111\n    OutletImpl Match.tsx:317\n    RootComponent __root.tsx:12\n    out Match.tsx:199\n    React 3\n    MatchInnerImpl Match.tsx:196\n    MatchImpl Match.tsx:111",
+    "timestamp": "2025-09-15T16:13:13.827Z"
+  },
+  {
+    "sessionId": "0f96af77-a35a-44c3-b942-930dc407977a",
+    "messageId": 14,
+    "type": "user",
+    "message": "the page assignment-requests is not proerly translated",
+    "timestamp": "2025-09-15T16:15:47.029Z"
+  },
+  {
+    "sessionId": "0f96af77-a35a-44c3-b942-930dc407977a",
+    "messageId": 15,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-09-15T16:21:30.213Z"
+  },
+  {
+    "sessionId": "a30cf523-3fda-45c1-b767-cb0f9ed99e07",
+    "messageId": 0,
+    "type": "user",
+    "message": "the page assignment-requests is not proerly translated",
+    "timestamp": "2025-09-15T16:21:38.311Z"
+  },
+  {
+    "sessionId": "a30cf523-3fda-45c1-b767-cb0f9ed99e07",
+    "messageId": 1,
+    "type": "user",
+    "message": "this is what am looking at in the page assignment_requests_page.title\nassignment_requests_page.description\nassignment_requests_table.columns.submission_titleassignment_requests_table.columns.reviewerassignment_requests_table.columns.assigned_byassignment_requests_table.columns.assigned_atassignment_requests_table.columns.due_dateassignment_requests_table.columns.statusassignment_requests_table.columns.actions\nComputer Vision Techniques for Autonomous Vehicle Navigation - Study 2Laura Hernandez (reviewer_laurahernandez916)(admin)9/15/20259/29/2025Pending\nComputer Vision Techniques for Autonomous Vehicle Navigation - Study 2Alexander Brown (reviewer_alexanderbrown688)(admin)9/15/202510/3/2025Pending\nComputer Vision Techniques for Autonomous Vehicle Navigation - Study 2Matthew Moore (reviewer_matthewmoore275)(admin)9/15/20259/30/2025Pending\nBioinformatics Methods for Large-Scale Genomic Data Analysis - Study 3David Thompson (reviewer_davidthompson712)(admin)9/15/202510/8/2025Pending\nDistributed Systems Architecture for Big Data Analytics - Study 4Ava Miller (reviewer_avamiller788)(admin)9/15/202510/2/2025Pending\nBioinformatics Methods for Large-Scale Genomic Data Analysis - Study 5Thomas Garcia (reviewer_thomasgarcia668)(admin)9/15/20259/25/2025Pending\nBioinformatics Methods for Large-Scale Genomic Data Analysis - Study 5Matthew Moore (reviewer_matthewmoore275)(admin)9/15/202510/11/2025Pending\nAutomated Software Testing using Machine Learning - Study 6Harper Johnson (reviewer_harperjohnson395)(admin)9/15/20259/27/2025Pending\nDistributed Systems Architecture for Big Data Analytics - Study 7Jessica Martinez (reviewer_jessicamartinez366)(admin)9/15/20259/27/2025Pending\nDistributed Systems Architecture for Big Data Analytics - Study 7Jane Smith (reviewer_janesmith336)(admin)9/15/20259/24/2025Pending",
+    "timestamp": "2025-09-15T16:23:09.016Z"
+  },
+  {
+    "sessionId": "a30cf523-3fda-45c1-b767-cb0f9ed99e07",
+    "messageId": 2,
+    "type": "user",
+    "message": "i dont need all the columns only the title and a column that open a dialog showing details and a column actions",
+    "timestamp": "2025-09-15T16:25:28.405Z"
+  },
+  {
+    "sessionId": "a30cf523-3fda-45c1-b767-cb0f9ed99e07",
+    "messageId": 3,
+    "type": "user",
+    "message": "okay but the button details isnt properly translated att all",
+    "timestamp": "2025-09-15T16:27:42.551Z"
+  },
+  {
+    "sessionId": "a30cf523-3fda-45c1-b767-cb0f9ed99e07",
+    "messageId": 4,
+    "type": "user",
+    "message": "okay and i want the datils button to open a dialog showing details about the assignment that was showing on the columns you deleted",
+    "timestamp": "2025-09-15T16:29:28.802Z"
+  },
+  {
+    "sessionId": "a30cf523-3fda-45c1-b767-cb0f9ed99e07",
+    "messageId": 5,
+    "type": "user",
+    "message": "[plugin:vite:json] Failed to parse JSON file, invalid JSON syntax found at position 2913\n\n/app/src/locales/en/translation.json:77:59\n\n75 |    },\n76 |    \"assignment_details_dialog\": {\n77 |      \"title\": \"Assignment Details for \\\"{{submissionTitle}}\"\",\n   |                                                            ^\n78 |      \"description\": \"Detailed information about this assignment.\",\n79 |      \"reviewer_label\": \"Reviewer\",\n\n    at TransformPluginContext._formatLog (file:///app/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42499:41)\n    at TransformPluginContext.error (file:///app/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42496:16)\n    at TransformPluginContext.handler (file:///app/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:12175:16)\n    at EnvironmentPluginContainer.transform (file:///app/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42295:19)\n    at async loadAndTransform (file:///app/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:35735:27)\n    at async viteTransformMiddleware (file:///app/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:37250:24",
+    "timestamp": "2025-09-15T16:30:45.529Z"
+  },
+  {
+    "sessionId": "a30cf523-3fda-45c1-b767-cb0f9ed99e07",
+    "messageId": 6,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-09-15T16:31:37.256Z"
+  },
+  {
+    "sessionId": "e5fd7d54-6d14-4503-b0a0-16d0d43381c2",
+    "messageId": 0,
+    "type": "user",
+    "message": "[plugin:vite:json] Failed to parse JSON file, invalid JSON syntax found at position 2913\n\n/app/src/locales/en/translation.json:77:59\n\n75 |    },\n76 |    \"assignment_details_dialog\": {\n77 |      \"title\": \"Assignment Details for \\\"{{submissionTitle}}\"\"\n   |                                                            ^\n78 |      \"description\": \"Detailed information about this assignment.\",\n79 |      \"reviewer_label\": \"Reviewer\",\n\n    at TransformPluginContext._formatLog (file:///app/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42499:41)\n    at TransformPluginContext.error (file:///app/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42496:16)\n    at TransformPluginContext.handler (file:///app/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:12175:16)\n    at EnvironmentPluginContainer.transform (file:///app/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42295:19)\n    at async loadAndTransform (file:///app/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:35735:27)\n    at async viteTransformMiddleware (file:///app/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:37250:24\n\nClick outside, press Esc key, or fix the code to dismiss.\nYou can also disable this overlay by setting server.hmr.overlay to false in vite.config.ts.",
+    "timestamp": "2025-09-15T16:31:44.451Z"
+  },
+  {
+    "sessionId": "e5fd7d54-6d14-4503-b0a0-16d0d43381c2",
+    "messageId": 1,
+    "type": "user",
+    "message": "[plugin:vite:json] Failed to parse JSON file, invalid JSON syntax found at position 2913\n\n/app/src/locales/en/translation.json:77:59\n\n75 |    },\n76 |    \"assignment_details_dialog\": {\n77 |      \"title\": \"Assignment Details for \\\"{{submissionTitle}}\"\"\n   |                                                            ^\n78 |      \"description\": \"Detailed information about this assignment.\",\n79 |      \"reviewer_label\": \"Reviewer\",\n\n    at TransformPluginContext._formatLog (file:///app/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42499:41)\n    at TransformPluginContext.error (file:///app/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42496:16)\n    at TransformPluginContext.handler (file:///app/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:12175:16)\n    at EnvironmentPluginContainer.transform (file:///app/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42295:19)\n    at async loadAndTransform (file:///app/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:35735:27)\n    at async viteTransformMiddleware (file:///app/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:37250:24\n\nClick outside, press Esc key, or fix the code to dismiss.\nYou can also disable this overlay by setting server.hmr.overlay to false in vite.config.ts.",
+    "timestamp": "2025-09-15T16:32:17.967Z"
+  },
+  {
+    "sessionId": "e5fd7d54-6d14-4503-b0a0-16d0d43381c2",
+    "messageId": 2,
+    "type": "user",
+    "message": "you didnt suggest any change",
+    "timestamp": "2025-09-15T16:32:35.980Z"
+  },
+  {
+    "sessionId": "e5fd7d54-6d14-4503-b0a0-16d0d43381c2",
+    "messageId": 3,
+    "type": "user",
+    "message": "you did nothing at all",
+    "timestamp": "2025-09-15T16:32:55.268Z"
+  },
+  {
+    "sessionId": "e5fd7d54-6d14-4503-b0a0-16d0d43381c2",
+    "messageId": 4,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-09-15T16:45:18.403Z"
+  },
+  {
+    "sessionId": "593733e5-dfdc-4da7-b7fd-d10cdbb7e61a",
+    "messageId": 0,
+    "type": "user",
+    "message": "in AssignmentDetailsDialog.tsx there is somthing wrong with the close button",
+    "timestamp": "2025-09-15T16:46:01.102Z"
+  },
+  {
+    "sessionId": "593733e5-dfdc-4da7-b7fd-d10cdbb7e61a",
+    "messageId": 1,
+    "type": "user",
+    "message": "but i can see two icons",
+    "timestamp": "2025-09-15T16:46:42.219Z"
+  },
+  {
+    "sessionId": "593733e5-dfdc-4da7-b7fd-d10cdbb7e61a",
+    "messageId": 2,
+    "type": "user",
+    "message": "now in the page assingments i want it to display the accepted assingment check assignment-affectations page in frontend and check the logig there",
+    "timestamp": "2025-09-15T16:48:19.691Z"
+  },
+  {
+    "sessionId": "593733e5-dfdc-4da7-b7fd-d10cdbb7e61a",
+    "messageId": 3,
+    "type": "user",
+    "message": "add a new route an call it assingments",
+    "timestamp": "2025-09-15T16:49:20.052Z"
+  },
+  {
+    "sessionId": "593733e5-dfdc-4da7-b7fd-d10cdbb7e61a",
+    "messageId": 4,
+    "type": "user",
+    "message": "follow the established logic put in main along with the other routes",
+    "timestamp": "2025-09-15T16:49:52.177Z"
+  },
+  {
+    "sessionId": "593733e5-dfdc-4da7-b7fd-d10cdbb7e61a",
+    "messageId": 5,
+    "type": "user",
+    "message": "are you shiting me",
+    "timestamp": "2025-09-15T16:50:14.193Z"
+  },
+  {
+    "sessionId": "593733e5-dfdc-4da7-b7fd-d10cdbb7e61a",
+    "messageId": 6,
+    "type": "user",
+    "message": "look for the route for assingment-requests find the file",
+    "timestamp": "2025-09-15T16:50:55.298Z"
+  },
+  {
+    "sessionId": "593733e5-dfdc-4da7-b7fd-d10cdbb7e61a",
+    "messageId": 7,
+    "type": "user",
+    "message": "Not Found",
+    "timestamp": "2025-09-15T16:51:39.921Z"
+  },
+  {
+    "sessionId": "593733e5-dfdc-4da7-b7fd-d10cdbb7e61a",
+    "messageId": 8,
+    "type": "user",
+    "message": "http://localhost:5173/assignments not found",
+    "timestamp": "2025-09-15T16:51:57.257Z"
+  },
+  {
+    "sessionId": "593733e5-dfdc-4da7-b7fd-d10cdbb7e61a",
+    "messageId": 9,
+    "type": "user",
+    "message": "accepted-assignments page isnt translated correclty accepted_assignment_requests_page.title\naccepted_assignment_requests_page.description\nTitre de la soumissionDétailsActions\nComputer Vision Techniques for Autonomous Vehicle Navigation - Study 2\nDistributed Systems Architecture for Big Data Analytics - Study 4\nBioinformatics Methods for Large-Scale Genomic Data Analysis - Study 5\nAutomated Software Testing using Machine Learning - Study 6\nAdvancing Natural Language Understanding with Transformer Networks - Study 8\nComputer Vision Techniques for Autonomous Vehicle Navigation - Study 2",
+    "timestamp": "2025-09-15T18:16:49.621Z"
+  },
+  {
+    "sessionId": "593733e5-dfdc-4da7-b7fd-d10cdbb7e61a",
+    "messageId": 10,
+    "type": "user",
+    "message": "why you called it AssignmentRequestsTable it doesnt mean any thing and its in the wrong folder for each page the component should be inside a folder with the page name in components",
+    "timestamp": "2025-09-15T18:20:01.369Z"
+  },
+  {
+    "sessionId": "593733e5-dfdc-4da7-b7fd-d10cdbb7e61a",
+    "messageId": 11,
+    "type": "user",
+    "message": "in AccpetedAssignmentTable in the columns action should be a column make a review or use more appropriate terminology",
+    "timestamp": "2025-09-15T18:21:30.500Z"
+  },
+  {
+    "sessionId": "593733e5-dfdc-4da7-b7fd-d10cdbb7e61a",
+    "messageId": 12,
+    "type": "user",
+    "message": "make review should redirect to a route which is not created yet",
+    "timestamp": "2025-09-15T18:22:47.766Z"
+  },
+  {
+    "sessionId": "593733e5-dfdc-4da7-b7fd-d10cdbb7e61a",
+    "messageId": 13,
+    "type": "user",
+    "message": "where will you create the route ?",
+    "timestamp": "2025-09-15T18:23:51.701Z"
+  },
+  {
+    "sessionId": "593733e5-dfdc-4da7-b7fd-d10cdbb7e61a",
+    "messageId": 14,
+    "type": "user",
+    "message": "http://localhost:5173/make-review/4  Not Found",
+    "timestamp": "2025-09-15T18:24:41.516Z"
+  },
+  {
+    "sessionId": "593733e5-dfdc-4da7-b7fd-d10cdbb7e61a",
+    "messageId": 15,
+    "type": "user",
+    "message": "ok make review page isnt what i was expacting from you check the backend the app seminar look for review model, serailizer and view",
+    "timestamp": "2025-09-15T18:25:46.052Z"
+  },
+  {
+    "sessionId": "593733e5-dfdc-4da7-b7fd-d10cdbb7e61a",
+    "messageId": 16,
+    "type": "user",
+    "message": "The requested module 'http://localhost:5173/src/lib/api/review-assignment/queries.ts?t=1757941732808' doesn't provide an export named: 'useReviewAssignmentQuery'",
+    "timestamp": "2025-09-15T18:27:07.933Z"
+  },
+  {
+    "sessionId": "593733e5-dfdc-4da7-b7fd-d10cdbb7e61a",
+    "messageId": 17,
+    "type": "user",
+    "message": "make_review_page.title\nmake_review_page.description\nError: getReviewAssignmentById is not defined",
+    "timestamp": "2025-09-15T18:28:17.437Z"
+  },
+  {
+    "sessionId": "593733e5-dfdc-4da7-b7fd-d10cdbb7e61a",
+    "messageId": 18,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-09-16T15:54:45.831Z"
+  },
+  {
+    "sessionId": "87a7832c-9537-4812-8948-41eb75dc2e41",
+    "messageId": 0,
+    "type": "user",
+    "message": "give a look at the file submission_review.docx and give me an overview",
+    "timestamp": "2025-09-16T15:55:26.046Z"
+  },
+  {
+    "sessionId": "87a7832c-9537-4812-8948-41eb75dc2e41",
+    "messageId": 1,
+    "type": "user",
+    "message": "* Marks a required question\n Evaluation process \n  General quality of the paper *\n Low\n Medium\n High\n Excellent\n  Relevance: Does the research address an important question/problem in line with the\nseminar themes? *\n Not relevant\n Slightly relevant\n Highly relevant\nOriginality and Novelty: Does the research bring new contributions or perspectives\nto the field? *\n Weak\n Acceptable\n Good\n Excellent\nMethodology: Are the methods used appropriate? *\n Yes\n Partially\n No\nRelevance of Figures and Tables: Do the illustrations strengthen the understanding\nof the paper? *\n Weak\n\n Acceptable\n Good\n Excellent\nResults and Conclusions: Are they clearly presented and properly interpreted? *\n Very weak\n Acceptable\n Good\n Excellent\nClarity and Organization: Is the paper well-written, clear, and structured according\nto the template? *\n Yes\n No\nGrammatical Errors: Are there noticeable mistakes that affect clarity? *\n Yes\n No\nReferences and Citations: Are they relevant, recent, and properly cited? *\n Very weak\n Acceptable\n Good\n Excellent\nOverall Evaluation (Final Decision): *\n Accept as is\n Accept with minor revisions\n Major revisions required\n Reject\nSpecific Comments from the Reviewer to the Authors: *\n[Add text]\n\nSpecific comments from the reviewer to the conference committee\n[Add text]\nProvide a score from 1 to 10 for the paper *\n[Add text]\n\nUpload a file (Optional) (PDF or .doc)\n\nSubmit read this",
+    "timestamp": "2025-09-16T15:56:17.974Z"
+  },
+  {
+    "sessionId": "87a7832c-9537-4812-8948-41eb75dc2e41",
+    "messageId": 2,
+    "type": "user",
+    "message": "now give a look at models in the app seminar find class review and adapt it to this * Marks a required question\n Evaluation process \n  General quality of the paper *\n Low\n Medium\n High\n Excellent\n  Relevance: Does the research address an important question/problem in line with the\nseminar themes? *\n Not relevant\n Slightly relevant\n Highly relevant\nOriginality and Novelty: Does the research bring new contributions or perspectives\nto the field? *\n Weak\n Acceptable\n Good\n Excellent\nMethodology: Are the methods used appropriate? *\n Yes\n Partially\n No\nRelevance of Figures and Tables: Do the illustrations strengthen the understanding\nof the paper? *\n Weak\n\n Acceptable\n Good\n Excellent\nResults and Conclusions: Are they clearly presented and properly interpreted? *\n Very weak\n Acceptable\n Good\n Excellent\nClarity and Organization: Is the paper well-written, clear, and structured according\nto the template? *\n Yes\n No\nGrammatical Errors: Are there noticeable mistakes that affect clarity? *\n Yes\n No\nReferences and Citations: Are they relevant, recent, and properly cited? *\n Very weak\n Acceptable\n Good\n Excellent\nOverall Evaluation (Final Decision): *\n Accept as is\n Accept with minor revisions\n Major revisions required\n Reject\nSpecific Comments from the Reviewer to the Authors: *\n[Add text]\n\nSpecific comments from the reviewer to the conference committee\n[Add text]\nProvide a score from 1 to 10 for the paper *\n[Add text]\n\nUpload a file (Optional) (PDF or .doc)\n\nSubmit",
+    "timestamp": "2025-09-16T15:56:56.781Z"
+  },
+  {
+    "sessionId": "87a7832c-9537-4812-8948-41eb75dc2e41",
+    "messageId": 3,
+    "type": "user",
+    "message": "❯ make init-backend && make generate-test-data\nInitializing backend...\nCreating database migrations...\nIt is impossible to add a non-nullable field 'clarity_and_organization' to review without specifying a default. This is because the database needs something to populate existing rows.\nPlease select a fix:\n 1) Provide a one-off default now (will be set on all existing rows with a null value for this column)\n 2) Quit and manually define a default value in models.py.\nSelect an option:",
+    "timestamp": "2025-09-16T15:59:04.036Z"
+  },
+  {
+    "sessionId": "87a7832c-9537-4812-8948-41eb75dc2e41",
+    "messageId": 4,
+    "type": "user",
+    "message": "could you check seminar/mangement/commands/generate-test-data.py and adapt it 98) while time zone support is active.\n  warnings.warn(\n/usr/local/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1671: RuntimeWarning: DateTimeField Seminar.start_date received a naive datetime (2026-03-10 17:00:29.457068) whi\nle time zone support is active.\n  warnings.warn(\n/usr/local/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1671: RuntimeWarning: DateTimeField Seminar.end_date received a naive datetime (2026-03-15 17:00:29.457068) while\n time zone support is active.\n  warnings.warn(\n/usr/local/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1671: RuntimeWarning: DateTimeField Seminar.submission_deadline received a naive datetime (2026-01-16 17:00:29.45\n7068) while time zone support is active.\n  warnings.warn(\n/usr/local/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1671: RuntimeWarning: DateTimeField Seminar.notification_date received a naive datetime (2026-02-21 17:00:29.4570\n68) while time zone support is active.\n  warnings.warn(\n50 seminars generated.\nGenerating 150 submissions...\n150 submissions generated.\nGenerating reviews and updates...\nTraceback (most recent call last):\n  File \"/app/manage.py\", line 22, in <module>\n    main()\n  File \"/app/manage.py\", line 18, in main\n    execute_from_command_line(sys.argv)\n  File \"/usr/local/lib/python3.11/site-packages/django/core/management/__init__.py\", line 442, in execute_from_command_line\n    utility.execute()\n  File \"/usr/local/lib/python3.11/site-packages/django/core/management/__init__.py\", line 436, in execute\n    self.fetch_command(subcommand).run_from_argv(self.argv)\n  File \"/usr/local/lib/python3.11/site-packages/django/core/management/base.py\", line 416, in run_from_argv\n    self.execute(*args, **cmd_options)\n  File \"/usr/local/lib/python3.11/site-packages/django/core/management/base.py\", line 460, in execute\n    output = self.handle(*args, **options)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/apps/seminars/management/commands/generate_test_data.py\", line 36, in handle\n    self.generate_reviews_and_updates(submissions)\n  File \"/app/apps/seminars/management/commands/generate_test_data.py\", line 641, in generate_reviews_and_updates\n    decision = random.choice(Review.DECISION_CHOICES)[0]\n                             ^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: type object 'Review' has no attribute 'DECISION_CHOICES'\n\nmake: *** [Makefile:43: generate-test-data] Error 1\n(base)",
+    "timestamp": "2025-09-16T16:01:56.006Z"
+  },
+  {
+    "sessionId": "87a7832c-9537-4812-8948-41eb75dc2e41",
+    "messageId": 5,
+    "type": "user",
+    "message": "now could you make somthing with the page make-review in the frontend in pages its practicly empty",
+    "timestamp": "2025-09-16T16:04:57.830Z"
+  },
+  {
+    "sessionId": "87a7832c-9537-4812-8948-41eb75dc2e41",
+    "messageId": 6,
+    "type": "user",
+    "message": "what is taking you so long",
+    "timestamp": "2025-09-16T17:15:16.171Z"
+  },
+  {
+    "sessionId": "87a7832c-9537-4812-8948-41eb75dc2e41",
+    "messageId": 7,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-09-16T17:17:27.064Z"
+  },
+  {
+    "sessionId": "13c7c6b1-ec37-4303-beb3-c7c4ad49bcab",
+    "messageId": 0,
+    "type": "user",
+    "message": "make-review page isnt properly translated in frontend pages",
+    "timestamp": "2025-09-16T17:17:58.201Z"
+  },
+  {
+    "sessionId": "13c7c6b1-ec37-4303-beb3-c7c4ad49bcab",
+    "messageId": 1,
+    "type": "user",
+    "message": "wtf is this a loop mfr",
+    "timestamp": "2025-09-16T17:22:30.709Z"
+  },
+  {
+    "sessionId": "13c7c6b1-ec37-4303-beb3-c7c4ad49bcab",
+    "messageId": 2,
+    "type": "user",
+    "message": "correct this shit [plugin:vite:json] Failed to parse JSON file, invalid JSON syntax found at position 18790\n\n/app/src/locales/fr/translation.json:392:77\n\n390|      \"title\": \"Faire une évaluation\",\n391|      \"description\": \"Soumettez votre évaluation pour la soumission assignée.\",\n392|      \"title_for_submission\": \"Faire une évaluation pour \\\"{{submissionTitle}}\"\",\n   |                                                                              ^\n393|      \"loading\": \"Chargement des détails de l'affectation...\",\n394|      \"error\": \"Erreur : {{message}}\",\n\n    at TransformPluginContext._formatLog (file:///app/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42499:41)\n    at TransformPluginContext.error (file:///app/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42496:16)\n    at TransformPluginContext.handler (file:///app/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:12175:16)\n    at EnvironmentPluginContainer.transform (file:///app/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42295:19)\n    at async loadAndTransform (file:///app/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:35735:27)\n    at async viteTransformMiddleware (file:///app/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:37250:24\n\nClick outside, press Esc key, or fix the code to dismiss.\nYou can also disable this overlay by setting server.hmr.overlay to false in vite.config.ts.",
+    "timestamp": "2025-09-16T17:23:27.269Z"
+  },
+  {
+    "sessionId": "13c7c6b1-ec37-4303-beb3-c7c4ad49bcab",
+    "messageId": 3,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-09-16T17:56:28.329Z"
+  },
+  {
+    "sessionId": "5c692304-ef99-499e-8e93-749e007b05f2",
+    "messageId": 0,
+    "type": "user",
+    "message": "could you check make-review page the translation isnt properly done",
+    "timestamp": "2025-09-16T17:57:04.298Z"
+  },
+  {
+    "sessionId": "5c692304-ef99-499e-8e93-749e007b05f2",
+    "messageId": 1,
+    "type": "user",
+    "message": "okay now for review page check if there is a folder for queries and fetchers with the name review or reviews inside lib/api",
+    "timestamp": "2025-09-16T18:07:57.233Z"
+  },
+  {
+    "sessionId": "5c692304-ef99-499e-8e93-749e007b05f2",
+    "messageId": 2,
+    "type": "user",
+    "message": "before that check the backend the seminar app the reviw model serizlizers and views",
+    "timestamp": "2025-09-16T18:09:07.480Z"
+  },
+  {
+    "sessionId": "5c692304-ef99-499e-8e93-749e007b05f2",
+    "messageId": 3,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-09-16T18:09:56.266Z"
+  },
+  {
+    "sessionId": "108ac681-1d03-471c-88be-f61816e5db18",
+    "messageId": 0,
+    "type": "user",
+    "message": "check in seminars in models views and serializer for review.py",
+    "timestamp": "2025-09-16T18:10:35.641Z"
+  },
+  {
+    "sessionId": "108ac681-1d03-471c-88be-f61816e5db18",
+    "messageId": 1,
+    "type": "user",
+    "message": "okay nalyse them",
+    "timestamp": "2025-09-16T18:10:56.137Z"
+  },
+  {
+    "sessionId": "108ac681-1d03-471c-88be-f61816e5db18",
+    "messageId": 2,
+    "type": "user",
+    "message": "okay now check api/lib/.. and check how queries and fetchers are managed",
+    "timestamp": "2025-09-16T18:11:35.030Z"
+  },
+  {
+    "sessionId": "108ac681-1d03-471c-88be-f61816e5db18",
+    "messageId": 3,
+    "type": "user",
+    "message": "yes",
+    "timestamp": "2025-09-16T18:11:43.487Z"
+  },
+  {
+    "sessionId": "108ac681-1d03-471c-88be-f61816e5db18",
+    "messageId": 4,
+    "type": "user",
+    "message": "frontend",
+    "timestamp": "2025-09-16T18:11:53.039Z"
+  },
+  {
+    "sessionId": "108ac681-1d03-471c-88be-f61816e5db18",
+    "messageId": 5,
+    "type": "user",
+    "message": "whats nex is as you analysed review.py in the backend you will create fetchers and queries for review there is a folder review inside lib/api",
+    "timestamp": "2025-09-16T18:12:57.547Z"
+  },
+  {
+    "sessionId": "108ac681-1d03-471c-88be-f61816e5db18",
+    "messageId": 6,
+    "type": "user",
+    "message": "now in the page make-review it should check if there is a review for the submission to initiate the fields values",
+    "timestamp": "2025-09-16T18:14:43.975Z"
+  },
+  {
+    "sessionId": "108ac681-1d03-471c-88be-f61816e5db18",
+    "messageId": 7,
+    "type": "user",
+    "message": "okay you made a fatal error ive told you about numerous times",
+    "timestamp": "2025-09-16T18:32:48.324Z"
+  },
+  {
+    "sessionId": "108ac681-1d03-471c-88be-f61816e5db18",
+    "messageId": 8,
+    "type": "user",
+    "message": "dont use hooks there is in lib/api/auth check it",
+    "timestamp": "2025-09-16T18:33:31.519Z"
+  },
+  {
+    "sessionId": "108ac681-1d03-471c-88be-f61816e5db18",
+    "messageId": 9,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-09-16T18:48:25.868Z"
+  },
+  {
+    "sessionId": "92afd813-90b2-4bac-af63-d5b56f81edbe",
+    "messageId": 0,
+    "type": "user",
+    "message": "TypeError: error loading dynamically imported module: http://localhost:5173/src/routes/_main/index.tsx?t=1758047655923&tsr-split=component \n\nThe above error occurred in the <Lazy> component.\n\nReact will try to recreate this component tree from scratch using the error boundary you provided, CatchBoundaryImpl.\n Stack: \n    out Match.tsx:199\n    React 3\n    MatchInnerImpl Match.tsx:196\n    MatchImpl Match.tsx:111\n    OutletImpl Match.tsx:317\n    RouteComponent _main.tsx:53\n    Lazy lazyRouteComponent.tsx:101\n    out Match.tsx:199\n    React 3\n    MatchInnerImpl Match.tsx:196\n    MatchImpl Match.tsx:111\n    OutletImpl Match.tsx:317\n    RootComponent __root.tsx:12\n    out Match.tsx:199\n    React 3\n    MatchInnerImpl Match.tsx:196\n    MatchImpl Match.tsx:111\n    MatchesInner Matches.tsx:92\n    Matches Matches.tsx:57\n    RouterProvider RouterProvider.tsx:51\n<anonymous code>:1:145535",
+    "timestamp": "2025-09-16T18:48:38.349Z"
+  },
+  {
+    "sessionId": "92afd813-90b2-4bac-af63-d5b56f81edbe",
+    "messageId": 1,
+    "type": "user",
+    "message": "wtf where is my website now",
+    "timestamp": "2025-09-16T18:49:20.033Z"
+  },
+  {
+    "sessionId": "92afd813-90b2-4bac-af63-d5b56f81edbe",
+    "messageId": 2,
+    "type": "user",
+    "message": "there is no website you erase it with an str",
+    "timestamp": "2025-09-16T18:49:46.087Z"
+  },
+  {
+    "sessionId": "92afd813-90b2-4bac-af63-d5b56f81edbe",
+    "messageId": 3,
+    "type": "user",
+    "message": "this is what i see Hello from _main/index!",
+    "timestamp": "2025-09-16T18:51:24.394Z"
+  },
+  {
+    "sessionId": "92afd813-90b2-4bac-af63-d5b56f81edbe",
+    "messageId": 4,
+    "type": "user",
+    "message": "the page index i dont want tit about deleveries",
+    "timestamp": "2025-09-16T19:05:25.229Z"
+  },
+  {
+    "sessionId": "92afd813-90b2-4bac-af63-d5b56f81edbe",
+    "messageId": 5,
+    "type": "user",
+    "message": "no it dosnt need because i wont use anything related to deliveries no more",
+    "timestamp": "2025-09-16T19:07:06.372Z"
+  },
+  {
+    "sessionId": "92afd813-90b2-4bac-af63-d5b56f81edbe",
+    "messageId": 6,
+    "type": "user",
+    "message": "okay a welcome message",
+    "timestamp": "2025-09-16T19:07:23.636Z"
+  },
+  {
+    "sessionId": "92afd813-90b2-4bac-af63-d5b56f81edbe",
+    "messageId": 7,
+    "type": "user",
+    "message": "SyntaxError: The requested module 'http://localhost:5173/src/lib/api/review/fetchers.ts' doesn't provide an export named: 'Review' \n\nThe above error occurred in the <Lazy> component.\n\nReact will try to recreate this component tree from scratch using the error boundary you provided, CatchBoundaryImpl.\n Stack: \n    out Match.tsx:199\n    React 3\n    MatchInnerImpl Match.tsx:196\n    MatchImpl Match.tsx:111\n    OutletImpl Match.tsx:317\n    RouteComponent _main.tsx:53\n    Lazy lazyRouteComponent.tsx:101\n    out Match.tsx:199\n    React 3\n    MatchInnerImpl Match.tsx:196\n    MatchImpl Match.tsx:111\n    OutletImpl Match.tsx:317\n    RootComponent __root.tsx:12\n    out Match.tsx:199\n    React 3\n    MatchInnerImpl Match.tsx:196\n    MatchImpl Match.tsx:111\n    MatchesInner Matches.tsx:92\n    Matches Matches.tsx:57\n    RouterProvider RouterProvider.tsx:51",
+    "timestamp": "2025-09-16T19:20:51.638Z"
+  },
+  {
+    "sessionId": "92afd813-90b2-4bac-af63-d5b56f81edbe",
+    "messageId": 8,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-09-16T19:21:45.637Z"
+  },
+  {
+    "sessionId": "1a60fead-f19a-41be-870a-c747d3bb473d",
+    "messageId": 0,
+    "type": "user",
+    "message": "SyntaxError: The requested module 'http://localhost:5173/src/lib/api/review/fetchers.ts' doesn't provide an export named: 'Review' \n\nThe above error occurred in the <Lazy> component.\n\nReact will try to recreate this component tree from scratch using the error boundary you provided, CatchBoundaryImpl.\n Stack: \n    out Match.tsx:199\n    React 3\n    MatchInnerImpl Match.tsx:196\n    MatchImpl Match.tsx:111\n    OutletImpl Match.tsx:317\n    RouteComponent _main.tsx:53\n    Lazy lazyRouteComponent.tsx:101\n    out Match.tsx:199\n    React 3\n    MatchInnerImpl Match.tsx:196\n    MatchImpl Match.tsx:111\n    OutletImpl Match.tsx:317\n    RootComponent __root.tsx:12\n    out Match.tsx:199\n    React 3\n    MatchInnerImpl Match.tsx:196\n    MatchImpl Match.tsx:111\n    MatchesInner Matches.tsx:92\n    Matches Matches.tsx:57\n    RouterProvider RouterProvider.tsx:51",
+    "timestamp": "2025-09-16T19:21:53.628Z"
+  },
+  {
+    "sessionId": "1a60fead-f19a-41be-870a-c747d3bb473d",
+    "messageId": 1,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-09-16T19:25:18.483Z"
+  },
+  {
+    "sessionId": "bacefaf8-e8bc-4420-bcb4-58ba0083a967",
+    "messageId": 0,
+    "type": "user",
+    "message": "SyntaxError: The requested module 'http://localhost:5173/src/lib/api/review/fetchers.ts' doesn't provide an export named: 'Review' \n\nThe above error occurred in the <Lazy> component.\n\nReact will try to recreate this component tree from scratch using the error boundary you provided, CatchBoundaryImpl.\n Stack: \n    out Match.tsx:199\n    React 3\n    MatchInnerImpl Match.tsx:196\n    MatchImpl Match.tsx:111\n    OutletImpl Match.tsx:317\n    RouteComponent _main.tsx:53\n    Lazy lazyRouteComponent.tsx:101\n    out Match.tsx:199\n    React 3\n    MatchInnerImpl Match.tsx:196\n    MatchImpl Match.tsx:111\n    OutletImpl Match.tsx:317\n    RootComponent __root.tsx:12\n    out Match.tsx:199\n    React 3\n    MatchInnerImpl Match.tsx:196",
+    "timestamp": "2025-09-16T19:25:26.197Z"
+  },
+  {
+    "sessionId": "bacefaf8-e8bc-4420-bcb4-58ba0083a967",
+    "messageId": 1,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-09-17T15:04:20.902Z"
+  },
+  {
+    "sessionId": "593221d5-f66a-4cce-96ff-f24dfd646b8c",
+    "messageId": 0,
+    "type": "user",
+    "message": "could you check frontend/src/components/layout/ see if there is Header",
+    "timestamp": "2025-09-17T15:04:48.026Z"
+  },
+  {
+    "sessionId": "593221d5-f66a-4cce-96ff-f24dfd646b8c",
+    "messageId": 1,
+    "type": "user",
+    "message": "ok in the hader i want to change the menu item reviewers to reviews",
+    "timestamp": "2025-09-17T15:05:34.813Z"
+  },
+  {
+    "sessionId": "593221d5-f66a-4cce-96ff-f24dfd646b8c",
+    "messageId": 2,
+    "type": "user",
+    "message": "now check the page review in the same style of table as in the page submissions i want here a tab with a list of reviews that have the field is_draft false you can check make-review page and api/lib to know how to program",
+    "timestamp": "2025-09-17T15:21:10.625Z"
+  },
+  {
+    "sessionId": "593221d5-f66a-4cce-96ff-f24dfd646b8c",
+    "messageId": 3,
+    "type": "user",
+    "message": "SyntaxError: The requested module 'http://localhost:5173/src/lib/api/review/fetchers.ts?t=1758122528468' doesn't provide an export named: 'Review' \n\nThe above error occurred in the <Lazy> component.\n\nReact will try to recreate this component tree from scratch using the error boundary you provided, CatchBoundaryImpl.\n Stack: \n    out Match.tsx:199\n    React 3\n    MatchInnerImpl Match.tsx:196\n    MatchImpl Match.tsx:111\n    OutletImpl Match.tsx:317\n    RouteComponent _main.tsx:53\n    Lazy lazyRouteComponent.tsx:101\n    out Match.tsx:199\n    React 3\n    MatchInnerImpl Match.tsx:196\n    MatchImpl Match.tsx:111\n    OutletImpl Match.tsx:317\n    RootComponent __root.tsx:12\n    out Match.tsx:199\n    React 3\n    MatchInnerImpl Match.tsx:196\n    MatchImpl Match.tsx:111\n    MatchesInner Matches.tsx:92\n    Matches Matches.tsx:57\n    RouterProvider RouterProvider.tsx:51\n<anonymous code>:1:145535\nWarning: The following error wasn't caught by any route! At the very leas",
+    "timestamp": "2025-09-17T15:37:15.873Z"
+  },
+  {
+    "sessionId": "593221d5-f66a-4cce-96ff-f24dfd646b8c",
+    "messageId": 4,
+    "type": "user",
+    "message": "could modify review.py in seminar app serializers so it serlize the reviewer so it appears in the frontend table",
+    "timestamp": "2025-09-17T15:40:33.954Z"
+  },
+  {
+    "sessionId": "593221d5-f66a-4cce-96ff-f24dfd646b8c",
+    "messageId": 5,
+    "type": "user",
+    "message": "i got this error after what you did   File \"/usr/local/lib/python3.11/importlib/__init__.py\", line 126, in import_module\n    return _bootstrap._gcd_import(name[level:], package, level)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<frozen importlib._bootstrap>\", line 1204, in _gcd_import\n  File \"<frozen importlib._bootstrap>\", line 1176, in _find_and_load\n  File \"<frozen importlib._bootstrap>\", line 1147, in _find_and_load_unlocked\n  File \"<frozen importlib._bootstrap>\", line 690, in _load_unlocked\n  File \"<frozen importlib._bootstrap_external>\", line 940, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 241, in _call_with_frames_removed\n  File \"/app/apps/seminars/urls.py\", line 3, in <module>\n    from .views.seminar import SeminarViewSet\n  File \"/app/apps/seminars/views/__init__.py\", line 1, in <module>\n    from .country import CountryViewSet\n  File \"/app/apps/seminars/views/country.py\", line 2, in <module>\n    from seminars.serializers import CountrySerializer\n  File \"/app/apps/seminars/serializers/__init__.py\", line 3, in <module>\n    from .review import ReviewSerializer\n  File \"/app/apps/seminars/serializers/review.py\", line 3, in <module>\n    from apps.accounts.serializers.user import UserSerializer\n  File \"/app/apps/accounts/serializers/__init__.py\", line 2, in <module>\n    from .profile import ProfileSerializer, RoleSerializer\n  File \"/app/apps/accounts/serializers/profile.py\", line 5, in <module>\n    from ..models import Profile, Role\n  File \"/app/apps/accounts/models/__init__.py\", line 1, in <module>\n    from .user import User\n  File \"/app/apps/accounts/models/user.py\", line 5, in <module>\n    class User(AbstractUser):\n  File \"/usr/local/lib/python3.11/site-packages/django/db/models/base.py\", line 136, in __new__\n    raise RuntimeError(\nRuntimeError: Model class apps.accounts.models.user.User doesn't declare an explicit app_label and isn't in an application in INSTALLED_APPS.\n\nmake: *** [Makefile:6: init-backend] Error 1\n(base)",
+    "timestamp": "2025-09-17T15:48:44.637Z"
+  },
+  {
+    "sessionId": "593221d5-f66a-4cce-96ff-f24dfd646b8c",
+    "messageId": 6,
+    "type": "user",
+    "message": "in ReviewTable i want another action which turn is_draft to true then invalidates the query i dont came up with an apropiriate name for the action send back to reviewer is too long help me with the correct terminology",
+    "timestamp": "2025-09-17T17:36:20.723Z"
+  },
+  {
+    "sessionId": "593221d5-f66a-4cce-96ff-f24dfd646b8c",
+    "messageId": 7,
+    "type": "user",
+    "message": "could you remove the date and the score from the table",
+    "timestamp": "2025-09-17T17:38:26.828Z"
+  },
+  {
+    "sessionId": "593221d5-f66a-4cce-96ff-f24dfd646b8c",
+    "messageId": 8,
+    "type": "user",
+    "message": "ok for now it does nothing it should make some query to turn is_draft field to true",
+    "timestamp": "2025-09-17T17:40:05.161Z"
+  },
+  {
+    "sessionId": "593221d5-f66a-4cce-96ff-f24dfd646b8c",
+    "messageId": 9,
+    "type": "user",
+    "message": "okay but it needs also to invalidates allReviews after",
+    "timestamp": "2025-09-17T17:41:26.763Z"
+  },
+  {
+    "sessionId": "593221d5-f66a-4cce-96ff-f24dfd646b8c",
+    "messageId": 10,
+    "type": "user",
+    "message": "here is no -use-toast dont invent things",
+    "timestamp": "2025-09-17T17:43:06.131Z"
+  },
+  {
+    "sessionId": "593221d5-f66a-4cce-96ff-f24dfd646b8c",
+    "messageId": 11,
+    "type": "user",
+    "message": "it fells like its not invalidating",
+    "timestamp": "2025-09-17T17:48:28.455Z"
+  },
+  {
+    "sessionId": "593221d5-f66a-4cce-96ff-f24dfd646b8c",
+    "messageId": 12,
+    "type": "user",
+    "message": "no its not the problem reviewsTable is supposed to show only reviews where is_draft is false but it showing is_draft true as well",
+    "timestamp": "2025-09-17T17:50:08.637Z"
+  },
+  {
+    "sessionId": "593221d5-f66a-4cce-96ff-f24dfd646b8c",
+    "messageId": 13,
+    "type": "user",
+    "message": "in the make-review page when you click on save draft it should save the current review",
+    "timestamp": "2025-09-17T21:00:30.099Z"
+  },
+  {
+    "sessionId": "6a752d72-9bd4-44ac-8a25-df0d48be619a",
+    "messageId": 0,
+    "type": "user",
+    "message": "hey i will tell you about my frontend approach with react so you will generate a good prompt for me that sumerize it okay ?",
+    "timestamp": "2025-09-18T10:34:56.805Z"
+  },
+  {
+    "sessionId": "6a752d72-9bd4-44ac-8a25-df0d48be619a",
+    "messageId": 1,
+    "type": "user",
+    "message": "hey gemi go and check the page make-review",
+    "timestamp": "2025-09-18T10:43:22.493Z"
+  },
+  {
+    "sessionId": "6a752d72-9bd4-44ac-8a25-df0d48be619a",
+    "messageId": 2,
+    "type": "user",
+    "message": "follow the instruction i wrote in gemini.md",
+    "timestamp": "2025-09-18T12:08:34.202Z"
+  },
+  {
+    "sessionId": "6a752d72-9bd4-44ac-8a25-df0d48be619a",
+    "messageId": 3,
+    "type": "user",
+    "message": "no the page is already there just check it",
+    "timestamp": "2025-09-18T12:09:04.872Z"
+  },
+  {
+    "sessionId": "6a752d72-9bd4-44ac-8a25-df0d48be619a",
+    "messageId": 4,
+    "type": "user",
+    "message": "go to src/pages/make-review",
+    "timestamp": "2025-09-18T12:09:52.249Z"
+  },
+  {
+    "sessionId": "6a752d72-9bd4-44ac-8a25-df0d48be619a",
+    "messageId": 5,
+    "type": "user",
+    "message": "okay when you click save draft button it should save the review",
+    "timestamp": "2025-09-18T12:10:42.976Z"
+  },
+  {
+    "sessionId": "6a752d72-9bd4-44ac-8a25-df0d48be619a",
+    "messageId": 6,
+    "type": "user",
+    "message": "{\"general_quality\":[\"«  » n'est pas un choix valide.\"],\"relevance\":[\"«  » n'est pas un choix valide.\"],\"originality\":[\"«  » n'est pas un choix valide.\"],\"methodology\":[\"«  » n'est pas un choix valide.\"],\"relevance_of_figures_and_tables\":[\"«  » n'est pas un choix valide.\"],\"results_and_conclusions\":[\"«  » n'est pas un choix valide.\"],\"clarity_and_organization\":[\"«  » n'est pas un choix valide.\"],\"grammatical_errors\":[\"«  » n'est pas un choix valide.\"],\"references_and_citations\":[\"«  » n'est pas un choix valide.\"],\"overall_evaluation\":[\"«  » n'est pas un choix valide.\"]}",
+    "timestamp": "2025-09-18T12:12:41.587Z"
+  },
+  {
+    "sessionId": "6a752d72-9bd4-44ac-8a25-df0d48be619a",
+    "messageId": 7,
+    "type": "user",
+    "message": "okay check review.py in seminars app serializers before",
+    "timestamp": "2025-09-18T12:24:13.150Z"
+  },
+  {
+    "sessionId": "6a752d72-9bd4-44ac-8a25-df0d48be619a",
+    "messageId": 8,
+    "type": "user",
+    "message": "yes",
+    "timestamp": "2025-09-18T12:26:08.198Z"
+  },
+  {
+    "sessionId": "6a752d72-9bd4-44ac-8a25-df0d48be619a",
+    "messageId": 9,
+    "type": "user",
+    "message": "IntegrityError at /api/reviews/\n\nnull value in column \"reviewer_id\" of relation \"seminars_review\" violates not-null constraint\nDETAIL:  Failing row contains (276, 5, ACCEPTABLE, SLIGHTLY_RELEVANT, 2025-09-18 12:26:52.122485+00, null, 2025-09-18 12:26:52.122503+00, t, null, null, YES, , , MEDIUM, NO, YES, MINOR, ACCEPTABLE, ACCEPTABLE, ACCEPTABLE, ).\n\nRequest Method: POST\nRequest URL: http://localhost:8000/api/reviews/\nDjango Version: 5.2.4\nException Type: IntegrityError\nException Value: \n\nnull value in column \"reviewer_id\" of relation \"seminars_review\" violates not-null constraint\nDETAIL:  Failing row contains (276, 5, ACCEPTABLE, SLIGHTLY_RELEVANT, 2025-09-18 12:26:52.122485+00, null, 2025-09-18 12:26:52.122503+00, t, null, null, YES, , , MEDIUM, NO, YES, MINOR, ACCEPTABLE, ACCEPTABLE, ACCEPTABLE, ).\n\nException Location: /usr/local/lib/python3.11/site-packages/psycopg/cursor.py, line 97, in execute\nRaised during: seminars.views.review.ReviewViewSet\nPython Executable: /usr/local/bin/python\nPython Version: 3.11.4\nPython Path: \n\n['/app',\n '/usr/local/bin',\n '/usr/local/lib/python311.zip',\n '/usr/local/lib/python3.11',\n '/usr/local/lib/python3.11/lib-dynload',\n '/usr/local/lib/python3.11/site-packages',\n '/app/apps']",
+    "timestamp": "2025-09-18T12:27:15.219Z"
+  },
+  {
+    "sessionId": "6a752d72-9bd4-44ac-8a25-df0d48be619a",
+    "messageId": 10,
+    "type": "user",
+    "message": "go on",
+    "timestamp": "2025-09-18T12:28:33.333Z"
+  },
+  {
+    "sessionId": "6a752d72-9bd4-44ac-8a25-df0d48be619a",
+    "messageId": 11,
+    "type": "user",
+    "message": "could you use a good toast like in AssingmentsRequests.tsx unstead of the ugly alert in make-review",
+    "timestamp": "2025-09-18T12:30:18.446Z"
+  },
+  {
+    "sessionId": "15af1426-5f1b-4224-a650-04b4f3650bd5",
+    "messageId": 0,
+    "type": "user",
+    "message": "in the page src/pages/make review i dont understand why are you using useEffect where i have lib/api/... for queries and mutations",
+    "timestamp": "2025-09-20T11:37:40.779Z"
+  },
+  {
+    "sessionId": "15af1426-5f1b-4224-a650-04b4f3650bd5",
+    "messageId": 1,
+    "type": "user",
+    "message": "why not use react hook form along with zod",
+    "timestamp": "2025-09-20T11:40:37.627Z"
+  },
+  {
+    "sessionId": "15af1426-5f1b-4224-a650-04b4f3650bd5",
+    "messageId": 2,
+    "type": "user",
+    "message": "IntegrityError at /api/reviews/\n\nduplicate key value violates unique constraint \"seminars_review_submission_id_reviewer_id_5ffea968_uniq\"\nDETAIL:  Key (submission_id, reviewer_id)=(1, 8) already exists.\n\nRequest Method: POST\nRequest URL: http://localhost:8000/api/reviews/\nDjango Version: 5.2.4\nException Type: IntegrityError\nException Value: \n\nduplicate key value violates unique constraint \"seminars_review_submission_id_reviewer_id_5ffea968_uniq\"\nDETAIL:  Key (submission_id, reviewer_id)=(1, 8) already exists.\n\nException Location: /usr/local/lib/python3.11/site-packages/psycopg/cursor.py, line 97, in execute\nRaised during: seminars.views.review.ReviewViewSet\nPython Executable: /usr/local/bin/python\nPython Version: 3.11.4\nPython Path: \n\n['/app',\n '/usr/local/bin',\n '/usr/local/lib/python311.zip',\n '/usr/local/lib/python3.11',",
+    "timestamp": "2025-09-20T11:46:46.816Z"
+  },
+  {
+    "sessionId": "15af1426-5f1b-4224-a650-04b4f3650bd5",
+    "messageId": 3,
+    "type": "user",
+    "message": "you are not authoraized to use useQuery directly from the page you must use it from lib/api/[page_name]/queries.ts",
+    "timestamp": "2025-09-20T11:48:59.870Z"
+  },
+  {
+    "sessionId": "15af1426-5f1b-4224-a650-04b4f3650bd5",
+    "messageId": 4,
+    "type": "user",
+    "message": "IntegrityError at /api/reviews/\n\nduplicate key value violates unique constraint \"seminars_review_submission_id_reviewer_id_5ffea968_uniq\"\nDETAIL:  Key (submission_id, reviewer_id)=(1, 8) already exists.\n\nRequest Method: POST\nRequest URL: http://localhost:8000/api/reviews/\nDjango Version: 5.2.4\nException Type: IntegrityError\nException Value: \n\nduplicate key value violates unique constraint \"seminars_review_submission_id_reviewer_id_5ffea968_uniq\"\nDETAIL:  Key (submission_id, reviewer_id)=(1, 8) already exists.\n\nException Location: /usr/local/lib/python3.11/site-packages/psycopg/cursor.py, line 97, in execute\nRaised during: seminars.views.review.ReviewViewSet\nPython Executable: /usr/local/bin/python\nPython Version: 3.11.4\nPython Path: \n\n['/app',\n '/usr/local/bin',\n '/usr/local/lib/python311.zip',\n '/usr/local/lib/python3.11',\n '/usr/local/lib/python3.11/lib-dynload',\n '/usr/local/lib/python3.11/site-packages',\n '/app/apps']\n\nServer time:",
+    "timestamp": "2025-09-20T11:52:14.416Z"
+  },
+  {
+    "sessionId": "15af1426-5f1b-4224-a650-04b4f3650bd5",
+    "messageId": 5,
+    "type": "user",
+    "message": "you can check the backend you know its the app seminars",
+    "timestamp": "2025-09-20T11:53:39.221Z"
+  },
+  {
+    "sessionId": "15af1426-5f1b-4224-a650-04b4f3650bd5",
+    "messageId": 6,
+    "type": "user",
+    "message": "show me you analysis of the backend regarding this part review look for review.py in apps/seminars",
+    "timestamp": "2025-09-20T11:56:10.992Z"
+  },
+  {
+    "sessionId": "15af1426-5f1b-4224-a650-04b4f3650bd5",
+    "messageId": 7,
+    "type": "user",
+    "message": "so when click on save draft it shouldnt post it should put or patch",
+    "timestamp": "2025-09-20T11:57:09.970Z"
+  },
+  {
+    "sessionId": "15af1426-5f1b-4224-a650-04b4f3650bd5",
+    "messageId": 8,
+    "type": "user",
+    "message": "go on",
+    "timestamp": "2025-09-20T11:57:41.036Z"
+  },
+  {
+    "sessionId": "15af1426-5f1b-4224-a650-04b4f3650bd5",
+    "messageId": 9,
+    "type": "user",
+    "message": "still the same exact error when i click on save draft",
+    "timestamp": "2025-09-20T12:03:01.969Z"
+  },
+  {
+    "sessionId": "15af1426-5f1b-4224-a650-04b4f3650bd5",
+    "messageId": 10,
+    "type": "user",
+    "message": "the problem is that every time am clicking on save as draft its a post request",
+    "timestamp": "2025-09-20T16:32:44.397Z"
+  },
+  {
+    "sessionId": "15af1426-5f1b-4224-a650-04b4f3650bd5",
+    "messageId": 11,
+    "type": "user",
+    "message": "why not eveytime one enter this page we use a query that try to pull a review of the current assignment so the value will decide if its a patch or a post",
+    "timestamp": "2025-09-20T16:34:50.931Z"
+  },
+  {
+    "sessionId": "15af1426-5f1b-4224-a650-04b4f3650bd5",
+    "messageId": 12,
+    "type": "user",
+    "message": "go on",
+    "timestamp": "2025-09-20T16:35:37.323Z"
+  },
+  {
+    "sessionId": "15af1426-5f1b-4224-a650-04b4f3650bd5",
+    "messageId": 13,
+    "type": "user",
+    "message": "it hasnt been where you check this in the page ?",
+    "timestamp": "2025-09-20T16:36:24.516Z"
+  },
+  {
+    "sessionId": "15af1426-5f1b-4224-a650-04b4f3650bd5",
+    "messageId": 14,
+    "type": "user",
+    "message": "do some console logs i want to see existingReview",
+    "timestamp": "2025-09-20T16:37:16.386Z"
+  },
+  {
+    "sessionId": "15af1426-5f1b-4224-a650-04b4f3650bd5",
+    "messageId": 15,
+    "type": "user",
+    "message": "can't access lexical declaration 'existingReview' before initialization",
+    "timestamp": "2025-09-20T16:37:57.691Z"
+  },
+  {
+    "sessionId": "15af1426-5f1b-4224-a650-04b4f3650bd5",
+    "messageId": 16,
+    "type": "user",
+    "message": "Component rendered. existingReview: undefined index.tsx:105:11\nComponent rendered. existingReview:  undefined",
+    "timestamp": "2025-09-20T16:38:43.668Z"
+  },
+  {
+    "sessionId": "15af1426-5f1b-4224-a650-04b4f3650bd5",
+    "messageId": 17,
+    "type": "user",
+    "message": "Component rendered. existingReview: undefined index.tsx:105:11\nComponent rendered. existingReview:  undefined <anonymous code>:1:148389",
+    "timestamp": "2025-09-20T16:39:47.382Z"
+  },
+  {
+    "sessionId": "15af1426-5f1b-4224-a650-04b4f3650bd5",
+    "messageId": 18,
+    "type": "user",
+    "message": "Component querying with IDs: \nObject { submissionId: \"2\", reviewerId: undefined }\nindex.tsx:98:11\nComponent rendered. existingReview: undefined index.tsx:107:11\nComponent querying with IDs:  \nObject { submissionId: \"2\", reviewerId: undefined }\n​\nreviewerId: undefined\n​\nsubmissionId: \"2\"\n​\n<prototype>: Object { … }\n<anonymous code>:1:148389\nComponent rendered. existingReview:  undefined",
+    "timestamp": "2025-09-20T16:41:08.454Z"
+  },
+  {
+    "sessionId": "15af1426-5f1b-4224-a650-04b4f3650bd5",
+    "messageId": 19,
+    "type": "user",
+    "message": "actually for the user its pk not id",
+    "timestamp": "2025-09-20T16:42:02.379Z"
+  },
+  {
+    "sessionId": "15af1426-5f1b-4224-a650-04b4f3650bd5",
+    "messageId": 20,
+    "type": "user",
+    "message": "could you check that the form fields and there values matches the backend expected fields and values in apps/serminars/models/review.py",
+    "timestamp": "2025-09-20T16:54:46.043Z"
+  },
+  {
+    "sessionId": "15af1426-5f1b-4224-a650-04b4f3650bd5",
+    "messageId": 21,
+    "type": "user",
+    "message": "176 requests\n7.96 MB / 3.09 MB transferred\nFinish: 18.18 min\nDOMContentLoaded: 46 ms\nload: 1.45 s\n\ngeneral_quality[ \"« GOOD » n'est pas un choix valide.\" ]\noverall_evaluation[ \"« MINOR_REVISIONS » n'est pas un choix valide.\" ]",
+    "timestamp": "2025-09-20T16:57:04.685Z"
+  },
+  {
+    "sessionId": "15af1426-5f1b-4224-a650-04b4f3650bd5",
+    "messageId": 22,
+    "type": "user",
+    "message": "overall_evaluation[ \"« MINOR_REVISIONS » n'est pas un choix valide.\" ]",
+    "timestamp": "2025-09-20T16:58:26.061Z"
+  },
+  {
+    "sessionId": "15af1426-5f1b-4224-a650-04b4f3650bd5",
+    "messageId": 23,
+    "type": "user",
+    "message": "{\"overall_evaluation\":[\"« MINOR_REVISIONS » n'est pas un choix valide.\"]}",
+    "timestamp": "2025-09-20T16:59:14.392Z"
+  },
+  {
+    "sessionId": "15af1426-5f1b-4224-a650-04b4f3650bd5",
+    "messageId": 24,
+    "type": "user",
+    "message": "but everytime one enter the page you should try to get the review if was previously saved as a draft so the fields are fixed",
+    "timestamp": "2025-09-20T17:01:37.249Z"
+  },
+  {
+    "sessionId": "15af1426-5f1b-4224-a650-04b4f3650bd5",
+    "messageId": 25,
+    "type": "user",
+    "message": "you are fetching the review but the values are not in the form",
+    "timestamp": "2025-09-20T17:24:04.037Z"
+  },
+  {
+    "sessionId": "15af1426-5f1b-4224-a650-04b4f3650bd5",
+    "messageId": 26,
+    "type": "user",
+    "message": "no its not working could you inspire yourself from this shit ive found on the internet import React, { useEffect, useRef, useState } from \"react\";\nimport { zodResolver } from \"@hookform/resolvers/zod\";\nimport { z } from \"zod\";\nimport { useForm } from \"react-hook-form\";\nimport { profileSchema } from \"../../schemas/profile\";\nimport { form } from \"../../components/utility/form\";\nimport { Input } from \"../../components/utility/inputs\";\nimport { useAuth, useUpdateProfileMutation } from \"../../api/accounts/queries\";\nimport ProfilePicture from \"../../components/common/ProfilePicture\";\nimport { Button } from \"../../components/utility/buttons\";\nimport { GoMoveToTop, GoPencil, GoPersonAdd } from \"react-icons/go\";\nimport LoadingButton from \"../../components/common/LoadingButton\";\n\ntype Schema = z.infer<typeof profileSchema>;\n\ninterface IProps extends React.ComponentPropsWithoutRef<\"form\"> {}\nconst Form: React.FC<IProps> = ({ className, ...otherProps }) => {\n  // Get current account\n  const { me } = useAuth();\n\n  // State for the selected profile picture file\n  const [profilePicture, setProfilePicture] = useState<File | null>(null);\n  const [previewUrl, setPreviewUrl] = useState<string | null>(null);\n\n  // Ref for the file input\n  const fileInputRef = useRef<HTMLInputElement>(null);\n\n  const {\n    reset,\n    register,\n    handleSubmit,\n    formState: { errors },\n    setFocus,\n  } = useForm<Schema>({\n    resolver: zodResolver(profileSchema),\n    defaultValues: {\n      username: \"\",\n      firstName: \"\",\n      lastName: \"\",\n      phone: \"\",\n    },\n    mode: \"onChange\",\n  });\n\n  useEffect(() => {\n    if (setFocus) setFocus(\"username\");\n    if (me)\n      reset({\n        username: me.username || \"\",\n        firstName: me.first_name || \"\",\n        lastName: me.last_name || \"\",\n        phone: me?.profile?.phone || \"\",\n      });\n  }, [setFocus, me, reset]);\n\n  // Handle file selection\n  const handleFileChange = (event: React.ChangeEvent<HTMLInputElement>) => {\n    const file = event.target.files?.[0];\n    if (file) {\n      setProfilePicture(file);\n      setPreviewUrl(URL.createObjectURL(file)); // Create a preview URL for the image\n    }\n  };\n\n  const {\n    updateProfile,\n    status: updateProfileStatus,\n    error: updateProfileError,\n  } = useUpdateProfileMutation();\n\n  // Handle form submission\n  const submitFn = async (data: Schema) => {\n    const formData = new FormData();\n    formData.append(\"username\", data.username ? data.username : \"\");\n    formData.append(\"first_name\", data.firstName ? data.firstName : \"\");\n    formData.append(\"last_name\", data.lastName ? data.lastName : \"\");\n    formData.append(\"phone\", data.phone ? data.phone : \"\");\n    if (profilePicture) {\n      formData.append(\"profile_picture\", profilePicture);\n    }\n\n    updateProfile(formData);\n  };\n\n  // Trigger file input click\n  const handleEditProfilePicture = () => {\n    fileInputRef.current?.click();\n  };\n\n  return (\n    <form.Form\n      className={className}\n      {...otherProps}\n      onSubmit={handleSubmit(submitFn)}\n    >\n      {/* Profile picture */}\n      <form.Field className={`${className}__field`}>\n        <div className={`${className}__field__profile-picture`}>\n          <ProfilePicture\n            className=\"profile-picture settings\"\n            user={me}\n            preview={previewUrl}\n          />\n          <input\n            type=\"file\"\n            ref={fileInputRef}\n            style={{ display: \"none\" }}\n            accept=\"image/*\"\n            onChange={handleFileChange}\n          />\n          <Button\n            className=\"btn btn--icon\"\n            type=\"button\"\n            onClick={handleEditProfilePicture}\n          >\n            <GoPencil size={30} />\n          </Button>\n        </div>\n      </form.Field>\n\n      {/* Username */}\n      <form.Field className={`${className}__field`}>\n        <label htmlFor=\"username\">Username</label>\n        <Input\n          className={`${className}__field__username`}\n          type=\"text\"\n          placeholder=\"Username\"\n          register={register(\"username\")}\n        />\n        {errors.username && (\n          <small className=\"text-tags-4\">{errors.username.message}</small>\n        )}\n      </form.Field>\n\n      {/* First name */}\n      <form.Field className={`${className}__field`}>\n        <label htmlFor=\"firstName\">First name</label>\n        <Input\n          className={`${className}__field__firstName`}\n          type=\"text\"\n          placeholder=\"First name\"\n          register={register(\"firstName\")}\n        />\n        {errors.firstName && (\n          <small className=\"text-tags-4\">{errors.firstName.message}</small>\n        )}\n      </form.Field>\n\n      {/* Last name */}\n      <form.Field className={`${className}__field`}>\n        <label htmlFor=\"lastName\">Last name</label>\n        <Input\n          className={`${className}__field__lastName`}\n          type=\"text\"\n          placeholder=\"Last name\"\n          register={register(\"lastName\")}\n        />\n        {errors.lastName && (\n          <small className=\"text-tags-4\">{errors.lastName.message}</small>\n        )}\n      </form.Field>\n\n      {/* Phone number */}\n      <form.Field className={`${className}__field`}>\n        <label htmlFor=\"phone\">Phone number</label>\n        <Input\n          className={`${className}__field__phone`}\n          type=\"text\"\n          placeholder=\"Phone number\"\n          register={register(\"phone\")}\n        />\n        {errors.phone && (\n          <small className=\"text-tags-4\">{errors.phone.message}</small>\n        )}\n      </form.Field>\n\n      {/* Submit button */}\n      <form.Field className={`${className}__field`}>\n        <LoadingButton\n          className={`${className}__field__btn btn`}\n          status={updateProfileStatus}\n          type=\"submit\"\n        >\n          Update Profile\n          <GoMoveToTop size={20} />\n        </LoadingButton>\n      </form.Field>\n    </form.Form>\n  );\n};\n\nexport default Form;",
+    "timestamp": "2025-09-20T17:26:25.687Z"
+  },
+  {
+    "sessionId": "15af1426-5f1b-4224-a650-04b4f3650bd5",
+    "messageId": 27,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-09-20T17:27:28.263Z"
+  },
+  {
+    "sessionId": "668bbc5d-ed61-41e9-91ef-9073aaf5f7d3",
+    "messageId": 0,
+    "type": "user",
+    "message": "the page make-review in src/pages curently the fields form does not display default values could you inspire yourself from this code ive found on the internet to make it work import React, { useEffect, useRef, useState } from \"react\";\nimport { zodResolver } from \"@hookform/resolvers/zod\";\nimport { z } from \"zod\";\nimport { useForm } from \"react-hook-form\";\nimport { profileSchema } from \"../../schemas/profile\";\nimport { form } from \"../../components/utility/form\";\nimport { Input } from \"../../components/utility/inputs\";\nimport { useAuth, useUpdateProfileMutation } from \"../../api/accounts/queries\";\nimport ProfilePicture from \"../../components/common/ProfilePicture\";\nimport { Button } from \"../../components/utility/buttons\";\nimport { GoMoveToTop, GoPencil, GoPersonAdd } from \"react-icons/go\";\nimport LoadingButton from \"../../components/common/LoadingButton\";\n\ntype Schema = z.infer<typeof profileSchema>;\n\ninterface IProps extends React.ComponentPropsWithoutRef<\"form\"> {}\nconst Form: React.FC<IProps> = ({ className, ...otherProps }) => {\n  // Get current account\n  const { me } = useAuth();\n\n  // State for the selected profile picture file\n  const [profilePicture, setProfilePicture] = useState<File | null>(null);\n  const [previewUrl, setPreviewUrl] = useState<string | null>(null);\n\n  // Ref for the file input\n  const fileInputRef = useRef<HTMLInputElement>(null);\n\n  const {\n    reset,\n    register,\n    handleSubmit,\n    formState: { errors },\n    setFocus,\n  } = useForm<Schema>({\n    resolver: zodResolver(profileSchema),\n    defaultValues: {\n      username: \"\",\n      firstName: \"\",\n      lastName: \"\",\n      phone: \"\",\n    },\n    mode: \"onChange\",\n  });\n\n  useEffect(() => {\n    if (setFocus) setFocus(\"username\");\n    if (me)\n      reset({\n        username: me.username || \"\",\n        firstName: me.first_name || \"\",\n        lastName: me.last_name || \"\",\n        phone: me?.profile?.phone || \"\",\n      });\n  }, [setFocus, me, reset]);\n\n  // Handle file selection\n  const handleFileChange = (event: React.ChangeEvent<HTMLInputElement>) => {\n    const file = event.target.files?.[0];\n    if (file) {\n      setProfilePicture(file);\n      setPreviewUrl(URL.createObjectURL(file)); // Create a preview URL for the image\n    }\n  };\n\n  const {\n    updateProfile,\n    status: updateProfileStatus,\n    error: updateProfileError,\n  } = useUpdateProfileMutation();\n\n  // Handle form submission\n  const submitFn = async (data: Schema) => {\n    const formData = new FormData();\n    formData.append(\"username\", data.username ? data.username : \"\");\n    formData.append(\"first_name\", data.firstName ? data.firstName : \"\");\n    formData.append(\"last_name\", data.lastName ? data.lastName : \"\");\n    formData.append(\"phone\", data.phone ? data.phone : \"\");\n    if (profilePicture) {\n      formData.append(\"profile_picture\", profilePicture);\n    }\n\n    updateProfile(formData);\n  };\n\n  // Trigger file input click\n  const handleEditProfilePicture = () => {\n    fileInputRef.current?.click();\n  };\n\n  return (\n    <form.Form\n      className={className}\n      {...otherProps}\n      onSubmit={handleSubmit(submitFn)}\n    >\n      {/* Profile picture */}\n      <form.Field className={`${className}__field`}>\n        <div className={`${className}__field__profile-picture`}>\n          <ProfilePicture\n            className=\"profile-picture settings\"\n            user={me}\n            preview={previewUrl}\n          />\n          <input\n            type=\"file\"\n            ref={fileInputRef}\n            style={{ display: \"none\" }}\n            accept=\"image/*\"\n            onChange={handleFileChange}\n          />\n          <Button\n            className=\"btn btn--icon\"\n            type=\"button\"\n            onClick={handleEditProfilePicture}\n          >\n            <GoPencil size={30} />\n          </Button>\n        </div>\n      </form.Field>\n\n      {/* Username */}\n      <form.Field className={`${className}__field`}>\n        <label htmlFor=\"username\">Username</label>\n        <Input\n          className={`${className}__field__username`}\n          type=\"text\"\n          placeholder=\"Username\"\n          register={register(\"username\")}\n        />\n        {errors.username && (\n          <small className=\"text-tags-4\">{errors.username.message}</small>\n        )}\n      </form.Field>\n\n      {/* First name */}\n      <form.Field className={`${className}__field`}>\n        <label htmlFor=\"firstName\">First name</label>\n        <Input\n          className={`${className}__field__firstName`}\n          type=\"text\"\n          placeholder=\"First name\"\n          register={register(\"firstName\")}\n        />\n        {errors.firstName && (\n          <small className=\"text-tags-4\">{errors.firstName.message}</small>\n        )}\n      </form.Field>\n\n      {/* Last name */}\n      <form.Field className={`${className}__field`}>\n        <label htmlFor=\"lastName\">Last name</label>\n        <Input\n          className={`${className}__field__lastName`}\n          type=\"text\"\n          placeholder=\"Last name\"\n          register={register(\"lastName\")}\n        />\n        {errors.lastName && (\n          <small className=\"text-tags-4\">{errors.lastName.message}</small>\n        )}\n      </form.Field>\n\n      {/* Phone number */}\n      <form.Field className={`${className}__field`}>\n        <label htmlFor=\"phone\">Phone number</label>\n        <Input\n          className={`${className}__field__phone`}\n          type=\"text\"\n          placeholder=\"Phone number\"\n          register={register(\"phone\")}\n        />\n        {errors.phone && (\n          <small className=\"text-tags-4\">{errors.phone.message}</small>\n        )}\n      </form.Field>\n\n      {/* Submit button */}\n      <form.Field className={`${className}__field`}>\n        <LoadingButton\n          className={`${className}__field__btn btn`}\n          status={updateProfileStatus}\n          type=\"submit\"\n        >\n          Update Profile\n          <GoMoveToTop size={20} />\n        </LoadingButton>\n      </form.Field>\n    </form.Form>\n  );\n};\n\nexport default Form;",
+    "timestamp": "2025-09-20T17:29:06.235Z"
+  },
+  {
+    "sessionId": "668bbc5d-ed61-41e9-91ef-9073aaf5f7d3",
+    "messageId": 1,
+    "type": "user",
+    "message": "the fields always doesnt show the default values",
+    "timestamp": "2025-09-20T17:38:29.355Z"
+  },
+  {
+    "sessionId": "668bbc5d-ed61-41e9-91ef-9073aaf5f7d3",
+    "messageId": 2,
+    "type": "user",
+    "message": "no issue is resolved what i want is the default values to be updated with the useEffect and shows in the ui fields",
+    "timestamp": "2025-09-20T17:40:31.963Z"
+  },
+  {
+    "sessionId": "668bbc5d-ed61-41e9-91ef-9073aaf5f7d3",
+    "messageId": 3,
+    "type": "user",
+    "message": "always not working please inspire from this import React, { useEffect, useRef, useState } from \"react\";\nimport { zodResolver } from \"@hookform/resolvers/zod\";\nimport { z } from \"zod\";\nimport { useForm } from \"react-hook-form\";\nimport { profileSchema } from \"../../schemas/profile\";\nimport { form } from \"../../components/utility/form\";\nimport { Input } from \"../../components/utility/inputs\";\nimport { useAuth, useUpdateProfileMutation } from \"../../api/accounts/queries\";\nimport ProfilePicture from \"../../components/common/ProfilePicture\";\nimport { Button } from \"../../components/utility/buttons\";\nimport { GoMoveToTop, GoPencil, GoPersonAdd } from \"react-icons/go\";\nimport LoadingButton from \"../../components/common/LoadingButton\";\n\ntype Schema = z.infer<typeof profileSchema>;\n\ninterface IProps extends React.ComponentPropsWithoutRef<\"form\"> {}\nconst Form: React.FC<IProps> = ({ className, ...otherProps }) => {\n  // Get current account\n  const { me } = useAuth();\n\n  // State for the selected profile picture file\n  const [profilePicture, setProfilePicture] = useState<File | null>(null);\n  const [previewUrl, setPreviewUrl] = useState<string | null>(null);\n\n  // Ref for the file input\n  const fileInputRef = useRef<HTMLInputElement>(null);\n\n  const {\n    reset,\n    register,\n    handleSubmit,\n    formState: { errors },\n    setFocus,\n  } = useForm<Schema>({\n    resolver: zodResolver(profileSchema),\n    defaultValues: {\n      username: \"\",\n      firstName: \"\",\n      lastName: \"\",\n      phone: \"\",\n    },\n    mode: \"onChange\",\n  });\n\n  useEffect(() => {\n    if (setFocus) setFocus(\"username\");\n    if (me)\n      reset({\n        username: me.username || \"\",\n        firstName: me.first_name || \"\",\n        lastName: me.last_name || \"\",\n        phone: me?.profile?.phone || \"\",\n      });\n  }, [setFocus, me, reset]);\n\n  // Handle file selection\n  const handleFileChange = (event: React.ChangeEvent<HTMLInputElement>) => {\n    const file = event.target.files?.[0];\n    if (file) {\n      setProfilePicture(file);\n      setPreviewUrl(URL.createObjectURL(file)); // Create a preview URL for the image\n    }\n  };\n\n  const {\n    updateProfile,\n    status: updateProfileStatus,\n    error: updateProfileError,\n  } = useUpdateProfileMutation();\n\n  // Handle form submission\n  const submitFn = async (data: Schema) => {\n    const formData = new FormData();\n    formData.append(\"username\", data.username ? data.username : \"\");\n    formData.append(\"first_name\", data.firstName ? data.firstName : \"\");\n    formData.append(\"last_name\", data.lastName ? data.lastName : \"\");\n    formData.append(\"phone\", data.phone ? data.phone : \"\");\n    if (profilePicture) {\n      formData.append(\"profile_picture\", profilePicture);\n    }\n\n    updateProfile(formData);\n  };\n\n  // Trigger file input click\n  const handleEditProfilePicture = () => {\n    fileInputRef.current?.click();\n  };\n\n  return (\n    <form.Form\n      className={className}\n      {...otherProps}\n      onSubmit={handleSubmit(submitFn)}\n    >\n      {/* Profile picture */}\n      <form.Field className={`${className}__field`}>\n        <div className={`${className}__field__profile-picture`}>\n          <ProfilePicture\n            className=\"profile-picture settings\"\n            user={me}\n            preview={previewUrl}\n          />\n          <input\n            type=\"file\"\n            ref={fileInputRef}\n            style={{ display: \"none\" }}\n            accept=\"image/*\"\n            onChange={handleFileChange}\n          />\n          <Button\n            className=\"btn btn--icon\"\n            type=\"button\"\n            onClick={handleEditProfilePicture}\n          >\n            <GoPencil size={30} />\n          </Button>\n        </div>\n      </form.Field>\n\n      {/* Username */}\n      <form.Field className={`${className}__field`}>\n        <label htmlFor=\"username\">Username</label>\n        <Input\n          className={`${className}__field__username`}\n          type=\"text\"\n          placeholder=\"Username\"\n          register={register(\"username\")}\n        />\n        {errors.username && (\n          <small className=\"text-tags-4\">{errors.username.message}</small>\n        )}\n      </form.Field>\n\n      {/* First name */}\n      <form.Field className={`${className}__field`}>\n        <label htmlFor=\"firstName\">First name</label>\n        <Input\n          className={`${className}__field__firstName`}\n          type=\"text\"\n          placeholder=\"First name\"\n          register={register(\"firstName\")}\n        />\n        {errors.firstName && (\n          <small className=\"text-tags-4\">{errors.firstName.message}</small>\n        )}\n      </form.Field>\n\n      {/* Last name */}\n      <form.Field className={`${className}__field`}>\n        <label htmlFor=\"lastName\">Last name</label>\n        <Input\n          className={`${className}__field__lastName`}\n          type=\"text\"\n          placeholder=\"Last name\"\n          register={register(\"lastName\")}\n        />\n        {errors.lastName && (\n          <small className=\"text-tags-4\">{errors.lastName.message}</small>\n        )}\n      </form.Field>\n\n      {/* Phone number */}\n      <form.Field className={`${className}__field`}>\n        <label htmlFor=\"phone\">Phone number</label>\n        <Input\n          className={`${className}__field__phone`}\n          type=\"text\"\n          placeholder=\"Phone number\"\n          register={register(\"phone\")}\n        />\n        {errors.phone && (\n          <small className=\"text-tags-4\">{errors.phone.message}</small>\n        )}\n      </form.Field>\n\n      {/* Submit button */}\n      <form.Field className={`${className}__field`}>\n        <LoadingButton\n          className={`${className}__field__btn btn`}\n          status={updateProfileStatus}\n          type=\"submit\"\n        >\n          Update Profile\n          <GoMoveToTop size={20} />\n        </LoadingButton>\n      </form.Field>\n    </form.Form>\n  );\n};\n\nexport default Form;",
+    "timestamp": "2025-09-20T17:44:25.925Z"
+  },
+  {
+    "sessionId": "668bbc5d-ed61-41e9-91ef-9073aaf5f7d3",
+    "messageId": 4,
+    "type": "user",
+    "message": "actualy its working for every fields exept for selects",
+    "timestamp": "2025-09-20T17:46:51.213Z"
+  },
+  {
+    "sessionId": "668bbc5d-ed61-41e9-91ef-9073aaf5f7d3",
+    "messageId": 5,
+    "type": "user",
+    "message": "not working",
+    "timestamp": "2025-09-20T17:47:36.698Z"
+  },
+  {
+    "sessionId": "668bbc5d-ed61-41e9-91ef-9073aaf5f7d3",
+    "messageId": 6,
+    "type": "user",
+    "message": "okay its working now but its the page isnt properly translated",
+    "timestamp": "2025-09-20T17:49:05.893Z"
+  },
+  {
+    "sessionId": "668bbc5d-ed61-41e9-91ef-9073aaf5f7d3",
+    "messageId": 7,
+    "type": "user",
+    "message": "dont fuck with that just put the entries in translation.json files",
+    "timestamp": "2025-09-20T17:50:51.408Z"
+  },
+  {
+    "sessionId": "668bbc5d-ed61-41e9-91ef-9073aaf5f7d3",
+    "messageId": 8,
+    "type": "user",
+    "message": "you are missing entries the select choices",
+    "timestamp": "2025-09-20T17:56:26.902Z"
+  },
+  {
+    "sessionId": "668bbc5d-ed61-41e9-91ef-9073aaf5f7d3",
+    "messageId": 9,
+    "type": "user",
+    "message": "{\"overall_evaluation\":[\"« MINOR_REVISIONS » n'est pas un choix valide.\"]}",
+    "timestamp": "2025-09-20T17:58:22.053Z"
+  },
+  {
+    "sessionId": "668bbc5d-ed61-41e9-91ef-9073aaf5f7d3",
+    "messageId": 10,
+    "type": "user",
+    "message": "{\"overall_evaluation\":[\"« MINOR_REVISIONS » n'est pas un choix valide.\"]}",
+    "timestamp": "2025-09-20T23:06:21.373Z"
+  },
+  {
+    "sessionId": "668bbc5d-ed61-41e9-91ef-9073aaf5f7d3",
+    "messageId": 11,
+    "type": "user",
+    "message": "/Q",
+    "timestamp": "2025-09-21T13:11:30.623Z"
+  },
+  {
+    "sessionId": "668bbc5d-ed61-41e9-91ef-9073aaf5f7d3",
+    "messageId": 12,
+    "type": "user",
+    "message": "/Q",
+    "timestamp": "2025-09-21T13:11:33.052Z"
+  },
+  {
+    "sessionId": "668bbc5d-ed61-41e9-91ef-9073aaf5f7d3",
+    "messageId": 13,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-09-21T13:11:35.656Z"
+  },
+  {
+    "sessionId": "4f8ef65d-96db-4ec2-9aa7-ceebb030f9ec",
+    "messageId": 0,
+    "type": "user",
+    "message": "hey gemi give a look at frontend/src/pages/make-review select values arent prperly translated !! are the entries there in translation.json files",
+    "timestamp": "2025-09-21T13:12:23.207Z"
+  },
+  {
+    "sessionId": "4f8ef65d-96db-4ec2-9aa7-ceebb030f9ec",
+    "messageId": 1,
+    "type": "user",
+    "message": "but the selects choices arent alright ?",
+    "timestamp": "2025-09-21T17:58:31.914Z"
+  },
+  {
+    "sessionId": "4f8ef65d-96db-4ec2-9aa7-ceebb030f9ec",
+    "messageId": 2,
+    "type": "user",
+    "message": "check the choices for general quality for example are the entries there ?",
+    "timestamp": "2025-09-21T18:00:28.168Z"
+  },
+  {
+    "sessionId": "4f8ef65d-96db-4ec2-9aa7-ceebb030f9ec",
+    "messageId": 3,
+    "type": "user",
+    "message": "you should respect the backend too",
+    "timestamp": "2025-09-21T18:01:02.385Z"
+  },
+  {
+    "sessionId": "4f8ef65d-96db-4ec2-9aa7-ceebb030f9ec",
+    "messageId": 4,
+    "type": "user",
+    "message": "when i clock on submit review i have a 400 error {\"overall_evaluation\":[\"« MINOR_REVISIONS » n'est pas un choix valide.\"]}",
+    "timestamp": "2025-09-21T18:04:56.029Z"
+  },
+  {
+    "sessionId": "4f8ef65d-96db-4ec2-9aa7-ceebb030f9ec",
+    "messageId": 5,
+    "type": "user",
+    "message": "i have now this validation choice in the frontend Invalid option: expected one of \"ACCEPT\"|\"MINOR_REVISIONS\"|\"MAJOR_REVISIONS\"|\"REJECT\"",
+    "timestamp": "2025-09-21T18:06:32.083Z"
+  },
+  {
+    "sessionId": "4f8ef65d-96db-4ec2-9aa7-ceebb030f9ec",
+    "messageId": 6,
+    "type": "user",
+    "message": "could you make sure that when smublit review is clicked is_draft will be false N",
+    "timestamp": "2025-09-21T20:13:36.109Z"
+  },
+  {
+    "sessionId": "4f8ef65d-96db-4ec2-9aa7-ceebb030f9ec",
+    "messageId": 7,
+    "type": "user",
+    "message": "could you tell me what is_completed field in assignments is for check assignment.py in seminars app",
+    "timestamp": "2025-09-21T21:25:38.930Z"
+  },
+  {
+    "sessionId": "4f8ef65d-96db-4ec2-9aa7-ceebb030f9ec",
+    "messageId": 8,
+    "type": "user",
+    "message": "whats is its default value ?",
+    "timestamp": "2025-09-21T21:27:26.018Z"
+  },
+  {
+    "sessionId": "4f8ef65d-96db-4ec2-9aa7-ceebb030f9ec",
+    "messageId": 9,
+    "type": "user",
+    "message": "could you check when it become true in the frontend check the queries in li/api/...",
+    "timestamp": "2025-09-21T21:27:55.496Z"
+  },
+  {
+    "sessionId": "4f8ef65d-96db-4ec2-9aa7-ceebb030f9ec",
+    "messageId": 10,
+    "type": "user",
+    "message": "i dont think so because even reviews that i didnt submit yet has the value true for is_completed",
+    "timestamp": "2025-09-21T21:29:41.091Z"
+  },
+  {
+    "sessionId": "1b2cf931-ad80-4cad-87b6-06b2a983544f",
+    "messageId": 0,
+    "type": "user",
+    "message": "q",
+    "timestamp": "2025-09-23T12:11:46.031Z"
+  },
+  {
+    "sessionId": "1b2cf931-ad80-4cad-87b6-06b2a983544f",
+    "messageId": 1,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-09-23T12:11:51.826Z"
+  },
+  {
+    "sessionId": "da7d2934-3bde-4c23-bc09-2b925f776476",
+    "messageId": 0,
+    "type": "user",
+    "message": "in frontend/src/lib/api/review-assignment/queries in useUpdateReviewAssignmentStatus its update only the status i want another one that updates is_review_completed you can check the review-assignments models and view and serializer in the seminars app in the backend",
+    "timestamp": "2025-09-23T12:25:46.583Z"
+  },
+  {
+    "sessionId": "da7d2934-3bde-4c23-bc09-2b925f776476",
+    "messageId": 1,
+    "type": "user",
+    "message": "in js how to cast a string to a number",
+    "timestamp": "2025-09-23T14:13:36.725Z"
+  },
+  {
+    "sessionId": "9adc496f-e20c-4148-ad1d-07f3d0e51916",
+    "messageId": 0,
+    "type": "user",
+    "message": "IntegrityError at /api/reviews/\n\nduplicate key value violates unique constraint \"seminars_review_submission_id_reviewer_id_5ffea968_uniq\"\nDETAIL:  Key (submission_id, reviewer_id)=(1, 11) already exists.\n\nRequest Method: POST\nRequest URL: http://localhost:8000/api/reviews/\nDjango Version: 5.2.4\nException Type: IntegrityError\nException Value: \n\nduplicate key value violates unique constraint \"seminars_review_submission_id_reviewer_id_5ffea968_uniq\"\nDETAIL:  Key (submission_id,",
+    "timestamp": "2025-09-24T12:33:41.169Z"
+  },
+  {
+    "sessionId": "1f36ae58-f8ff-49a8-a478-a1276d7c729e",
+    "messageId": 0,
+    "type": "user",
+    "message": "am using dbdiagram.io to represents my table its using this syntax and rules :",
+    "timestamp": "2025-09-24T13:43:06.963Z"
+  },
+  {
+    "sessionId": "1f36ae58-f8ff-49a8-a478-a1276d7c729e",
+    "messageId": 1,
+    "type": "user",
+    "message": "// Use DBML to define your database structure\n// Docs: https://dbml.dbdiagram.io/docs\n\nTable follows {\n  following_user_id integer\n  followed_user_id integer\n  created_at timestamp\n}\n\nTable users {\n  id integer [primary key]\n  username varchar\n  role varchar\n  created_at timestamp\n}\n\nTable posts {\n  id integer [primary key]\n  title varchar\n  body text [note: 'Content of the post']\n  user_id integer [not null]\n  status varchar\n  created_at timestamp\n}\n\nRef user_posts: posts.user_id > users.id // many-to-one\n\nRef: users.id < follows.following_user_id\n\nRef: users.id < follows.followed_user_id\n those are the rules could you give me the code to represend my db look in backackend/apps/seminars/models and apps/accounts/models",
+    "timestamp": "2025-09-24T13:44:05.684Z"
+  },
+  {
+    "sessionId": "1f36ae58-f8ff-49a8-a478-a1276d7c729e",
+    "messageId": 2,
+    "type": "user",
+    "message": "// Use DBML to define your database structure\n// Docs: https://dbml.dbdiagram.io/docs\n\nTable follows {\n  following_user_id integer\n  followed_user_id integer\n  created_at timestamp\n}\n\nTable users {\n  id integer [primary key]\n  username varchar\n  role varchar\n  created_at timestamp\n}\n\nTable posts {\n  id integer [primary key]\n  title varchar\n  body text [note: 'Content of the post']\n  user_id integer [not null]\n  status varchar\n  created_at timestamp\n}\n\nRef user_posts: posts.user_id > users.id // many-to-one\n\nRef: users.id < follows.following_user_id\n\nRef: users.id < follows.followed_user_id\n those are the rules could you give me the code to represend my db look in backackend/apps/seminars/models and apps/accounts/models",
+    "timestamp": "2025-09-24T13:44:21.820Z"
+  },
+  {
+    "sessionId": "1f36ae58-f8ff-49a8-a478-a1276d7c729e",
+    "messageId": 3,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-09-24T13:44:25.920Z"
+  },
+  {
+    "sessionId": "eaa6635e-faf3-4730-a95a-b4cc6607878e",
+    "messageId": 0,
+    "type": "user",
+    "message": "am using dbdiagram.io   Table follows {\n    following_user_id integer\n    followed_user_id integer\n    created_at timestamp\n  }\n\n  Table users {\n    id integer [primary key]\n    username varchar\n    role varchar\n    created_at timestamp\n  }\n\n  Table posts {\n    id integer [primary key]\n    title varchar\n    body text [note: 'Content of the post']\n    user_id integer [not null]\n    status varchar\n    created_at timestamp\n  }\n\n  Ref user_posts: posts.user_id > users.id // many-to-one\n\n  Ref: users.id < follows.following_user_id\n\n  Ref: users.id < follows.followed_user_id\n   those are the rules could you give me the code to represend my db look in backackend/apps/seminars/models and apps/accounts/models",
+    "timestamp": "2025-09-24T13:44:42.876Z"
+  },
+  {
+    "sessionId": "eaa6635e-faf3-4730-a95a-b4cc6607878e",
+    "messageId": 1,
+    "type": "user",
+    "message": "what the fuck i just asked you to give me the code that i will use in dbdiagram.io it looks somthing like this // Use DBML to define your database structure\n// Docs: https://dbml.dbdiagram.io/docs\n\nTable follows {\n  following_user_id integer\n  followed_user_id integer\n  created_at timestamp\n}\n\nTable users {\n  id integer [primary key]\n  username varchar\n  role varchar\n  created_at timestamp\n}\n\nTable posts {\n  id integer [primary key]\n  title varchar\n  body text [note: 'Content of the post']\n  user_id integer [not null]\n  status varchar\n  created_at timestamp\n}\n\nRef user_posts: posts.user_id > users.id // many-to-one\n\nRef: users.id < follows.following_user_id\n\nRef: users.id < follows.followed_user_id",
+    "timestamp": "2025-09-24T13:46:02.285Z"
+  },
+  {
+    "sessionId": "eaa6635e-faf3-4730-a95a-b4cc6607878e",
+    "messageId": 2,
+    "type": "user",
+    "message": "you gave me exactly the same thing i gave you",
+    "timestamp": "2025-09-24T13:46:54.558Z"
+  },
+  {
+    "sessionId": "eaa6635e-faf3-4730-a95a-b4cc6607878e",
+    "messageId": 3,
+    "type": "user",
+    "message": "proceed",
+    "timestamp": "2025-09-24T13:47:22.976Z"
+  },
+  {
+    "sessionId": "eaa6635e-faf3-4730-a95a-b4cc6607878e",
+    "messageId": 4,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-09-24T13:58:27.006Z"
+  },
+  {
+    "sessionId": "8b296fd5-3751-4571-85ed-e9c1f54ae7fd",
+    "messageId": 0,
+    "type": "user",
+    "message": "could you inspire from other pages in frontend/src/pages to create the page src/pages/make-submission/index.ts this page is for authors to create a submission",
+    "timestamp": "2025-09-25T12:59:26.917Z"
+  },
+  {
+    "sessionId": "8b296fd5-3751-4571-85ed-e9c1f54ae7fd",
+    "messageId": 1,
+    "type": "user",
+    "message": "actualy you must look at the backend to know the fields for this page check tha app seminars review.py",
+    "timestamp": "2025-09-25T13:05:30.245Z"
+  },
+  {
+    "sessionId": "8b296fd5-3751-4571-85ed-e9c1f54ae7fd",
+    "messageId": 2,
+    "type": "user",
+    "message": "go on",
+    "timestamp": "2025-09-25T13:07:12.026Z"
+  },
+  {
+    "sessionId": "8b296fd5-3751-4571-85ed-e9c1f54ae7fd",
+    "messageId": 3,
+    "type": "user",
+    "message": "The requested module 'http://localhost:5173/src/lib/api/api.ts' doesn't provide an export named: 'api'",
+    "timestamp": "2025-09-25T13:10:42.458Z"
+  },
+  {
+    "sessionId": "8b296fd5-3751-4571-85ed-e9c1f54ae7fd",
+    "messageId": 4,
+    "type": "user",
+    "message": "Something went wrong!\n\nseminars.map is not a function",
+    "timestamp": "2025-09-25T13:11:16.266Z"
+  },
+  {
+    "sessionId": "8b296fd5-3751-4571-85ed-e9c1f54ae7fd",
+    "messageId": 5,
+    "type": "user",
+    "message": "okay but its stupid that the user could chose any seminar he want he should view seminars he is accepted in!",
+    "timestamp": "2025-09-25T13:12:49.839Z"
+  },
+  {
+    "sessionId": "8b296fd5-3751-4571-85ed-e9c1f54ae7fd",
+    "messageId": 6,
+    "type": "user",
+    "message": "no there is nothing there check seminars app and accounts app",
+    "timestamp": "2025-09-25T13:13:21.764Z"
+  },
+  {
+    "sessionId": "8b296fd5-3751-4571-85ed-e9c1f54ae7fd",
+    "messageId": 7,
+    "type": "user",
+    "message": "nop stupid that has nothing to do with authentication user should be subscribed in a seminar and accepted by the organizer",
+    "timestamp": "2025-09-25T13:15:52.157Z"
+  },
+  {
+    "sessionId": "8b296fd5-3751-4571-85ed-e9c1f54ae7fd",
+    "messageId": 8,
+    "type": "user",
+    "message": "maybe there is nothing doing that what do you suggest ?",
+    "timestamp": "2025-09-25T13:16:57.567Z"
+  },
+  {
+    "sessionId": "8b296fd5-3751-4571-85ed-e9c1f54ae7fd",
+    "messageId": 9,
+    "type": "user",
+    "message": "could you write for me a prompt that summerize all this app which is a seminar app",
+    "timestamp": "2025-09-25T15:16:06.755Z"
+  },
+  {
+    "sessionId": "8b296fd5-3751-4571-85ed-e9c1f54ae7fd",
+    "messageId": 10,
+    "type": "user",
+    "message": "what is missing in this app is a page submit_to_seminar or somthing semilar the link will look somthing like this /submit/<seminar_id>/ .....",
+    "timestamp": "2025-09-25T15:30:39.737Z"
+  },
+  {
+    "sessionId": "8b296fd5-3751-4571-85ed-e9c1f54ae7fd",
+    "messageId": 11,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-09-26T12:45:16.723Z"
+  },
+  {
+    "sessionId": "2eb0df9c-ca90-4a98-aa6c-7e6711b28165",
+    "messageId": 0,
+    "type": "user",
+    "message": "hey gemi ive changed backend/apps/seminar/models/seminar.py could you adapt serializers/seminar.py and views/seminar.py and also managment/commands/generate_test_data.py",
+    "timestamp": "2025-09-26T12:47:01.877Z"
+  },
+  {
+    "sessionId": "2eb0df9c-ca90-4a98-aa6c-7e6711b28165",
+    "messageId": 1,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-09-26T16:55:13.691Z"
+  },
+  {
+    "sessionId": "c0ac2ac4-4f26-4b69-95df-4063d22c06eb",
+    "messageId": 0,
+    "type": "user",
+    "message": "actually the make-submission page should be different component depending on the status of the seminar you can check pages/make-submission/index.tsx and also the backend the app seminar check models/seminar.py and seriualizers/seminar.py",
+    "timestamp": "2025-09-26T16:56:38.353Z"
+  },
+  {
+    "sessionId": "c0ac2ac4-4f26-4b69-95df-4063d22c06eb",
+    "messageId": 1,
+    "type": "user",
+    "message": "go on",
+    "timestamp": "2025-09-26T16:57:25.616Z"
+  },
+  {
+    "sessionId": "c0ac2ac4-4f26-4b69-95df-4063d22c06eb",
+    "messageId": 2,
+    "type": "user",
+    "message": "did check the backend ?",
+    "timestamp": "2025-09-26T16:59:21.046Z"
+  },
+  {
+    "sessionId": "c0ac2ac4-4f26-4b69-95df-4063d22c06eb",
+    "messageId": 3,
+    "type": "user",
+    "message": "no check the backend to know whar are the states of a seminar status before proceding",
+    "timestamp": "2025-09-26T16:59:54.864Z"
+  },
+  {
+    "sessionId": "c0ac2ac4-4f26-4b69-95df-4063d22c06eb",
+    "messageId": 4,
+    "type": "user",
+    "message": "The requested module 'http://localhost:5173/src/lib/types.ts' doesn't provide an export named: 'Seminar'",
+    "timestamp": "2025-09-26T17:03:31.973Z"
+  },
+  {
+    "sessionId": "c0ac2ac4-4f26-4b69-95df-4063d22c06eb",
+    "messageId": 5,
+    "type": "user",
+    "message": "okay but it seems that there is duplication maybe somthing is in pages/make-submission/index.ts that shouldnt be there or should be there and depend on the status of the seminar the title",
+    "timestamp": "2025-09-26T17:08:46.965Z"
+  },
+  {
+    "sessionId": "c0ac2ac4-4f26-4b69-95df-4063d22c06eb",
+    "messageId": 6,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-09-27T11:48:35.380Z"
+  },
+  {
+    "sessionId": "57be0bf9-8d82-47a0-bad6-86d20bc74a0b",
+    "messageId": 0,
+    "type": "user",
+    "message": "look at the components in components/make-submission/...  submission-not-ready looks beautiful but the others not really could you make the cothers look like it",
+    "timestamp": "2025-09-27T11:49:42.946Z"
+  },
+  {
+    "sessionId": "57be0bf9-8d82-47a0-bad6-86d20bc74a0b",
+    "messageId": 1,
+    "type": "user",
+    "message": "in Navigation.tsx for admin could you add link seminars ?",
+    "timestamp": "2025-09-27T12:22:07.806Z"
+  },
+  {
+    "sessionId": "57be0bf9-8d82-47a0-bad6-86d20bc74a0b",
+    "messageId": 2,
+    "type": "user",
+    "message": "ReferenceError: useTranslation is not defined\n    SeminarsPage index.tsx:4\n    React 18\n    __notifyListeners scheduler.ts:69\n    __notifyListeners scheduler.ts:68\n    __flush scheduler.ts:111\n    batch scheduler.ts:151\n    onReady router.ts:2036\n    startViewTransition router.ts:2183\n    onReady router.ts:2027\n    triggerOnReady router.ts:2246\n    loadMatches router.ts:2783\n    loadPromise router.ts:2020\n    startTransition Transitioner.tsx:37\n    startTransition React\n    startTransition Transitioner.tsx:36\n    loadPromise router.ts:1970\n    load router.ts:1969\n    notify index.ts:120\n    notify index.ts:120\n    task index.ts:181\n    tryNavigation index.ts:157\n    push index.ts:178\n    commitLocation router.ts:1887\n    buildAndCommitLocation router.ts:1927\n    navigate router.ts:1951\n    handleClick link.tsx:251\n    composeHandlers link.tsx:305\n    composeHandlers link.tsx:303\n    React 13\n    <anonymous> main.tsx:65\n \n\nThe above error occurred in the <SeminarsPage> component.\n\nReact will try to recreate this component tree from scratch using the error boundary you provided, CatchBoundaryImpl.\n Stack: \n    Lazy lazyRouteComponent.tsx:101\n    out Match.tsx:199\n    React 3\n    MatchInnerImpl Match.tsx:196\n    MatchImpl Match.tsx:111\n    OutletImpl Match.tsx:317\n    RouteComponent _main.tsx:53\n    Lazy lazyRouteComponent.tsx:101\n    out Match.tsx:199\n    React 3\n    MatchInnerImpl Match.tsx:196\n    MatchImpl Match.tsx:111\n    OutletImpl Match.tsx:317\n    RootComponent __root.tsx:12\n    out Match.tsx:199\n    React 3\n    MatchInnerImpl Match.tsx:196\n    MatchImpl Match.tsx:111\n    MatchesInner Matches.tsx:92\n    Matches Matches.tsx:57\n    RouterProvider RouterProvider.tsx:51\n<anonymous code>:1:145535",
+    "timestamp": "2025-09-27T12:30:50.377Z"
+  }
+]

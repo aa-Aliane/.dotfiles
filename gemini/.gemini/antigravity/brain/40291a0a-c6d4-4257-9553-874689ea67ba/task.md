@@ -1,0 +1,36 @@
+# Task: Frontend Data Fetching Migration
+
+- [x] Configure API client (`src/lib/api/client.ts`) <!-- id: 0 -->
+- [x] Update Type Definitions <!-- id: 1 -->
+    - [x] `src/types/common.ts` (Repair, Client, etc.) <!-- id: 1.1 -->
+    - [x] `src/types/product.ts` (Product, Brand, etc.) <!-- id: 1.2 -->
+- [x] Create/Update React Query Hooks <!-- id: 2 -->
+    - [x] Tech Data hooks (`useProducts`, `useBrands`, etc.) <!-- id: 2.1 -->
+    - [x] Repair hooks (`useRepairs`, `useRepair`, mutations) <!-- id: 2.2 -->
+    - [x] Client hooks (`useClients`) <!-- id: 2.3 -->
+- [x] Fix `ReferenceError` in `ClientsPage` (circular dependency)
+- [x] Fix `TypeError` in `RepairDetailsDialog` (client name access)
+- [x] Update `RepairTicket` to use correct client fields
+- [x] Update `ClientsTable` to use correct client fields
+- [x] Update `ClientDetailsDialog` to use correct client fields
+- [x] Update `AddReparationStore` to use correct client fields
+- [x] Update `ClientStep` to use `useClients` hook
+- [x] Fix `RepairCard` runtime error (status access)
+- [x] Integrate Hooks into Components <!-- id: 3 -->
+    - [x] Repair List & Detail <!-- id: 3.1 -->
+    - [x] Product List <!-- id: 3.2 -->
+    - [x] Client List <!-- id: 3.3 -->
+    - [x] Add Reparation Form <!-- id: 3.4 -->
+- [ ] Implement Issues API and Hook
+    - [x] Check for existing Issue API
+    - [x] Create Issue model
+    - [x] Create Issue serializer and viewset
+    - [x] Register Issue URLs
+    - [ ] Run migrations
+    - [ ] Create `useIssues` hook
+    - [ ] Update `AddReparationForm` to use `useIssues`
+- [ ] Implement Mutations <!-- id: 4 -->
+    - [x] Repair Status Update <!-- id: 4.1 -->
+    - [x] Add Payment <!-- id: 4.2 -->
+    - [x] Stock Update <!-- id: 4.3 -->
+- [ ] Verify Migration <!-- id: 5 -->

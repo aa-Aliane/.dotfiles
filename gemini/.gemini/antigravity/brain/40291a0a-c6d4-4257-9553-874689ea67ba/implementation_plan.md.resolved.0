@@ -1,0 +1,65 @@
+# Frontend Data Fetching Migration Plan
+
+## Goal
+Migrate the frontend from using fake local data ([src/lib/data.ts](file:///home/amine/coding/web/tek-mag/frontend/src/lib/data.ts)) to fetching real data from the Django backend using `@tanstack/react-query` for server state and `zustand` for local persistent state.
+
+## User Review Required
+> [!IMPORTANT]
+> This migration will replace the current fake data. Ensure the backend is running and accessible at `http://localhost:8000` (or the configured API URL).
+
+## Proposed Changes
+
+### 1. API Client Configuration
+- **File**: [src/lib/api/client.ts](file:///home/amine/coding/web/tek-mag/frontend/src/lib/api/client.ts)
+- **Action**: Ensure `axios` is configured with the correct base URL and interceptors for JWT authentication (attaching access token, handling 401 refreshes).
+
+### 2. Type Definitions
+- **File**: [src/types/common.ts](file:///home/amine/coding/web/tek-mag/frontend/src/types/common.ts), [src/types/product.ts](file:///home/amine/coding/web/tek-mag/frontend/src/types/product.ts), etc.
+- **Action**: Update frontend types to exactly match the DRF serializer outputs.
+    - [Repair](file:///home/amine/coding/web/tek-mag/frontend/src/types/common.ts#45-69) model fields (uid, date, product_model, etc.)
+    - [Client](file:///home/amine/coding/web/tek-mag/frontend/src/types/common.ts#30-36) (User/Profile)
+    - [Product](file:///home/amine/coding/web/tek-mag/frontend/src/types/product.ts#1-21), [Brand](file:///home/amine/coding/web/tek-mag/frontend/src/types/common.ts#9-14), `Series`, [DeviceType](file:///home/amine/coding/web/tek-mag/frontend/src/types/common.ts#1-2)
+
+### 3. React Query Hooks
+Create or update hooks in `src/hooks/` to fetch data from the API.
+- **Tech Data**:
+    - [useProducts](file:///home/amine/coding/web/tek-mag/frontend/src/hooks/use-products.ts#10-16) (already exists, verify)
+    - `useBrands`, `useSeries`, `useDeviceTypes`
+    - `useLocations`, `useSuppliers`, `useStockItems`
+- **Repairs**:
+    - `useRepairs` (list, filter)
+    - `useRepair` (detail)
+    - `useCreateRepair`, `useUpdateRepair` (mutations)
+- **Clients**:
+    - `useClients` (list, search)
+
+### 4. Zustand Stores
+- **File**: `src/store/`
+- **Action**:
+    - Use Zustand for *client-side* state only (e.g., UI state, form drafts, filters).
+    - Remove fake data storage from Zustand if present.
+    - Ensure Zustand stores work alongside React Query (e.g., a store for "current selected repair" ID).
+
+### 5. Component Integration
+- **Action**: Replace imports from [src/lib/data.ts](file:///home/amine/coding/web/tek-mag/frontend/src/lib/data.ts) with usages of the new React Query hooks in components.
+    - `RepairList`, `RepairDetail`
+    - `ProductList`
+    - `ClientList`
+    - Dashboard widgets
+
+## Verification Plan
+
+### Automated Tests
+- Run existing frontend tests (if any) to ensure no regressions.
+- Since this is a refactor, unit tests for hooks would be ideal but might be out of scope.
+
+### Manual Verification
+1.  **Setup**: Ensure backend is running (`make run-backend` or docker).
+2.  **Login**: Log in to the frontend.
+3.  **Data Visibility**:
+    - Go to "Repairs" page -> Verify list loads from backend.
+    - Go to "Inventory" page -> Verify products load.
+    - Go to "Clients" page -> Verify clients load.
+4.  **Interactions**:
+    - Create a new repair -> Verify it persists to backend.
+    - Update a repair status -> Verify it updates.

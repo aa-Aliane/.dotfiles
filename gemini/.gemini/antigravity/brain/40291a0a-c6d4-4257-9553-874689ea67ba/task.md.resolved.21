@@ -1,0 +1,36 @@
+# Task: Frontend Data Fetching Migration
+
+- [x] Configure API client ([src/lib/api/client.ts](file:///home/amine/coding/web/tek-mag/frontend/src/lib/api/client.ts)) <!-- id: 0 -->
+- [x] Update Type Definitions <!-- id: 1 -->
+    - [x] [src/types/common.ts](file:///home/amine/coding/web/tek-mag/frontend/src/types/common.ts) (Repair, Client, etc.) <!-- id: 1.1 -->
+    - [x] [src/types/product.ts](file:///home/amine/coding/web/tek-mag/frontend/src/types/product.ts) (Product, Brand, etc.) <!-- id: 1.2 -->
+- [x] Create/Update React Query Hooks <!-- id: 2 -->
+    - [x] Tech Data hooks ([useProducts](file:///home/amine/coding/web/tek-mag/frontend/src/hooks/use-products.ts#10-17), [useBrands](file:///home/amine/coding/web/tek-mag/frontend/src/hooks/use-brands.ts#10-16), etc.) <!-- id: 2.1 -->
+    - [x] Repair hooks ([useRepairs](file:///home/amine/coding/web/tek-mag/frontend/src/hooks/use-repairs.ts#30-37), [useRepair](file:///home/amine/coding/web/tek-mag/frontend/src/hooks/use-repairs.ts#38-45), mutations) <!-- id: 2.2 -->
+    - [x] Client hooks ([useClients](file:///home/amine/coding/web/tek-mag/frontend/src/hooks/use-clients.ts#11-18)) <!-- id: 2.3 -->
+- [x] Fix `ReferenceError` in [ClientsPage](file:///home/amine/coding/web/tek-mag/frontend/src/app/%28dashboard%29/clients/page.tsx#10-60) (circular dependency)
+- [x] Fix `TypeError` in [RepairDetailsDialog](file:///home/amine/coding/web/tek-mag/frontend/src/components/features/calendrier/repair-details-dialog.tsx#69-500) (client name access)
+- [x] Update [RepairTicket](file:///home/amine/coding/web/tek-mag/frontend/src/components/features/calendrier/repair-ticket.tsx#11-170) to use correct client fields
+- [x] Update [ClientsTable](file:///home/amine/coding/web/tek-mag/frontend/src/components/features/clients/clients-table.tsx#16-122) to use correct client fields
+- [x] Update [ClientDetailsDialog](file:///home/amine/coding/web/tek-mag/frontend/src/components/features/clients/client-details-dialog.tsx#31-222) to use correct client fields
+- [x] Update [AddReparationStore](file:///home/amine/coding/web/tek-mag/frontend/src/store/addReparationStore.ts#25-35) to use correct client fields
+- [x] Update [ClientStep](file:///home/amine/coding/web/tek-mag/frontend/src/components/add-reparation/client-step.tsx#18-288) to use [useClients](file:///home/amine/coding/web/tek-mag/frontend/src/hooks/use-clients.ts#11-18) hook
+- [x] Fix [RepairCard](file:///home/amine/coding/web/tek-mag/frontend/src/components/features/calendrier/repair-card.tsx#26-87) runtime error (status access)
+- [x] Integrate Hooks into Components <!-- id: 3 -->
+    - [x] Repair List & Detail <!-- id: 3.1 -->
+    - [x] Product List <!-- id: 3.2 -->
+    - [x] Client List <!-- id: 3.3 -->
+    - [x] Add Reparation Form <!-- id: 3.4 -->
+- [ ] Implement Issues API and Hook
+    - [x] Check for existing Issue API
+    - [x] Create Issue model
+    - [x] Create Issue serializer and viewset
+    - [x] Register Issue URLs
+    - [ ] Run migrations
+    - [ ] Create `useIssues` hook
+    - [ ] Update [AddReparationForm](file:///home/amine/coding/web/tek-mag/frontend/src/components/add-reparation/add-reparation-form.tsx#49-952) to use `useIssues`
+- [ ] Implement Mutations <!-- id: 4 -->
+    - [x] Repair Status Update <!-- id: 4.1 -->
+    - [x] Add Payment <!-- id: 4.2 -->
+    - [x] Stock Update <!-- id: 4.3 -->
+- [ ] Verify Migration <!-- id: 5 -->

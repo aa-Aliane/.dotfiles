@@ -1,0 +1,15 @@
+- [/] Explore project structure and identify key technologies <!-- id: 0 -->
+- [x] Analyze configuration files (dependencies, build scripts) <!-- id: 1 -->
+- [x] Examine source code for architectural patterns and conventions <!-- id: 2 -->
+- [x] Generate `project_context.md` with comprehensive project description <!-- id: 3 -->
+- [/] Analyze frontend API usage (services, hooks) <!-- id: 4 -->
+- [x] Analyze backend API endpoints (urls, views) <!-- id: 5 -->
+- [x] Identify gaps and discrepancies <!-- id: 6 -->
+- [x] Report findings to user <!-- id: 7 -->
+- [x] Implement `tech` app models (Location, Supplier, StockItem, StoreOrder) <!-- id: 8 -->
+- [x] Register new models in `admin.py` <!-- id: 9 -->
+- [x] Implement `tech` app API (Serializers, Views, URLs) <!-- id: 10 -->
+- [x] Implement `repairs` app API (Serializers, Views, URLs) <!-- id: 11 -->
+- [x] Verify changes <!-- id: 12 -->
+- [x] Update `generate_test_data.py` with new models <!-- id: 13 -->
+- [/] Debug and fix backend initialization <!-- id: 14 -->
