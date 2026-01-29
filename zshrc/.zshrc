@@ -18,6 +18,7 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 alias dc='docker compose'
 alias prod="docker compose -f docker-compose.prod.yml"
+alias pake="make -f Makefile.prod"
 
 
 alias vim="nvim"
