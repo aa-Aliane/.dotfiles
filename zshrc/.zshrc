@@ -17,7 +17,7 @@ export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 alias dc='docker compose'
-alias prod="docker comose -f docker-compose.prod.yml"
+alias prod="docker compose -f docker-compose.prod.yml"
 
 
 alias vim="nvim"
