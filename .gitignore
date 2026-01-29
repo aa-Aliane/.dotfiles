@@ -1,3 +1,5 @@
 gemini/
 gemini/
 gemini/
+gemini/.gemini/oauth_creds.json
+.gemini/oauth_creds.json
